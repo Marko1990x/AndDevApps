@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DomaciCas12</string>
+    <string name="brojac">Ching</string>
+    <string name="druga_aktivnost">Chong</string>
+    <string name="izaberite_kontakt">Ding</string>
+    <string name="treca_aktivnost">Dong</string>
+    <string name="Camera">"Welcome to the "</string>
+    <string name="create_Alarm">Rice Fields</string>
+</resources>

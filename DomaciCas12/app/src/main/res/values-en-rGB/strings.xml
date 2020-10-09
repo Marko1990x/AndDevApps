@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DomaciCas12</string>
+    <string name="brojac">Counter</string>
+    <string name="druga_aktivnost">Second Activity</string>
+    <string name="izaberite_kontakt">Select Contact</string>
+    <string name="treca_aktivnost">Third Activity</string>
+    <string name="Camera">Camera</string>
+    <string name="create_Alarm">Create Alarm</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DomaciCas12</string>
+    <string name="brojac">brojac</string>
+    <string name="druga_aktivnost">druga aktivnost</string>
+    <string name="izaberite_kontakt">izaberite kontakt</string>
+    <string name="treca_aktivnost">Treca Aktivnost</string>
+    <string name="Camera">Camera</string>
+    <string name="create_Alarm">Create Alarm</string>
+</resources>
