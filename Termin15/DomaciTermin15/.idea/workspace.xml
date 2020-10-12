@@ -7,18 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="184021d3-6166-4cec-9013-e6cb03d91a59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Termin15_Spinner_ArrayAdapter/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Termin15_Spinner_ArrayAdapter/.idea/Termin15_Spinner_ArrayAdapter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Termin15_Spinner_ArrayAdapter/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Termin15_Spinner_ArrayAdapter/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Termin15_Spinner_ArrayAdapter/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Termin15_Spinner_ArrayAdapter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/github/io/domacicas15/CustomAdapterModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/customadaptermodel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/github/io/domacicas15/ListView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/github/io/domacicas15/ListView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/github/io/domacicas15/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/github/io/domacicas15/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/github/io/domacicas15/PartThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/github/io/domacicas15/Spinner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_part_three.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/spinner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/github/io/domacicas15/PartFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/github/io/domacicas15/CustomAdapterMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_part_four.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/adaptermain.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/listview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/listview.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +41,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="layoutResourceFile" />
       </list>
     </option>
@@ -69,7 +67,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Termin15_Spinner_ArrayAdapter/Termin15_Spinner_ArrayAdapter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Termin15_ListView_CustomAdapter/Termin15_ListView_CustomAdapter" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -159,25 +157,29 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="496" y="96" key="#GridBox/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1602497832630" />
-    <state x="574" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1602503220990">
+    <state x="574" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1602505921278">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="574" y="160" key="#com.intellij.ide.util.MemberChooser/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1602503220990" />
+    <state x="574" y="160" key="#com.intellij.ide.util.MemberChooser/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1602505921278" />
     <state x="499" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602500405518">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="499" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1602500405518" />
-    <state x="349" y="207" width="838" height="482" key="AndroidCreateResourceFileDialog" timestamp="1602500438449">
+    <state x="349" y="207" width="838" height="482" key="AndroidCreateResourceFileDialog" timestamp="1602504776766">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="349" y="207" width="838" height="482" key="AndroidCreateResourceFileDialog/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1602500438449" />
+    <state x="349" y="207" width="838" height="482" key="AndroidCreateResourceFileDialog/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1602504776766" />
     <state x="627" y="265" key="AndroidCreateXmlResourceDialog" timestamp="1602496804469">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="627" y="265" key="AndroidCreateXmlResourceDialog/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1602496804469" />
-    <state x="549" y="207" key="FileChooserDialogImpl" timestamp="1602502158620">
+    <state x="549" y="207" key="FileChooserDialogImpl" timestamp="1602504143364">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="549" y="207" key="FileChooserDialogImpl/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1602502158620" />
+    <state x="549" y="207" key="FileChooserDialogImpl/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1602504143364" />
+    <state x="425" y="207" key="run.anything.popup" timestamp="1602505267144">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="425" y="207" key="run.anything.popup/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1602505267144" />
   </component>
 </project>

@@ -32,7 +32,7 @@ public class ListView extends AppCompatActivity {
     }
 
     private void fillList(){
-        lvList = findViewById(R.id.lvList);
+        lvList = findViewById(R.id.lvListAdapterMain);
         ArrayAdapter<String>adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,data);
         lvList.setAdapter(adapter);
         lvList.setOnItemClickListener(new AdapterView.OnItemClickListener() {

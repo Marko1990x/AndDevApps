@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void fourthActivity(View view){
 
-        Intent intent = new Intent(this, PartFour.class);
+        Intent intent = new Intent(this, CustomAdapterMain.class);
         startActivity(intent);
 
     }
