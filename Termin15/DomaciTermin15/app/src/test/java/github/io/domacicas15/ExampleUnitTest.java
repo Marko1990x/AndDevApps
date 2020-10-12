@@ -1,4 +1,4 @@
-package github.io.domacitermin15;
+package github.io.domacicas15;
 
 import org.junit.Test;
 

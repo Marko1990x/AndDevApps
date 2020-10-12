@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">DomaciTermin15</string>
+    <string name="app_name">DomaciCas15</string>
+    <string name="firstActivity">firstActivity</string>
+    <string name="secondActivity">secondActivity</string>
+    <string name="thirdActivity">thirdActivity</string>
+    <string name="fourthActivity">fourthActivity</string>
 </resources>

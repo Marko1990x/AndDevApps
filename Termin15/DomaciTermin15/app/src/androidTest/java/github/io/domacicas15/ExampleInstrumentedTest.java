@@ -1,4 +1,4 @@
-package github.io.domacitermin15;
+package github.io.domacicas15;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("github.io.domacitermin15", appContext.getPackageName());
+        assertEquals("github.io.domacicas15", appContext.getPackageName());
     }
 }
