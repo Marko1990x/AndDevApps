@@ -2,6 +2,6 @@
     <string name="app_name">DomaciCas15</string>
     <string name="firstActivity">Grid View</string>
     <string name="secondActivity">List View</string>
-    <string name="thirdActivity">thirdActivity</string>
+    <string name="thirdActivity">Spinner</string>
     <string name="fourthActivity">fourthActivity</string>
 </resources>

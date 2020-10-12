@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void thirdActivity(View view){
-        Intent intent = new Intent(this, PartThree.class);
+        Intent intent = new Intent(this, Spinner.class);
         startActivity(intent);
 
     }
