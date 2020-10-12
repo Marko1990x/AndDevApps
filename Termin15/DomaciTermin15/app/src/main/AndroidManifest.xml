@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".PartFour"></activity>
         <activity android:name=".PartThree" />
-        <activity android:name=".PartTwo" />
+        <activity android:name=".ListView" />
         <activity android:name=".GridBox" />
         <activity android:name=".MainActivity">
             <intent-filter>

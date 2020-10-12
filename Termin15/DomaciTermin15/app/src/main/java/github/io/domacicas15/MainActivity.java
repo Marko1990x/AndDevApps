@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void secondActivity(View view){
-        Intent intent = new Intent(this, PartTwo.class);
+        Intent intent = new Intent(this, ListView.class);
         startActivity(intent);
     }
 
