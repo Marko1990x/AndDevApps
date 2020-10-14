@@ -7,53 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="184021d3-6166-4cec-9013-e6cb03d91a59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/androidTest/java/github/io/radnacasu16/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/main/java/github/io/radnacasu16/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/test/java/github/io/radnacasu16/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RadNaCasu16/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Termin15ZadatakPoAssigment/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Termin15ZadatakPoAssigment/app/src/main/assets/Assignment15.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Termin14/Termin14Zadatak/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Termin14/Termin14Zadatak/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Termin14/Termin14Zadatak/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Termin14/Termin14Zadatak/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Termin14/Termin14Zadatak/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Termin14/Termin14Zadatak/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RadNaCasu16/app/src/main/res/layout/relativni_raspored.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RadNaCasu16/app/src/main/res/layout/relativni_raspored.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +18,7 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_7_API_25" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="R58N92HBSZT" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
