@@ -1,5 +1,6 @@
 package github.io.radnacasu17;
 
+import android.content.Context;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -10,8 +11,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Adapter;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.List;
 
@@ -48,9 +51,35 @@ public class MasterFragment extends Fragment {
         // context , layout , lista podataka
 
         lvNames.setAdapter(adapter);
+        lvNames.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                    if (listener != null){
+                        listener.onNameClicked(i);
+                    }
+
+            }
+        });
     }
 
     // Mora imati interface
+
+
+    @Override
+    public void onAttach(@NonNull Context context) {
+        super.onAttach(context);
+        if (context instanceof onNameClickListener){
+            listener = (onNameClickListener) context;
+        }else{
+            Toast.makeText(context, "Morate implementirati interface", Toast.LENGTH_SHORT).show();
+        }
+
+    }
+
+    @Override
+    public void onDetach() {
+        super.onDetach();
+    }
 
     interface onNameClickListener{
 

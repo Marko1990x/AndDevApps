@@ -4,14 +4,29 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements MasterFragment.onNameClickListener {
+
+    private boolean landscape = false;
+    private DetailsFragment detailsFragment;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         showList();
+        if(findViewById(R.id.flDetail) != null){
+            landscape = true;
+            detailsFragment = new DetailsFragment();
+            detailsFragment.setId(0);
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.flDetail, detailsFragment) // backstack pravi problem ovde
+                    .commit();
+        }
+
+
 
 
     }
@@ -30,4 +45,33 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    private void showName(int id){
+
+        if (landscape){
+            detailsFragment.udpateId(id);
+        } else{
+            DetailsFragment fragment = new DetailsFragment();
+            //fragment.setId(id);
+            fragment.setId(id);
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.flFrame, fragment)
+                    .addToBackStack(null)
+                    .commit();
+        }
+
+
+    }
+
+
+
+    @Override
+    public void onNameClicked(int id) {
+        showName(id);
+    }
+
+    @Override
+    public void onPointerCaptureChanged(boolean hasCapture) {
+
+    }
 }
