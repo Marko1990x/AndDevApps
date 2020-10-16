@@ -12,8 +12,10 @@ import android.app.AlertDialog;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Context;
+import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -54,11 +56,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void fillData(){
         drawerItems = new ArrayList<>();
-        drawerItems.add("Toast");
-        drawerItems.add("Snackbar");
-        drawerItems.add("Dialog");
-        drawerItems.add("Notification");
-        drawerItems.add("Preferences");
+        drawerItems.add("Toast Mine");
+        drawerItems.add("Snackbar Mine");
+        drawerItems.add("Dialog Mine");
+        drawerItems.add("Notification Mine");
+        drawerItems.add("Preferences Mine");
     }
 
     private void setupToolbar(){
@@ -107,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 //drawerList.setItemChecked(i, true);
                 setTitle(title);
-                drawerLayout.closeDrawer(drawerList);
+                drawerLayout.closeDrawer(drawerList); // probaj ovo zakomentarisano ako ovoga nema onda se ne zatvara automatski
             }
         });
         drawerToggle = new ActionBarDrawerToggle(
@@ -134,14 +136,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showSnackbar(){
-        final Snackbar snackbar = Snackbar.make(findViewById(R.id.root), "Ovo je Snackbar", Snackbar.LENGTH_INDEFINITE);
-        snackbar.setAction("U Redu", new View.OnClickListener() {
+        final Snackbar snackbar = Snackbar.make(findViewById(R.id.root), "Ovo je Snackbar", Snackbar.LENGTH_SHORT);
+        /*snackbar.setAction("U ovo je promena u snackbaru", new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 snackbar.dismiss();
             }
         });
-        snackbar.show();
+        snackbar.show();*/
     }
 
     private void showDialog(){
@@ -157,9 +159,15 @@ public class MainActivity extends AppCompatActivity {
 
     private void showNotification(){
         NotificationCompat.Builder builder = new NotificationCompat.Builder(getApplicationContext(), NOTIF_CHANNEL_ID);
-        builder.setContentTitle("Notifikacija")
-                .setContentText("Ovo je tekst notifikacije")
-                .setSmallIcon(R.drawable.ic_cake_black_24dp);
+        builder.setContentTitle("Notifikacija Moja")
+                .setContentText("Ovo je tekst notifikacije Moje")
+                .setSmallIcon(R.drawable.ic_cake_black_24dp)
+                .setVibrate(new long[] {10000,10000,10000,10000})
+                .setSound(Settings.System.DEFAULT_NOTIFICATION_URI)
+                .setLights(Color.RED, 3000, 3000);
+
+        ;
+
         NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         manager.notify(NOTIF_ID, builder.build());
     }
@@ -179,6 +187,7 @@ public class MainActivity extends AppCompatActivity {
             int importance = NotificationManager.IMPORTANCE_DEFAULT;
             NotificationChannel channel = new NotificationChannel(NOTIF_CHANNEL_ID, "Nas Notif Kanal", importance);
             channel.setDescription("Opis naseg kanala");
+            channel.enableVibration(true);
             // Register the channel with the system; you can't change the importance
             // or other notification behaviors after this
             NotificationManager notificationManager = getSystemService(NotificationManager.class);

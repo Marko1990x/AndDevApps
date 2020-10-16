@@ -8,7 +8,7 @@ public class NasDijalog extends AlertDialog.Builder {
 
     public NasDijalog(Context context){
         super(context);
-        setTitle("Ovo je naslov");
+        setTitle("Ovo je moj naslov");
         setMessage("Ovo je poruka");
         setPositiveButton("U Redu", new DialogInterface.OnClickListener() {
             @Override
@@ -26,7 +26,7 @@ public class NasDijalog extends AlertDialog.Builder {
 
     public AlertDialog prepareDialog(){
         AlertDialog dialog = create();
-        dialog.setCanceledOnTouchOutside(true);
+        dialog.setCanceledOnTouchOutside(true); // ako kliknem sa strane dialoga onda ce da se sam zatvori
         return dialog;
     }
 }
