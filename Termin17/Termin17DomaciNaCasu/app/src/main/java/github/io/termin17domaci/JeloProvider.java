@@ -1,34 +1,20 @@
 package github.io.termin17domaci;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class JeloProvider {
 
 
-    private static List<String> jela;
+    private static List<Jelo> jelos;
 
-    private static void init() {
-        if (jela == null) {
-            jela.add("Pizza");
-            jela.add("Hamburger");
-            jela.add("Riba");
-
-        }
-
-    }
-
-    public static List<String> getAllJela() {
-        init();
-        return jela;
-    }
-
-    public static String getJelaById(int id) {
-
-        init();
-        if ((id >= 0) && (id < jela.size())) {
-            return jela.get(id);
-        } else {
-            return null;
+    private void init() {
+        if (jelos == null) {
+            jelos = new ArrayList<Jelo>();
+            List<String> sastojci = new ArrayList<>();
+            sastojci.add("sastojak1");
+            sastojci.add("sastojak2");
+            Jelo jelo = new Jelo("Gulas", 3.7f, 123, "madjarsko pikantno jelo", new ArrayList<String>(sastojci), 1000, 20.00);
         }
 
     }

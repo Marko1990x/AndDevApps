@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity implements MasterFragment.on
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main2);
         showList();
         if(findViewById(R.id.flDetail) != null){
             landscape = true;
