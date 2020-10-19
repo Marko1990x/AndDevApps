@@ -14,9 +14,11 @@ import java.util.List;
 public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.MyViewHolder> {
 
     private List<String> data;
+    private OnElementClickListener listener;
 
-    public MyRecyclerAdapter(List<String> data) {
+    public MyRecyclerAdapter(OnElementClickListener listener, List<String> data) {
         this.data = data;
+        this.listener = listener;
     }
 
     @NonNull
@@ -34,13 +36,13 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.My
 
         // ovo popunjava element sa podacima koji smo napravili u myviewHolder
 
-        holder.bind(data.get(position));
-        holder.itemView.setOnClickListener(new View.OnClickListener() {
+        holder.bind(listener, data.get(position));
+        /*holder.itemView.setOnClickListener(new View.OnClickListener() {   ovo je ok
             @Override
             public void onClick(View v) {
                 Toast.makeText(v.getContext(), "Recycle click" + position, Toast.LENGTH_SHORT).show();
             }
-        });
+        });*/
         //holder.bind(data.get(position));
 
 
@@ -67,11 +69,22 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.My
             tvText = itemView.findViewById(R.id.tvText);
         }
 
-        public void bind(String item){
-
+        public void bind(final OnElementClickListener listener ,final String item){
             tvText.setText(item);
+            tvText.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    listener.onElementClicked(item);
+                }
+            });
+
 
         }
+    }
+
+    public interface OnElementClickListener{
+        void onElementClicked(String string);
+
     }
 
 

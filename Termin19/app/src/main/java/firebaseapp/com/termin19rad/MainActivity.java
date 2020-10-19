@@ -5,11 +5,12 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements MyRecyclerAdapter.OnElementClickListener {
 
     //prvo implementacija u gradle
     // onda layout recycler view i main
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         rvList.setLayoutManager(layoutManager);
 
-        MyRecyclerAdapter adapter = new MyRecyclerAdapter(getData());
+        MyRecyclerAdapter adapter = new MyRecyclerAdapter(this, getData());
 
         rvList.setAdapter(adapter);
     }
@@ -44,5 +45,10 @@ public class MainActivity extends AppCompatActivity {
             data.add("Element: " + i);
         }
         return data;
+    }
+
+    @Override
+    public void onElementClicked(String string) {
+        Toast.makeText(this, string, Toast.LENGTH_SHORT).show();
     }
 }
