@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         showProbaFragment();
     }
 
-    private void fillData(){
+    private void fillData() {
         drawerItems = new ArrayList<>();
         drawerItems.add("Toast Mine");
         drawerItems.add("Snackbar Mine");
@@ -63,11 +63,11 @@ public class MainActivity extends AppCompatActivity {
         drawerItems.add("Preferences Mine");
     }
 
-    private void setupToolbar(){
+    private void setupToolbar() {
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         final ActionBar actionBar = getSupportActionBar();
-        if (actionBar != null){
+        if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
             actionBar.setHomeAsUpIndicator(R.drawable.ic_dehaze_black_24dp);
             actionBar.setHomeButtonEnabled(true);
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void setupDrawer(){
+    private void setupDrawer() {
         drawerList = findViewById(R.id.left_drawer);
         drawerLayout = findViewById(R.id.drawer_layout);
         drawerList.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, drawerItems));
@@ -131,11 +131,11 @@ public class MainActivity extends AppCompatActivity {
         };
     }
 
-    private void showToast(){
+    private void showToast() {
         Toast.makeText(this, "Ovo je Toast", Toast.LENGTH_SHORT).show();
     }
 
-    private void showSnackbar(){
+    private void showSnackbar() {
         final Snackbar snackbar = Snackbar.make(findViewById(R.id.root), "Ovo je Snackbar", Snackbar.LENGTH_SHORT);
         /*snackbar.setAction("U ovo je promena u snackbaru", new View.OnClickListener() {
             @Override
@@ -146,23 +146,23 @@ public class MainActivity extends AppCompatActivity {
         snackbar.show();*/
     }
 
-    private void showDialog(){
-        if (dialog == null){
+    private void showDialog() {
+        if (dialog == null) {
             dialog = new NasDijalog(this).prepareDialog();
         } else {
-            if (dialog.isShowing()){
+            if (dialog.isShowing()) {
                 dialog.dismiss();
             }
         }
         dialog.show();
     }
 
-    private void showNotification(){
+    private void showNotification() {
         NotificationCompat.Builder builder = new NotificationCompat.Builder(getApplicationContext(), NOTIF_CHANNEL_ID);
         builder.setContentTitle("Notifikacija Moja")
                 .setContentText("Ovo je tekst notifikacije Moje")
                 .setSmallIcon(R.drawable.ic_cake_black_24dp)
-                .setVibrate(new long[] {10000,10000,10000,10000})
+                .setVibrate(new long[]{10000, 10000, 10000, 10000})
                 .setSound(Settings.System.DEFAULT_NOTIFICATION_URI)
                 .setLights(Color.RED, 3000, 3000);
 
@@ -172,7 +172,7 @@ public class MainActivity extends AppCompatActivity {
         manager.notify(NOTIF_ID, builder.build());
     }
 
-    private void showPrefs(){
+    private void showPrefs() {
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         PrefsFragment fragment = new PrefsFragment();
         transaction.replace(R.id.root, fragment);
@@ -195,7 +195,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void setupFab(){
+    private void setupFab() {
         fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -205,7 +205,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void showProbaFragment(){
+    private void showProbaFragment() {
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         ProbaFragment fragmentPrimer = new ProbaFragment();
         fragmentPrimer.setContent(":)");
