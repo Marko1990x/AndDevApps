@@ -4,6 +4,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -32,7 +33,20 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.My
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
 
         // ovo popunjava element sa podacima koji smo napravili u myviewHolder
+
         holder.bind(data.get(position));
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(v.getContext(), "Recycle click" + position, Toast.LENGTH_SHORT).show();
+            }
+        });
+        //holder.bind(data.get(position));
+
+
+
+          // ovo je gde se vezuje listener
+
 
 
     }
