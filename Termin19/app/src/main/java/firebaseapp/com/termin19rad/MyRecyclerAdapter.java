@@ -61,12 +61,14 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.My
     public static class MyViewHolder extends RecyclerView.ViewHolder {
 
         private TextView tvText;
+        private View wholeView;
 
 
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
             tvText = itemView.findViewById(R.id.tvText);
+           // wholeView = itemView;
         }
 
         public void bind(final OnElementClickListener listener ,final String item){
