@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- LinearLayout contains views. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- Button can be pressed, or clicked, by the user to perform an action. -->
+    <Button
+        android:id="@+id/btn_apples"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_apples"
+        android:onClick="showApples" />
+
+    <!-- Button can be pressed, or clicked, by the user to perform an action. -->
+    <Button
+        android:id="@+id/btn_bananas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_bananas"
+        android:onClick="showBananas" />
+
+    <!-- Button can be pressed, or clicked, by the user to perform an action. -->
+    <Button
+        android:id="@+id/btn_oranges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_oranges"
+        android:onClick="showOranges" />
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/milossimic/Desktop/Kurs/Termin29/Termin29b/app/build/intermediates/res/merged/debug/anim-v21/design_appbar_state_list_animator.xml",
+        "source": "/Users/milossimic/.android/build-cache/e3609c19127c62820cd8a9a3039998028f76ac57/output/res/anim-v21/design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "/Users/milossimic/Desktop/Kurs/Termin29/Termin29b/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/milossimic/.android/build-cache/e3609c19127c62820cd8a9a3039998028f76ac57/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/milossimic/Desktop/Kurs/Termin29/Termin29b/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/milossimic/.android/build-cache/e3609c19127c62820cd8a9a3039998028f76ac57/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    }
+]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ресурси и конфигурације</string>
+    <string name="first_activity_name">Прва активност</string>
+    <string name="second_activity_name">Друга активност</string>
+    <string name="detail_heading">Детаљи веб стране</string>
+    <string name="list_heading">Списак веб страна</string>
+
+</resources>

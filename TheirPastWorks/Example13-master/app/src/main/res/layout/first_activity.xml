@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Button can be pressed, or clicked, by the user to perform an action. -->
+    <Button
+        android:id="@+id/btn_google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Google"
+        android:onClick="showGoogle" />
+
+    <!-- Button can be pressed, or clicked, by the user to perform an action. -->
+    <Button
+        android:id="@+id/btn_google_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Google Mail"
+        android:onClick="showGoogleMail" />
+
+    <!-- Button can be pressed, or clicked, by the user to perform an action. -->
+    <Button
+        android:id="@+id/btn_google_maps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Google Maps"
+        android:onClick="showGoogleMaps" />
+
+</LinearLayout>
+
+
