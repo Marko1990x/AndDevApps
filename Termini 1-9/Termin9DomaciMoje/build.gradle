@@ -1,0 +1,75 @@
+plugins {
+    id 'java'
+}
+
+group 'io.github.marko1990x'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {  // dodatop po zadatku 2
+    // https://mvnrepository.com/artifact/com.j256.ormlite/ormlite-core
+    compile group: 'com.j256.ormlite', name: 'ormlite-core', version: '5.1'
+    // https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp
+    compile group: 'com.squareup.okhttp3', name: 'okhttp', version: '4.9.0'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+// https://mvnrepository.com/ repository
+
+task cleans{
+    group "moji taskovi";
+    description "zadatak 1 prva stavka"
+    doFirst {
+        println "Cleaning...."; // ovo se izvrsava posle faze konfiguracije koji se izvrsi kada prodju svi taskovi kroz fazu konfiguracije
+    }
+    println "clean ucitan";
+   /* doLast(){
+        println "Clean unclean"
+    }*/
+
+}
+
+task compile(dependsOn: cleans){
+
+    group "moji taskovi";
+    description "zadatak 1 druga stavka"
+    doFirst {
+        println "compile ucitan"; // ovo se izvrsava posle faze konfiguracije koji se izvrsi kada prodju svi taskovi kroz fazu konfiguracije
+    }
+    println "compiling java";
+    /*doLast(){
+        println "Compile ucitan"
+    }*/
+
+}
+
+task buildJ(dependsOn: compile){  // poziva task koji ima u sebi depends u compile
+    println "Building Java";
+    group "moji taskovi";
+    description "zadatak 1 treca stavka"
+    doFirst {
+        println "build ucitan"
+    }
+}
+
+task tests(dependsOn: buildJ){
+    println "Running Tests";
+    group "moji taskovi";
+    description "zadatak 1 cetvrta stavka"
+    doFirst {
+        println "test Ucitan"
+    }
+
+}
+
+task deploys(){
+    println "Deploying";
+    group "moji taskovi";
+    description "zadatak 1 peta stavka"
+    doFirst {
+        println "deploy ucitan"
+    }
+}

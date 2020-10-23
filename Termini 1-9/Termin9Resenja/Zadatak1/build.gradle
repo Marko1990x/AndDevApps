@@ -1,0 +1,41 @@
+group 'termin9'
+version '1.0-SNAPSHOT'
+
+task clean {
+    println "clean ucitan"
+    doFirst {
+        println "Cleaning..."
+    }
+}
+
+task compile {
+    println "compile ucitan"
+    doFirst {
+        println "Compiling java..."
+    }
+}
+compile.dependsOn clean
+
+task build {
+    println "build ucitan"
+    doFirst {
+        println "Building java..."
+    }
+}
+build.dependsOn compile
+
+task test {
+    println "test ucitan"
+    doFirst {
+        println "Running tests..."
+    }
+}
+test.dependsOn build
+
+task deploy {
+    println "deploy ucitan"
+    doFirst {
+        println "Deploying..."
+    }
+}
+deploy.dependsOn test
