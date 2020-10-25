@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Cas_15_v2"
