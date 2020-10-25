@@ -1,9 +1,8 @@
 package rs.aleph.android.example16.activities;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -13,7 +12,6 @@ import android.widget.Toast;
 import java.util.List;
 
 import rs.aleph.android.example16.R;
-import rs.aleph.android.example16.model.Fruit;
 import rs.aleph.android.example16.provider.FruitProvider;
 
 // Each activity extends Activity class

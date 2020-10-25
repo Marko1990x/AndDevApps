@@ -1,9 +1,8 @@
 package rs.aleph.android.example16.activities;
 
-import android.app.Activity;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -18,7 +17,6 @@ import java.io.InputStream;
 import java.util.List;
 
 import rs.aleph.android.example16.R;
-import rs.aleph.android.example16.model.Fruit;
 import rs.aleph.android.example16.provider.CategoryProvider;
 import rs.aleph.android.example16.provider.FruitProvider;
 
