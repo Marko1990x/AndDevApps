@@ -25,7 +25,7 @@ public class MasterFragment extends Fragment {
     private List<String> names;
     private onNameClickListener listener;
 
-    public MasterFragment(){
+    public MasterFragment() {
 
     }
 
@@ -44,19 +44,19 @@ public class MasterFragment extends Fragment {
         setUpList();
     }
 
-    private void setUpList(){
-       names = NamesProvider.getAllNames();
-       // fragment nema kontext
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),android.R.layout.simple_list_item_1, names);
+    private void setUpList() {
+        names = NamesProvider.getAllNames();
+        // fragment nema kontext
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, names);
         // context , layout , lista podataka
 
         lvNames.setAdapter(adapter);
         lvNames.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                    if (listener != null){
-                        listener.onNameClicked(i);
-                    }
+                if (listener != null) {
+                    listener.onNameClicked(i);
+                }
 
             }
         });
@@ -68,9 +68,9 @@ public class MasterFragment extends Fragment {
     @Override
     public void onAttach(@NonNull Context context) {
         super.onAttach(context);
-        if (context instanceof onNameClickListener){
+        if (context instanceof onNameClickListener) {
             listener = (onNameClickListener) context;
-        }else{
+        } else {
             Toast.makeText(context, "Morate implementirati interface", Toast.LENGTH_SHORT).show();
         }
 
@@ -82,7 +82,7 @@ public class MasterFragment extends Fragment {
         listener = null;
     }
 
-    interface onNameClickListener{
+    interface onNameClickListener {
 
         // sve metode su public
 

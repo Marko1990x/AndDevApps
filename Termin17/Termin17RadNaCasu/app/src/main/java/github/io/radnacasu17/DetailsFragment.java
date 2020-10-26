@@ -20,7 +20,6 @@ public class DetailsFragment extends Fragment {
     }
 
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -28,7 +27,7 @@ public class DetailsFragment extends Fragment {
 
     }
 
-    private void setupViews(){
+    private void setupViews() {
         tvName.setText(NamesProvider.getNameById(id));
     }
 
@@ -42,15 +41,14 @@ public class DetailsFragment extends Fragment {
 
     }
 
-    public void setId(int id){
+    public void setId(int id) {
         this.id = id;
     }
 
-    public void udpateId(int id){
+    public void udpateId(int id) {
         this.id = id;
         tvName.setText(NamesProvider.getNameById(id));
     }
-
 
 
 }

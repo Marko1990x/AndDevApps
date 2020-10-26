@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/firstElement"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="Arnold Swarchenegger">
+
+    </item>
+    <item
+        android:id="@+id/secondElement"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="Keanu Reaves">
+
+    </item>
+    <item
+        android:id="@+id/thirdElement"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="Sylvester Stallone">
+
+    </item>
+    <item
+        android:id="@+id/fourthElement"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="Sylvester Stallone 2">
+
+    </item>
+    <item
+        android:id="@+id/fifthElement"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="Will Smith">
+
+    </item>
+</menu>
