@@ -3,6 +3,7 @@ package firebaseapp.com.domaci20;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
@@ -79,6 +80,11 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
+
+
+        //getSupportActionBar().hide();
+       // Toolbar toolbar = findViewById(R.id.toolbar);
+        //setSupportActionBar(toolbar);
 
         listaGlumaca = findViewById(R.id.lst_Glumci);
         ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, imenaGlumaca);
