@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
         bStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startMyService();
+               // startMyService();
+                startMyIntentService();
             }
         });
 
@@ -57,6 +58,16 @@ public class MainActivity extends AppCompatActivity {
         stopService(intent);
 
     }
+
+    private void startMyIntentService(){
+        String msg = etText.getText().toString();
+        Intent intent = new Intent(this, MyIntentService.class);
+        intent.putExtra(MyIntentService.MSG_TAG, msg);
+
+        ContextCompat.startForegroundService(this, intent);
+    }
+
+
 
 
 
