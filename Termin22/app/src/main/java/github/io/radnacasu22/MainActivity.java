@@ -1,7 +1,9 @@
 package github.io.radnacasu22;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -43,11 +45,16 @@ public class MainActivity extends AppCompatActivity {
 
     private void startMyService(){
 
+        String msg = etText.getText().toString();
+        Intent intent = new Intent(this, MySevice.class);
+        intent.putExtra(MySevice.MSG_TAG, msg);
 
-
+        ContextCompat.startForegroundService(this, intent);
     }
 
     private void stopMyService(){
+        Intent intent = new Intent(this, MySevice.class);
+        stopService(intent);
 
     }
 
