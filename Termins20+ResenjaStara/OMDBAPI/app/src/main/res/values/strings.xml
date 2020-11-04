@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OMDBApiTest</string>
+    <string name="enter_query_params_here">enter query params here</string>
+    <string name="search">Search</string>
+</resources>
