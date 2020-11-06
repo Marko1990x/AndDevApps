@@ -1,0 +1,1431 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+<head prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+<link href="https://assets.gitlab-static.net" rel="dns-prefetch">
+<link crossorigin="" href="https://assets.gitlab-static.net" rel="preconnect">
+<link as="style" crossorigin="anonymous" href="https://assets.gitlab-static.net/assets/application-bbcda40f0ae5ac4e30029deefa4e90e2da0ac6a4d48fb94914ef5fdc091c6b46.css" rel="preload">
+<link as="style" crossorigin="anonymous" href="https://assets.gitlab-static.net/assets/highlight/themes/white-0678dba52a34ddc3b009cf294c54cfbddb9bac5991d6377ab811afe156e5a0cb.css" rel="preload">
+<link as="font" crossorigin="anonymous" href="https://assets.gitlab-static.net/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0" rel="preload" type="font/woff2">
+<link crossorigin="" href="snowplow.trx.gitlab.net" rel="preconnect">
+
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+<meta content="object" property="og:type">
+<meta content="GitLab" property="og:site_name">
+<meta content="files/Android-OrmLiteContentProvider potsetnik.pdf Â· master Â· AndroidAppDevelopment / Example26" property="og:title">
+<meta content="GitLab.com" property="og:description">
+<meta content="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="og:image">
+<meta content="64" property="og:image:width">
+<meta content="64" property="og:image:height">
+<meta content="https://gitlab.com/AndroidAppDevelopment/Example26/-/blob/master/files/Android-OrmLiteContentProvider%20potsetnik.pdf" property="og:url">
+<meta content="summary" property="twitter:card">
+<meta content="files/Android-OrmLiteContentProvider potsetnik.pdf Â· master Â· AndroidAppDevelopment / Example26" property="twitter:title">
+<meta content="GitLab.com" property="twitter:description">
+<meta content="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="twitter:image">
+
+<title>files/Android-OrmLiteContentProvider potsetnik.pdf Â· master Â· AndroidAppDevelopment / Example26 Â· GitLab</title>
+<meta content="GitLab.com" name="description">
+<link rel="shortcut icon" type="image/png" href="https://gitlab.com/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png" id="favicon" data-original-href="https://gitlab.com/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png" />
+<style type="text/css">
+@keyframes blinking-dot{0%{opacity:1}25%{opacity:0.4}75%{opacity:0.4}100%{opacity:1}}@keyframes blinking-scroll-button{0%{opacity:0.2}50%{opacity:1}100%{opacity:0.2}}body.ui-indigo .navbar-gitlab{background-color:#292961}body.ui-indigo .navbar-gitlab .navbar-collapse{color:#d1d1f0}body.ui-indigo .navbar-gitlab .container-fluid .navbar-toggler{border-left:1px solid #6868b9}body.ui-indigo .navbar-gitlab .container-fluid .navbar-toggler svg{fill:#d1d1f0}body.ui-indigo .navbar-gitlab .navbar-sub-nav>li>a:hover,body.ui-indigo .navbar-gitlab .navbar-sub-nav>li>a:focus,body.ui-indigo .navbar-gitlab .navbar-sub-nav>li>button:hover,body.ui-indigo .navbar-gitlab .navbar-sub-nav>li>button:focus,body.ui-indigo .navbar-gitlab .navbar-nav>li>a:hover,body.ui-indigo .navbar-gitlab .navbar-nav>li>a:focus,body.ui-indigo .navbar-gitlab .navbar-nav>li>button:hover,body.ui-indigo .navbar-gitlab .navbar-nav>li>button:focus{background-color:rgba(209,209,240,0.2)}body.ui-indigo .navbar-gitlab .navbar-sub-nav>li.active>a,body.ui-indigo .navbar-gitlab .navbar-sub-nav>li.active>button,body.ui-indigo .navbar-gitlab .navbar-sub-nav>li.dropdown.show>a,body.ui-indigo .navbar-gitlab .navbar-sub-nav>li.dropdown.show>button,body.ui-indigo .navbar-gitlab .navbar-nav>li.active>a,body.ui-indigo .navbar-gitlab .navbar-nav>li.active>button,body.ui-indigo .navbar-gitlab .navbar-nav>li.dropdown.show>a,body.ui-indigo .navbar-gitlab .navbar-nav>li.dropdown.show>button{color:#292961;background-color:#fff}body.ui-indigo .navbar-gitlab .navbar-sub-nav>li.line-separator,body.ui-indigo .navbar-gitlab .navbar-nav>li.line-separator{border-left:1px solid rgba(209,209,240,0.2)}body.ui-indigo .navbar-gitlab .navbar-sub-nav{color:#d1d1f0}body.ui-indigo .navbar-gitlab .nav>li{color:#d1d1f0}body.ui-indigo .navbar-gitlab .nav>li>a.header-user-dropdown-toggle .header-user-avatar{border-color:#d1d1f0}body.ui-indigo .navbar-gitlab .nav>li>a.header-user-dropdown-toggle .header-user-notification-dot{border:2px solid #292961}@media (min-width: 576px){body.ui-indigo .navbar-gitlab .nav>li>a:hover,body.ui-indigo .navbar-gitlab .nav>li>a:focus{background-color:rgba(209,209,240,0.2)}}body.ui-indigo .navbar-gitlab .nav>li>a:hover svg,body.ui-indigo .navbar-gitlab .nav>li>a:focus svg{fill:currentColor}body.ui-indigo .navbar-gitlab .nav>li>a:hover.header-user-dropdown-toggle .header-user-notification-dot,body.ui-indigo .navbar-gitlab .nav>li>a:focus.header-user-dropdown-toggle .header-user-notification-dot{border-color:#4a4a82}body.ui-indigo .navbar-gitlab .nav>li.active>a,body.ui-indigo .navbar-gitlab .nav>li.dropdown.show>a{color:#292961;background-color:#fff}body.ui-indigo .navbar-gitlab .nav>li.active>a:hover svg,body.ui-indigo .navbar-gitlab .nav>li.dropdown.show>a:hover svg{fill:#292961}body.ui-indigo .navbar-gitlab .nav>li.active>a.header-user-dropdown-toggle .header-user-notification-dot,body.ui-indigo .navbar-gitlab .nav>li.dropdown.show>a.header-user-dropdown-toggle .header-user-notification-dot{border-color:#fff}body.ui-indigo .navbar-gitlab .nav>li .impersonated-user svg,body.ui-indigo .navbar-gitlab .nav>li .impersonated-user:hover svg{fill:#292961}body.ui-indigo .navbar .title>a:hover,body.ui-indigo .navbar .title>a:focus{background-color:rgba(209,209,240,0.2)}body.ui-indigo .search form{background-color:rgba(209,209,240,0.2)}body.ui-indigo .search form:hover{background-color:rgba(209,209,240,0.3)}body.ui-indigo .search .search-input::placeholder{color:rgba(209,209,240,0.8)}body.ui-indigo .search .search-input-wrap .search-icon,body.ui-indigo .search .search-input-wrap .clear-icon{fill:rgba(209,209,240,0.8)}body.ui-indigo .search.search-active form{background-color:#fff}body.ui-indigo .search.search-active .search-input-wrap .search-icon{fill:rgba(209,209,240,0.8)}body.ui-indigo .nav-sidebar li.active{box-shadow:inset 4px 0 0 #4b4ba3}body.ui-indigo .nav-sidebar li.active>a{color:#393982}body.ui-indigo .nav-sidebar li.active .nav-icon-container svg{fill:#393982}body.ui-indigo .sidebar-top-level-items>li.active .badge.badge-pill{color:#393982}body.ui-indigo .nav-links li.active a,body.ui-indigo .nav-links li.md-header-tab.active button,body.ui-indigo .nav-links li a.active{border-bottom:2px solid #6666c4}body.ui-indigo .nav-links li.active a .badge.badge-pill,body.ui-indigo .nav-links li.md-header-tab.active button .badge.badge-pill,body.ui-indigo .nav-links li a.active .badge.badge-pill{font-weight:600}body.ui-indigo .branch-header-title{color:#4b4ba3}body.ui-indigo .ide-sidebar-link.active{color:#4b4ba3;box-shadow:inset 3px 0 #4b4ba3}body.ui-indigo .ide-sidebar-link.active.is-right{box-shadow:inset -3px 0 #4b4ba3}
+
+*,*::before,*::after{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15}header,nav,section{display:block}body{margin:0;font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-size:1rem;font-weight:400;line-height:1.5;color:#303030;text-align:left;background-color:#fff}h1,h2,h3{margin-top:0;margin-bottom:0.25rem}p{margin-top:0;margin-bottom:1rem}ul{margin-top:0;margin-bottom:1rem}ul ul{margin-bottom:0}strong{font-weight:bolder}sub{position:relative;font-size:75%;line-height:0;vertical-align:baseline}sub{bottom:-.25em}a{color:#007bff;text-decoration:none;background-color:transparent}a:not([href]){color:inherit;text-decoration:none}pre,code{font-family:"Menlo", "DejaVu Sans Mono", "Liberation Mono", "Consolas", "Ubuntu Mono", "Courier New", "andale mono", "lucida console", monospace;font-size:1em}pre{margin-top:0;margin-bottom:1rem;overflow:auto}img{vertical-align:middle;border-style:none}svg{overflow:hidden;vertical-align:middle}table{border-collapse:collapse}th{text-align:inherit}button{border-radius:0}input,button,textarea{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button,input{overflow:visible}button{text-transform:none}button:not(:disabled),[type="button"]:not(:disabled),[type="reset"]:not(:disabled){cursor:pointer}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner{padding:0;border-style:none}textarea{overflow:auto;resize:vertical}[type="search"]{outline-offset:-2px}summary{display:list-item;cursor:pointer}template{display:none}[hidden]{display:none !important}h1,h2,h3,.h1,.h2,.h3{margin-bottom:0.25rem;font-weight:600;line-height:1.2;color:#303030}h1,.h1{font-size:2.1875rem}h2,.h2{font-size:1.75rem}h3,.h3{font-size:1.53125rem}.list-unstyled{padding-left:0;list-style:none}code{font-size:90%;color:#1f1f1f;word-wrap:break-word}a>code{color:inherit}pre{display:block;font-size:90%;color:#303030}pre code{font-size:inherit;color:inherit;word-break:normal}.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width: 576px){.container{max-width:540px}}@media (min-width: 768px){.container{max-width:720px}}@media (min-width: 992px){.container{max-width:960px}}@media (min-width: 1200px){.container{max-width:1140px}}.container-fluid{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width: 576px){.container{max-width:540px}}@media (min-width: 768px){.container{max-width:720px}}@media (min-width: 992px){.container{max-width:960px}}@media (min-width: 1200px){.container{max-width:1140px}}.row{display:flex;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.table{width:100%;margin-bottom:0.5rem;color:#303030}.table th,.table td{padding:0.75rem;vertical-align:top;border-top:1px solid #dbdbdb}.search form{display:block;width:100%;height:34px;padding:0.375rem 0.75rem;font-size:0.875rem;font-weight:400;line-height:1.5;color:#303030;background-color:#fff;background-clip:padding-box;border:1px solid #dbdbdb;border-radius:0.25rem}.search form:-moz-focusring{color:transparent;text-shadow:0 0 0 #303030}.search form::placeholder{color:#5e5e5e;opacity:1}.search form:disabled{background-color:#fafafa;opacity:1}.form-inline{display:flex;flex-flow:row wrap;align-items:center}@media (min-width: 576px){.form-inline .search form,.search .form-inline form{display:inline-block;width:auto;vertical-align:middle}}.btn{display:inline-block;font-weight:400;color:#303030;text-align:center;vertical-align:middle;cursor:pointer;user-select:none;background-color:transparent;border:1px solid transparent;padding:0.375rem 0.75rem;font-size:1rem;line-height:20px;border-radius:0.25rem}.btn.disabled,.btn:disabled{opacity:0.65}a.btn.disabled{pointer-events:none}.collapse:not(.show){display:none}.dropdown{position:relative}.dropdown-menu-toggle{white-space:nowrap}.dropdown-menu-toggle::after{display:inline-block;margin-left:0.255em;vertical-align:0.255em;content:"";border-top:0.3em solid;border-right:0.3em solid transparent;border-bottom:0;border-left:0.3em solid transparent}.dropdown-menu-toggle:empty::after{margin-left:0}.dropdown-menu{position:absolute;top:100%;left:0;z-index:1000;display:none;float:left;min-width:10rem;padding:0.5rem 0;margin:0.125rem 0 0;font-size:1rem;color:#303030;text-align:left;list-style:none;background-color:#fff;background-clip:padding-box;border:1px solid rgba(0,0,0,0.15);border-radius:0.25rem}.dropdown-menu-right{right:0;left:auto}.divider{height:0;margin:4px 0;overflow:hidden;border-top:1px solid #dbdbdb}.dropdown-menu.show{display:block}.nav{display:flex;flex-wrap:wrap;padding-left:0;margin-bottom:0;list-style:none}.navbar{position:relative;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;padding:0.25rem 0.5rem}.navbar .container,.navbar .container-fluid{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between}.navbar-nav{display:flex;flex-direction:column;padding-left:0;margin-bottom:0;list-style:none}.navbar-nav .dropdown-menu{position:static;float:none}.navbar-collapse{flex-basis:100%;flex-grow:1;align-items:center}.navbar-toggler{padding:0.25rem 0.75rem;font-size:1.25rem;line-height:1;background-color:transparent;border:1px solid transparent;border-radius:0.25rem}@media (max-width: 575.98px){.navbar-expand-sm>.container,.navbar-expand-sm>.container-fluid{padding-right:0;padding-left:0}}@media (min-width: 576px){.navbar-expand-sm{flex-flow:row nowrap;justify-content:flex-start}.navbar-expand-sm .navbar-nav{flex-direction:row}.navbar-expand-sm .navbar-nav .dropdown-menu{position:absolute}.navbar-expand-sm>.container,.navbar-expand-sm>.container-fluid{flex-wrap:nowrap}.navbar-expand-sm .navbar-collapse{display:flex !important;flex-basis:auto}.navbar-expand-sm .navbar-toggler{display:none}}.card{position:relative;display:flex;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#fff;background-clip:border-box;border:1px solid #dbdbdb;border-radius:0.25rem}.badge{display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:600;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:0.25rem}.badge:empty{display:none}.btn .badge{position:relative;top:-1px}.badge-pill{padding-right:0.6em;padding-left:0.6em;border-radius:10rem}.media{display:flex;align-items:flex-start}.close{float:right;font-size:1.5rem;font-weight:600;line-height:1;color:#000;text-shadow:0 1px 0 #fff;opacity:.5}button.close{padding:0;background-color:transparent;border:0;appearance:none}a.close.disabled{pointer-events:none}.modal-dialog{position:relative;width:auto;margin:0.5rem;pointer-events:none}@media (min-width: 576px){.modal-dialog{max-width:500px;margin:1.75rem auto}}.bg-transparent{background-color:transparent !important}.border{border:1px solid #dbdbdb !important}.border-top{border-top:1px solid #dbdbdb !important}.border-right{border-right:1px solid #dbdbdb !important}.border-bottom{border-bottom:1px solid #dbdbdb !important}.border-left{border-left:1px solid #dbdbdb !important}.rounded{border-radius:0.25rem !important}.clearfix::after{display:block;clear:both;content:""}.d-none{display:none !important}.d-inline-block{display:inline-block !important}.d-block{display:block !important}@media (min-width: 576px){.d-sm-none{display:none !important}}@media (min-width: 768px){.d-md-block{display:block !important}}@media (min-width: 992px){.d-lg-none{display:none !important}.d-lg-block{display:block !important}}@media (min-width: 1200px){.d-xl-block{display:block !important}}.flex-wrap{flex-wrap:wrap !important}.float-right{float:right !important}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0}.m-auto{margin:auto !important}.text-nowrap{white-space:nowrap !important}.visible{visibility:visible !important}.search form.focus{color:#303030;background-color:#fff;border-color:#80bdff;outline:0;box-shadow:0 0 0 0.2rem rgba(0,123,255,0.25)}.gl-badge{display:inline-flex;align-items:center;font-size:0.75rem;font-weight:400;line-height:1rem;padding-top:0.25rem;padding-bottom:0.25rem;padding-left:0.5rem;padding-right:0.5rem;outline:none}body,.search form,.search form{font-size:0.875rem}button,html [type='button'],[type='reset'],[role='button']{cursor:pointer}h1,.h1,h2,.h2,h3,.h3{margin-top:20px;margin-bottom:10px}input[type='file']{line-height:1}strong{font-weight:bold}a{color:#1068bf}code{padding:2px 4px;color:#1f1f1f;background-color:#f0f0f0;border-radius:4px}.code>code{background-color:inherit;padding:unset}table{border-spacing:0}.hidden{display:none !important;visibility:hidden !important}.hide{display:none}.dropdown-menu-toggle::after{display:none}.badge:not(.gl-badge){padding:4px 5px;font-size:12px;font-style:normal;font-weight:400;display:inline-block}pre code{white-space:pre-wrap}.toggle-sidebar-button .collapse-text,.toggle-sidebar-button .icon-chevron-double-lg-left,.toggle-sidebar-button .icon-chevron-double-lg-right{color:#666}svg{vertical-align:baseline}html{overflow-y:scroll}body{text-decoration-skip:ink}.content-wrapper{margin-top:40px;padding-bottom:100px}.container{padding-top:0;z-index:5}.container .content{margin:0}@media (max-width: 575.98px){.container .content{margin-top:20px}}@media (max-width: 575.98px){.container .container .title{padding-left:15px !important}}.btn{border-radius:4px;font-size:0.875rem;font-weight:400;padding:6px 10px;background-color:#fff;border-color:#dbdbdb;color:#303030;color:#303030;white-space:nowrap}.btn:active,.btn.active{box-shadow:rgba(0,0,0,0.16);background-color:#eaeaea;border-color:#e3e3e3;color:#303030}.btn svg{height:15px;width:15px}.btn svg:not(:last-child),.btn .fa:not(:last-child){margin-right:5px}.badge.badge-pill:not(.gl-badge){font-weight:400;background-color:rgba(0,0,0,0.07);color:#525252;vertical-align:baseline}.hint{font-style:italic;color:#bfbfbf}.bold{font-weight:600}pre.wrap{word-break:break-word;white-space:pre-wrap}table a code{position:relative;top:-2px;margin-right:3px}.loading{margin:20px auto;height:40px;color:#525252;font-size:32px;text-align:center}.highlight{text-shadow:none}.chart{overflow:hidden;height:220px}.break-word{word-wrap:break-word}.center{text-align:center}.block{display:block}.flex{display:flex}.flex-grow{flex-grow:1}.dropdown{position:relative}.show.dropdown .dropdown-menu{transform:translateY(0);display:block;min-height:40px;max-height:312px;overflow-y:auto}@media (max-width: 575.98px){.show.dropdown .dropdown-menu{width:100%}}.show.dropdown .dropdown-menu-toggle,.show.dropdown .dropdown-menu-toggle{border-color:#c4c4c4}.show.dropdown [data-toggle='dropdown']{outline:0}.search-input-container .dropdown-menu{margin-top:11px}.dropdown-menu-toggle{padding:6px 8px 6px 10px;background-color:#fff;color:#303030;font-size:14px;text-align:left;border:1px solid #dbdbdb;border-radius:0.25rem;white-space:nowrap}.no-outline.dropdown-menu-toggle{outline:0}.dropdown-menu-toggle .fa{color:#c4c4c4}.dropdown-menu-toggle{padding-right:25px;position:relative;width:160px;text-overflow:ellipsis;overflow:hidden}.dropdown-menu-toggle .fa{position:absolute}.dropdown-menu{display:none;position:absolute;width:auto;top:100%;z-index:300;min-width:240px;max-width:500px;margin-top:4px;margin-bottom:24px;font-size:14px;font-weight:400;padding:8px 0;background-color:#fff;border:1px solid #dbdbdb;border-radius:0.25rem;box-shadow:0 2px 4px rgba(0,0,0,0.1)}.dropdown-menu ul{margin:0;padding:0}.dropdown-menu li{display:block;text-align:left;list-style:none;padding:0 1px}.dropdown-menu li>a,.dropdown-menu li button{background:transparent;border:0;border-radius:0;box-shadow:none;display:block;font-weight:400;position:relative;padding:8px 12px;color:#303030;line-height:16px;white-space:normal;overflow:hidden;text-align:left;width:100%}.dropdown-menu .divider{height:1px;margin:0.25rem 0;padding:0;background-color:#dbdbdb}.dropdown-menu .badge.badge-pill+span:not(.badge.badge-pill){margin-right:40px}.dropdown-select{width:300px}@media (max-width: 767.98px){.dropdown-select{width:100%}}.dropdown-content{max-height:252px;overflow-y:auto}.dropdown-loading{position:absolute;top:0;right:0;bottom:0;left:0;display:none;z-index:9;background-color:rgba(255,255,255,0.6);font-size:28px}.dropdown-loading .fa{position:absolute;top:50%;left:50%;margin-top:-14px;margin-left:-14px}@media (max-width: 575.98px){.navbar-gitlab li.dropdown{position:static}header.navbar-gitlab .dropdown .dropdown-menu{width:100%;min-width:100%}}@media (max-width: 767.98px){.dropdown-menu-toggle{width:100%}}textarea{resize:vertical}input{border-radius:0.25rem;color:#303030;background-color:#fff}.search form{border-radius:4px;padding:6px 10px}.search form::placeholder{color:#868686}.navbar-gitlab{padding:0 16px;z-index:1000;margin-bottom:0;min-height:40px;border:0;border-bottom:1px solid #dbdbdb;position:fixed;top:0;left:0;right:0;border-radius:0}.navbar-gitlab .logo-text{line-height:initial}.navbar-gitlab .logo-text svg{width:55px;height:14px;margin:0;fill:#fff}.navbar-gitlab .close-icon{display:none}.navbar-gitlab .header-content{width:100%;display:flex;justify-content:space-between;position:relative;min-height:40px;padding-left:0}.navbar-gitlab .header-content .title-container{display:flex;align-items:stretch;flex:1 1 auto;padding-top:0;overflow:visible}.navbar-gitlab .header-content .title{padding-right:0;color:currentColor;display:flex;position:relative;margin:0;font-size:18px;vertical-align:top;white-space:nowrap}.navbar-gitlab .header-content .title img{height:28px}.navbar-gitlab .header-content .title img+.logo-text{margin-left:8px}.navbar-gitlab .header-content .title.wrap{white-space:normal}.navbar-gitlab .header-content .title a{display:flex;align-items:center;padding:2px 8px;margin:5px 2px 5px -8px;border-radius:4px}.navbar-gitlab .header-content .dropdown.open>a{border-bottom-color:#fff}.navbar-gitlab .header-content .navbar-collapse>ul.nav>li:not(.d-none){margin:0 2px}.navbar-gitlab .navbar-collapse{flex:0 0 auto;border-top:0;padding:0}@media (max-width: 575.98px){.navbar-gitlab .navbar-collapse{flex:1 1 auto}}.navbar-gitlab .navbar-collapse .nav{flex-wrap:nowrap}@media (max-width: 575.98px){.navbar-gitlab .navbar-collapse .nav>li:not(.d-none) a{margin-left:0}}.navbar-gitlab .container-fluid{padding:0}.navbar-gitlab .container-fluid .user-counter svg{margin-right:3px}.navbar-gitlab .container-fluid .navbar-toggler{position:relative;right:-10px;border-radius:0;min-width:45px;padding:0;margin:8px -7px 8px 0;font-size:14px;text-align:center;color:currentColor}@media (max-width: 575.98px){.navbar-gitlab .container-fluid .navbar-nav{display:flex;padding-right:10px;flex-direction:row}}.navbar-gitlab .container-fluid .navbar-nav li .badge.badge-pill{box-shadow:none;font-weight:600}@media (max-width: 575.98px){.navbar-gitlab .container-fluid .nav>li.header-user{padding-left:10px}}.navbar-gitlab .container-fluid .nav>li>a{will-change:color;margin:4px 0;padding:6px 8px;height:32px}@media (max-width: 575.98px){.navbar-gitlab .container-fluid .nav>li>a{padding:0}}.navbar-gitlab .container-fluid .nav>li>a.header-user-dropdown-toggle{margin-left:2px}.navbar-gitlab .container-fluid .nav>li>a.header-user-dropdown-toggle .header-user-avatar{margin-right:0}.navbar-gitlab .container-fluid .nav>li .header-new-dropdown-toggle{margin-right:0}.navbar-sub-nav>li>a,.navbar-sub-nav>li>button,.navbar-nav>li>a,.navbar-nav>li>button{display:flex;align-items:center;justify-content:center;padding:6px 8px;margin:4px 2px;font-size:12px;color:currentColor;border-radius:4px;height:32px;font-weight:600}.navbar-sub-nav>li>button,.navbar-nav>li>button{background:transparent;border:0}.navbar-sub-nav .dropdown-menu,.navbar-nav .dropdown-menu{position:absolute}.navbar-sub-nav{display:flex;margin:0 0 0 6px}.caret-down,.btn .caret-down{top:0;height:11px;width:11px;margin-left:4px;fill:currentColor}.header-user .dropdown-menu,.header-new .dropdown-menu{margin-top:4px}.btn-sign-in{background-color:#ebebfa;color:#292961;font-weight:600;line-height:18px;margin:4px 0 4px 2px}.title-container .badge.badge-pill,.navbar-nav .badge.badge-pill{position:inherit;font-weight:400;margin-left:-6px;font-size:11px;color:#fff;padding:0 5px;line-height:12px;border-radius:7px;box-shadow:0 1px 0 rgba(76,78,84,0.2)}.title-container .badge.badge-pill.green-badge,.navbar-nav .badge.badge-pill.green-badge{background-color:#108548}.title-container .badge.badge-pill.merge-requests-count,.navbar-nav .badge.badge-pill.merge-requests-count{background-color:#de7e00}.title-container .badge.badge-pill.todos-count,.navbar-nav .badge.badge-pill.todos-count{background-color:#1f75cb}.title-container .canary-badge .badge,.navbar-nav .canary-badge .badge{font-size:12px;line-height:16px;padding:0 0.5rem}@media (max-width: 575.98px){.navbar-gitlab .container-fluid{font-size:18px}.navbar-gitlab .container-fluid .navbar-nav{table-layout:fixed;width:100%;margin:0;text-align:right}.navbar-gitlab .container-fluid .navbar-collapse{margin-left:-8px;margin-right:-10px}.navbar-gitlab .container-fluid .navbar-collapse .nav>li:not(.d-none){flex:1}.header-user-dropdown-toggle{text-align:center}.header-user-avatar{float:none}}.header-user.show .dropdown-menu{margin-top:4px;color:#303030;left:auto;max-height:445px}.header-user.show .dropdown-menu svg{vertical-align:text-top}.header-user-avatar{float:left;margin-right:5px;border-radius:50%;border:1px solid #f5f5f5}.media{display:flex;align-items:flex-start}.card{margin-bottom:16px}.content-wrapper{width:100%}.content-wrapper .container-fluid{padding:0 16px}@media (min-width: 768px){.page-with-contextual-sidebar{padding-left:50px}}@media (min-width: 1200px){.page-with-contextual-sidebar{padding-left:220px}}.context-header{position:relative;margin-right:2px;width:220px}.context-header>a,.context-header>button{font-weight:600;display:flex;width:100%;align-items:center;padding:10px 16px 10px 10px;color:#303030;background-color:transparent;border:0;text-align:left}.context-header .avatar-container{flex:0 0 40px;background-color:#fff}.context-header .sidebar-context-title{overflow:hidden;text-overflow:ellipsis}.context-header .sidebar-context-title.text-secondary{font-weight:normal;font-size:0.8em}.nav-sidebar{position:fixed;z-index:600;width:220px;top:40px;bottom:0;left:0;background-color:#fafafa;box-shadow:inset -1px 0 0 #dbdbdb;transform:translate3d(0, 0, 0)}@media (min-width: 576px) and (max-width: 576px){.nav-sidebar:not(.sidebar-collapsed-desktop){box-shadow:inset -1px 0 0 #dbdbdb,2px 1px 3px rgba(0,0,0,0.1)}}.nav-sidebar.sidebar-collapsed-desktop{width:50px}.nav-sidebar.sidebar-collapsed-desktop .nav-sidebar-inner-scroll{overflow-x:hidden}.nav-sidebar.sidebar-collapsed-desktop .badge.badge-pill:not(.fly-out-badge),.nav-sidebar.sidebar-collapsed-desktop .sidebar-context-title,.nav-sidebar.sidebar-collapsed-desktop .nav-item-name{border:0;clip:rect(0, 0, 0, 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;white-space:nowrap;width:1px}.nav-sidebar.sidebar-collapsed-desktop .sidebar-top-level-items>li>a{min-height:45px}.nav-sidebar.sidebar-collapsed-desktop .fly-out-top-item{display:block}.nav-sidebar.sidebar-collapsed-desktop .avatar-container{margin:0 auto}.nav-sidebar.sidebar-expanded-mobile{left:0}.nav-sidebar a{text-decoration:none}.nav-sidebar ul{padding-left:0;list-style:none}.nav-sidebar li{white-space:nowrap}.nav-sidebar li a{display:flex;align-items:center;padding:12px 16px;color:#666}.nav-sidebar li .nav-item-name{flex:1}.nav-sidebar li.active>a{font-weight:600}@media (max-width: 767.98px){.nav-sidebar{left:-220px}}.nav-sidebar .nav-icon-container{display:flex;margin-right:8px}.nav-sidebar .fly-out-top-item{display:none}.nav-sidebar svg{height:16px;width:16px}@media (min-width: 768px) and (max-width: 1199px){.nav-sidebar:not(.sidebar-expanded-mobile){width:50px}.nav-sidebar:not(.sidebar-expanded-mobile) .nav-sidebar-inner-scroll{overflow-x:hidden}.nav-sidebar:not(.sidebar-expanded-mobile) .badge.badge-pill:not(.fly-out-badge),.nav-sidebar:not(.sidebar-expanded-mobile) .sidebar-context-title,.nav-sidebar:not(.sidebar-expanded-mobile) .nav-item-name{border:0;clip:rect(0, 0, 0, 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;white-space:nowrap;width:1px}.nav-sidebar:not(.sidebar-expanded-mobile) .sidebar-top-level-items>li>a{min-height:45px}.nav-sidebar:not(.sidebar-expanded-mobile) .fly-out-top-item{display:block}.nav-sidebar:not(.sidebar-expanded-mobile) .avatar-container{margin:0 auto}.nav-sidebar:not(.sidebar-expanded-mobile) .context-header{height:60px;width:50px}.nav-sidebar:not(.sidebar-expanded-mobile) .context-header a{padding:10px 4px}.nav-sidebar:not(.sidebar-expanded-mobile) .sidebar-top-level-items>li .sidebar-sub-level-items:not(.flyout-list){display:none}.nav-sidebar:not(.sidebar-expanded-mobile) .nav-icon-container{margin-right:0}.nav-sidebar:not(.sidebar-expanded-mobile) .toggle-sidebar-button{padding:16px;width:49px}.nav-sidebar:not(.sidebar-expanded-mobile) .toggle-sidebar-button .collapse-text,.nav-sidebar:not(.sidebar-expanded-mobile) .toggle-sidebar-button .icon-chevron-double-lg-left{display:none}.nav-sidebar:not(.sidebar-expanded-mobile) .toggle-sidebar-button .icon-chevron-double-lg-right{display:block;margin:0}}.nav-sidebar-inner-scroll{height:100%;width:100%;overflow:auto}.sidebar-sub-level-items{display:none;padding-bottom:8px}.sidebar-sub-level-items>li a{padding:8px 16px 8px 40px}.sidebar-top-level-items{margin-bottom:60px}@media (min-width: 576px){.sidebar-top-level-items>li>a{margin-right:1px}}.sidebar-top-level-items>li .badge.badge-pill{background-color:rgba(0,0,0,0.08);color:#666}.sidebar-top-level-items>li.active{background:rgba(0,0,0,0.04)}.sidebar-top-level-items>li.active>a{margin-left:4px;padding-left:12px}.sidebar-top-level-items>li.active .badge.badge-pill{font-weight:600}.sidebar-top-level-items>li.active .sidebar-sub-level-items:not(.is-fly-out-only){display:block}.toggle-sidebar-button,.close-nav-button{width:219px;position:fixed;height:48px;bottom:0;padding:0 16px;background-color:#fafafa;border:0;border-top:1px solid #dbdbdb;color:#666;display:flex;align-items:center}.toggle-sidebar-button svg,.close-nav-button svg{margin-right:8px}.toggle-sidebar-button .icon-chevron-double-lg-right,.close-nav-button .icon-chevron-double-lg-right{display:none}.collapse-text{white-space:nowrap;overflow:hidden}.sidebar-collapsed-desktop .context-header{height:60px;width:50px}.sidebar-collapsed-desktop .context-header a{padding:10px 4px}.sidebar-collapsed-desktop .sidebar-top-level-items>li .sidebar-sub-level-items:not(.flyout-list){display:none}.sidebar-collapsed-desktop .nav-icon-container{margin-right:0}.sidebar-collapsed-desktop .toggle-sidebar-button{padding:16px;width:49px}.sidebar-collapsed-desktop .toggle-sidebar-button .collapse-text,.sidebar-collapsed-desktop .toggle-sidebar-button .icon-chevron-double-lg-left{display:none}.sidebar-collapsed-desktop .toggle-sidebar-button .icon-chevron-double-lg-right{display:block;margin:0}.fly-out-top-item>a{display:flex}.fly-out-top-item .fly-out-badge{margin-left:8px}.fly-out-top-item-name{flex:1}.close-nav-button{display:none}@media (max-width: 767.98px){.close-nav-button{display:flex}.toggle-sidebar-button{display:none}}table.table{margin-bottom:16px}table.table .dropdown-menu a{text-decoration:none}table.table .success,table.table .info{color:#fff}table.table .success a:not(.btn),table.table .info a:not(.btn){text-decoration:underline;color:#fff}pre{font-family:"Menlo", "DejaVu Sans Mono", "Liberation Mono", "Consolas", "Ubuntu Mono", "Courier New", "andale mono", "lucida console", monospace;display:block;padding:8px 12px;margin:0 0 8px;font-size:13px;word-break:break-all;word-wrap:break-word;color:#303030;background-color:#fafafa;border:1px solid #dbdbdb;border-radius:2px}.monospace{font-family:"Menlo", "DejaVu Sans Mono", "Liberation Mono", "Consolas", "Ubuntu Mono", "Courier New", "andale mono", "lucida console", monospace}input::-moz-placeholder,textarea::-moz-placeholder{color:#868686;opacity:1}input::-ms-input-placeholder,textarea::-ms-input-placeholder{color:#868686}input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#868686}svg{fill:currentColor}svg.s12{width:12px;height:12px}svg.s16{width:16px;height:16px}svg.s18{width:18px;height:18px}svg.s12{vertical-align:-1px}svg.s16{vertical-align:-3px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}table.code{width:100%;font-family:"Menlo", "DejaVu Sans Mono", "Liberation Mono", "Consolas", "Ubuntu Mono", "Courier New", "andale mono", "lucida console", monospace;border:0;border-collapse:separate;margin:0;padding:0;table-layout:fixed;border-radius:0 0 4px 4px}.frame .badge.badge-pill{position:absolute;background-color:#428fdc;color:#fff;border:#fff 1px solid;min-height:16px;padding:5px 8px;border-radius:12px}.frame .badge.badge-pill{transform:translate(-50%, -50%)}.color-label{padding:0 0.5rem;line-height:16px;border-radius:100px;color:#fff}.label-link{display:inline-flex;vertical-align:text-bottom}.milestones{padding:8px;margin-top:8px;border-radius:4px;background-color:#dbdbdb}.search{margin:0 8px}.search form{margin:0;padding:4px;width:200px;line-height:24px;height:32px;border:0;border-radius:4px}@media (min-width: 1200px){.search form{width:320px}}.search .search-input{border:0;font-size:14px;padding:0 20px 0 0;margin-left:5px;line-height:25px;width:98%;color:#fff;background:none}.search .search-input-container{display:flex;position:relative}.search .search-input-wrap{width:100%}.search .search-input-wrap .search-icon,.search .search-input-wrap .clear-icon{position:absolute;right:5px;top:4px}.search .search-input-wrap .search-icon{-moz-user-select:none;user-select:none}.search .search-input-wrap .clear-icon{display:none}.search .search-input-wrap .dropdown{position:static}.search .search-input-wrap .dropdown-menu{left:-5px;max-height:400px;overflow:auto}@media (min-width: 1200px){.search .search-input-wrap .dropdown-menu{width:320px}}.search .search-input-wrap .dropdown-content{max-height:382px}.settings{border-top:1px solid #dbdbdb}.settings:first-of-type{margin-top:10px;border:0}.settings+div .settings:first-of-type{margin-top:0;border-top:1px solid #dbdbdb}.avatar,.avatar-container{float:left;margin-right:16px;border-radius:50%;border:1px solid #f5f5f5}.s16.avatar,.s16.avatar-container{width:16px;height:16px;margin-right:8px}.s18.avatar,.s18.avatar-container{width:18px;height:18px;margin-right:8px}.s40.avatar,.s40.avatar-container{width:40px;height:40px;margin-right:8px}.avatar{transition-property:none;width:40px;height:40px;padding:0;background:#fdfdfd;overflow:hidden;border-color:rgba(0,0,0,0.1)}.avatar.center{font-size:14px;line-height:1.8em;text-align:center}.avatar.avatar-tile{border-radius:0;border:0}.avatar-container{overflow:hidden;display:flex}.avatar-container a{width:100%;height:100%;display:flex;text-decoration:none}.avatar-container .avatar{border-radius:0;border:0;height:auto;width:100%;margin:0;align-self:center}.avatar-container.s40{min-width:40px;min-height:40px}.rect-avatar{border-radius:2px}.rect-avatar.s16{border-radius:2px}.rect-avatar.s18{border-radius:2px}.rect-avatar.s40{border-radius:4px}.tab-width-8{-moz-tab-size:8;tab-size:8}.gl-sr-only{border:0;clip:rect(0, 0, 0, 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;white-space:nowrap;width:1px}.gl-ml-3{margin-left:0.5rem}.content-wrapper>.alert-wrapper,#content-body,.modal-dialog{display:block}.content-wrapper>.alert-wrapper,#content-body,.modal-dialog{display:none}
+
+</style>
+
+<link rel="stylesheet" media="print" href="https://assets.gitlab-static.net/assets/application-bbcda40f0ae5ac4e30029deefa4e90e2da0ac6a4d48fb94914ef5fdc091c6b46.css" crossorigin="anonymous" />
+
+<link rel="stylesheet" media="print" href="https://assets.gitlab-static.net/assets/application_utilities-574bb0295f96b96a4e90c3b15957c362ccc49a584f4770662c8e970deeffadcf.css" crossorigin="anonymous" />
+
+<link rel="stylesheet" media="print" href="https://assets.gitlab-static.net/assets/highlight/themes/white-0678dba52a34ddc3b009cf294c54cfbddb9bac5991d6377ab811afe156e5a0cb.css" crossorigin="anonymous" />
+<script nonce="qQV7M/MiNbndIfhQOIyapA==">
+//<![CDATA[
+document.querySelectorAll('link[media="print"]').forEach(linkTag => {
+  linkTag.setAttribute('data-startupcss', 'loading');
+  const startupLinkLoadedEvent = new CustomEvent('CSSStartupLinkLoaded');
+  linkTag.addEventListener('load',function(){this.media='all';this.setAttribute('data-startupcss', 'loaded');document.dispatchEvent(startupLinkLoadedEvent);},{once: true});
+})
+
+//]]>
+</script>
+
+<script nonce="qQV7M/MiNbndIfhQOIyapA==">
+//<![CDATA[
+window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.gitlab-static.net/assets/no_avatar-849f9c04a3a0d0cea2424ae97b27447dc64a7dbfae83c036c45b403392f0e8ba.png";gon.max_file_size=10;gon.asset_host="https://assets.gitlab-static.net";gon.webpack_public_path="https://assets.gitlab-static.net/assets/webpack/";gon.relative_url_root="";gon.shortcuts_path="/help/shortcuts";gon.user_color_scheme="white";gon.sentry_dsn="https://526a2f38a53d44e3a8e69bfa001d1e8b@sentry.gitlab.net/15";gon.sentry_environment="gprd";gon.gitlab_url="https://gitlab.com";gon.revision="61ba1c10173";gon.gitlab_logo="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png";gon.sprite_icons="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg";gon.sprite_file_icons="https://gitlab.com/assets/file_icons-c13caf2f3ca00cc2c02b11d373ac288c200b9b4dcddbb52a5027dc07b3eece19.svg";gon.emoji_sprites_css_path="https://assets.gitlab-static.net/assets/emoji_sprites-289eccffb1183c188b630297431be837765d9ff4aed6130cf738586fb307c170.css";gon.test_env=false;gon.disable_animations=null;gon.suggested_label_colors={"#0033CC":"UA blue","#428BCA":"Moderate blue","#44AD8E":"Lime green","#A8D695":"Feijoa","#5CB85C":"Slightly desaturated green","#69D100":"Bright green","#004E00":"Very dark lime green","#34495E":"Very dark desaturated blue","#7F8C8D":"Dark grayish cyan","#A295D6":"Slightly desaturated blue","#5843AD":"Dark moderate blue","#8E44AD":"Dark moderate violet","#FFECDB":"Very pale orange","#AD4363":"Dark moderate pink","#D10069":"Strong pink","#CC0033":"Strong red","#FF0000":"Pure red","#D9534F":"Soft red","#D1D100":"Strong yellow","#F0AD4E":"Soft orange","#AD8D43":"Dark moderate orange"};gon.first_day_of_week=0;gon.ee=true;gon.features={"webperfExperiment":false,"snippetsBinaryBlob":false,"usageDataApi":true,"securityAutoFix":false,"startupCss":true,"suggestPipeline":true,"gitlabCiYmlPreview":false};
+//]]>
+</script>
+
+
+
+<script src="https://assets.gitlab-static.net/assets/webpack/runtime.080ab43d.bundle.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/main.04034584.chunk.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/commons-globalSearch-pages.admin.abuse_reports-pages.admin.application_settings.ci_cd-pages.admin.gr-c06f7f84.86d175e6.chunk.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/commons-pages.groups.boards-pages.groups.details-pages.groups.show-pages.groups.wikis-pages.projects-b846eb3e.a717094a.chunk.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/commons-pages.admin.application_settings-pages.admin.application_settings.ci_cd-pages.admin.applicat-63de90e5.aff31555.chunk.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/commons-pages.groups.epics.index-pages.groups.epics.new-pages.groups.epics.show-pages.groups.iterati-b242f3b2.37c1e60d.chunk.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/commons-pages.projects.blame.show-pages.projects.blob.edit-pages.projects.blob.new-pages.projects.bl-c6edf1dd.f6c19bdb.chunk.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/commons-pages.projects.blob.show-pages.projects.shared.web_ide_link-pages.projects.show-pages.projec-cf300cc3.fa02b8ef.chunk.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/pages.projects.blob.show.0bf117eb.chunk.js" defer="defer"></script>
+
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="gALfjQLRWLVTvqMxKi/q/6LyMct8zdiSicg84DymVTrRJrK4L3Pn58pU1o26Sf/0+sH5S6WG00xo+zZTT/NyKQ==" />
+<meta name="csp-nonce" content="qQV7M/MiNbndIfhQOIyapA==" />
+<meta name="action-cable-url" content="/-/cable" />
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<meta content="#474D57" name="theme-color">
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-iphone-5a9cee0e8a51212e70b90c87c12f382c428870c0ff67d1eb034d884b78d2dae7.png" />
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-ipad-a6eec6aeb9da138e507593b464fdac213047e49d3093fc30e90d9a995df83ba3.png" sizes="76x76" />
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-iphone-retina-72e2aadf86513a56e050e7f0f2355deaa19cc17ed97bbe5147847f2748e5a3e3.png" sizes="120x120" />
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-ipad-retina-8ebe416f5313483d9c1bc772b5bbe03ecad52a54eba443e5215a22caed2a16a2.png" sizes="152x152" />
+<link color="rgb(226, 67, 41)" href="https://assets.gitlab-static.net/assets/logo-d36b5212042cebc89b96df4bf6ac24e43db316143e89926c0db839ff694d2de4.svg" rel="mask-icon">
+<meta content="https://assets.gitlab-static.net/assets/msapplication-tile-1196ec67452f618d39cdd85e2e3a542f76574c071051ae7effbfde01710eb17d.png" name="msapplication-TileImage">
+<meta content="#30353E" name="msapplication-TileColor">
+
+
+
+<script nonce="qQV7M/MiNbndIfhQOIyapA==">
+//<![CDATA[
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","https://assets.gitlab-static.net/assets/snowplow/sp-8f295715475b6b307338c8f64cb0b3a6715c691fa0cc667c9c332c17bb4474d9.js","snowplow"));
+
+window.snowplowOptions = {"namespace":"gl","hostname":"snowplow.trx.gitlab.net","cookieDomain":".gitlab.com","appId":"gitlab","formTracking":true,"linkClickTracking":true}
+
+
+//]]>
+</script>
+</head>
+
+<body class="ui-indigo tab-width-8  gl-browser-chrome gl-platform-windows" data-find-file="/AndroidAppDevelopment/Example26/-/find_file/master" data-group="AndroidAppDevelopment" data-namespace-id="2402821" data-page="projects:blob:show" data-page-type-id="master/files/Android-OrmLiteContentProvider potsetnik.pdf" data-project="Example26" data-project-id="5581201">
+
+<script nonce="qQV7M/MiNbndIfhQOIyapA==">
+//<![CDATA[
+gl = window.gl || {};
+gl.client = {"isChrome":true,"isWindows":true};
+
+
+//]]>
+</script>
+
+
+<header class="navbar navbar-gitlab navbar-expand-sm js-navbar" data-qa-selector="navbar">
+<a class="sr-only gl-accessibility" href="#content-body" tabindex="1">Skip to content</a>
+<div class="container-fluid">
+<div class="header-content">
+<div class="title-container">
+<h1 class="title">
+<span class="gl-sr-only">GitLab</span>
+<a title="Dashboard" id="logo" data-track-label="main_navigation" data-track-event="click_gitlab_logo_link" data-track-property="navigation" href="/"><svg width="24" height="24" class="tanuki-logo" viewBox="0 0 36 36">
+  <path class="tanuki-shape tanuki-left-ear" fill="#e24329" d="M2 14l9.38 9v-9l-4-12.28c-.205-.632-1.176-.632-1.38 0z"/>
+  <path class="tanuki-shape tanuki-right-ear" fill="#e24329" d="M34 14l-9.38 9v-9l4-12.28c.205-.632 1.176-.632 1.38 0z"/>
+  <path class="tanuki-shape tanuki-nose" fill="#e24329" d="M18,34.38 3,14 33,14 Z"/>
+  <path class="tanuki-shape tanuki-left-eye" fill="#fc6d26" d="M18,34.38 11.38,14 2,14 6,25Z"/>
+  <path class="tanuki-shape tanuki-right-eye" fill="#fc6d26" d="M18,34.38 24.62,14 34,14 30,25Z"/>
+  <path class="tanuki-shape tanuki-left-cheek" fill="#fca326" d="M2 14L.1 20.16c-.18.565 0 1.2.5 1.56l17.42 12.66z"/>
+  <path class="tanuki-shape tanuki-right-cheek" fill="#fca326" d="M34 14l1.9 6.16c.18.565 0 1.2-.5 1.56L18 34.38z"/>
+</svg>
+
+<span class="logo-text d-none d-lg-block gl-ml-3">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 617 169"><path d="M315.26 2.97h-21.8l.1 162.5h88.3v-20.1h-66.5l-.1-142.4M465.89 136.95c-5.5 5.7-14.6 11.4-27 11.4-16.6 0-23.3-8.2-23.3-18.9 0-16.1 11.2-23.8 35-23.8 4.5 0 11.7.5 15.4 1.2v30.1h-.1m-22.6-98.5c-17.6 0-33.8 6.2-46.4 16.7l7.7 13.4c8.9-5.2 19.8-10.4 35.5-10.4 17.9 0 25.8 9.2 25.8 24.6v7.9c-3.5-.7-10.7-1.2-15.1-1.2-38.2 0-57.6 13.4-57.6 41.4 0 25.1 15.4 37.7 38.7 37.7 15.7 0 30.8-7.2 36-18.9l4 15.9h15.4v-83.2c-.1-26.3-11.5-43.9-44-43.9M557.63 149.1c-8.2 0-15.4-1-20.8-3.5V70.5c7.4-6.2 16.6-10.7 28.3-10.7 21.1 0 29.2 14.9 29.2 39 0 34.2-13.1 50.3-36.7 50.3m9.2-110.6c-19.5 0-30 13.3-30 13.3v-21l-.1-27.8h-21.3l.1 158.5c10.7 4.5 25.3 6.9 41.2 6.9 40.7 0 60.3-26 60.3-70.9-.1-35.5-18.2-59-50.2-59M77.9 20.6c19.3 0 31.8 6.4 39.9 12.9l9.4-16.3C114.5 6 97.3 0 78.9 0 32.5 0 0 28.3 0 85.4c0 59.8 35.1 83.1 75.2 83.1 20.1 0 37.2-4.7 48.4-9.4l-.5-63.9V75.1H63.6v20.1h38l.5 48.5c-5 2.5-13.6 4.5-25.3 4.5-32.2 0-53.8-20.3-53.8-63-.1-43.5 22.2-64.6 54.9-64.6M231.43 2.95h-21.3l.1 27.3v94.3c0 26.3 11.4 43.9 43.9 43.9 4.5 0 8.9-.4 13.1-1.2v-19.1c-3.1.5-6.4.7-9.9.7-17.9 0-25.8-9.2-25.8-24.6v-65h35.7v-17.8h-35.7l-.1-38.5M155.96 165.47h21.3v-124h-21.3v124M155.96 24.37h21.3V3.07h-21.3v21.3"/></svg>
+
+</span>
+</a></h1>
+<ul class="list-unstyled navbar-sub-nav">
+<li class="home"><a title="Projects" class="dashboard-shortcuts-projects" href="/explore">Projects
+</a></li><li class=""><a title="Groups" class="dashboard-shortcuts-groups" href="/explore/groups">Groups
+</a></li><li class=""><a title="Snippets" class="dashboard-shortcuts-snippets" href="/explore/snippets">Snippets
+</a></li><li>
+<a title="About GitLab CE" href="/help">Help</a>
+</li>
+</ul>
+
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="nav-item d-none d-lg-block m-auto">
+<div class="search search-form" data-track-event="activate_form_input" data-track-label="navbar_search" data-track-value="">
+<form class="form-inline" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><div class="search-input-container">
+<div class="search-input-wrap">
+<div class="dropdown" data-url="/search/autocomplete">
+<input type="search" name="search" id="search" placeholder="Search or jump toâ€¦" class="search-input dropdown-menu-toggle no-outline js-search-dashboard-options" spellcheck="false" autocomplete="off" data-issues-path="/dashboard/issues" data-mr-path="/dashboard/merge_requests" data-qa-selector="search_term_field" aria-label="Search or jump toâ€¦" />
+<button class="hidden js-dropdown-search-toggle" data-toggle="dropdown" type="button"></button>
+<div class="dropdown-menu dropdown-select" data-testid="dashboard-search-options">
+<div class="dropdown-content"><ul>
+<li class="dropdown-menu-empty-item">
+<a>
+Loading...
+</a>
+</li>
+</ul>
+</div><div class="dropdown-loading"><div class="gl-spinner-container"><span class="gl-spinner gl-spinner-orange gl-spinner-md gl-mt-7" aria-label="Loading"></span></div></div>
+</div>
+<svg class="s16 search-icon" data-testid="search-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#search"></use></svg>
+<svg class="s16 clear-icon js-clear-input" data-testid="close-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg>
+</div>
+</div>
+</div>
+<input type="hidden" name="group_id" id="group_id" value="2402821" class="js-search-group-options" data-group-path="AndroidAppDevelopment" data-name="AndroidAppDevelopment" data-issues-path="/groups/AndroidAppDevelopment/-/issues" data-mr-path="/groups/AndroidAppDevelopment/-/merge_requests" />
+<input type="hidden" name="project_id" id="search_project_id" value="5581201" class="js-search-project-options" data-project-path="Example26" data-name="Example26" data-issues-path="/AndroidAppDevelopment/Example26/-/issues" data-mr-path="/AndroidAppDevelopment/Example26/-/merge_requests" data-issues-disabled="false" />
+<input type="hidden" name="scope" id="scope" />
+<input type="hidden" name="search_code" id="search_code" value="true" />
+<input type="hidden" name="snippets" id="snippets" value="false" />
+<input type="hidden" name="repository_ref" id="repository_ref" value="master" />
+<input type="hidden" name="nav_source" id="nav_source" value="navbar" />
+<div class="search-autocomplete-opts hide" data-autocomplete-path="/search/autocomplete" data-autocomplete-project-id="5581201" data-autocomplete-project-ref="master"></div>
+</form></div>
+
+</li>
+<li class="nav-item d-inline-block d-lg-none">
+<a title="Search" aria-label="Search" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/search?project_id=5581201"><svg class="s16" data-testid="search-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#search"></use></svg>
+</a></li>
+<li class="nav-item header-help dropdown d-none d-md-block" data-track-event="click_question_mark_link" data-track-label="main_navigation" data-track-property="navigation">
+<a class="header-help-dropdown-toggle" data-toggle="dropdown" href="/help"><span class="gl-sr-only">
+Help
+</span>
+<svg class="s16" data-testid="question-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#question"></use></svg>
+<svg class="s16 caret-down" data-testid="chevron-down-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#chevron-down"></use></svg>
+</a><div class="dropdown-menu dropdown-menu-right">
+<ul>
+<li>
+<a target="_blank" rel="noopener noreferrer" data-track-event="click_whats_new" data-track-property="question_menu" href="https://about.gitlab.com/releases/gitlab-com/">See what&#39;s new at GitLab</a>
+</li>
+
+<li>
+<a href="/help">Help</a>
+</li>
+<li>
+<a href="https://about.gitlab.com/getting-help/">Support</a>
+</li>
+<li>
+<a target="_blank" class="text-nowrap" rel="noopener noreferrer" data-track-event="click_forum" data-track-property="question_menu" href="https://forum.gitlab.com/">Community forum</a>
+
+</li>
+<li>
+<button class="js-shortcuts-modal-trigger" type="button">
+Keyboard shortcuts
+<span aria-hidden class="text-secondary float-right">?</span>
+</button>
+</li>
+<li class="divider"></li>
+<li>
+<a href="https://about.gitlab.com/submit-feedback">Submit feedback</a>
+</li>
+<li>
+<a target="_blank" class="text-nowrap" href="https://about.gitlab.com/contributing">Contribute to GitLab
+</a>
+
+</li>
+
+<li>
+<a href="https://next.gitlab.com/">Switch to GitLab Next</a>
+</li>
+</ul>
+
+</div>
+</li>
+<li class="nav-item">
+<div>
+<a class="btn btn-sign-in" href="/users/sign_in?redirect_to_referer=yes">Sign in / Register</a>
+</div>
+</li>
+</ul>
+</div>
+<button class="navbar-toggler d-block d-sm-none" type="button">
+<span class="sr-only">Toggle navigation</span>
+<svg class="s12 more-icon js-navbar-toggle-right" data-testid="ellipsis_h-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#ellipsis_h"></use></svg>
+<svg class="s12 close-icon js-navbar-toggle-left" data-testid="close-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg>
+</button>
+</div>
+</div>
+</header>
+
+<div class="layout-page page-with-contextual-sidebar">
+<div class="nav-sidebar" data-track-event="render" data-track-label="projects_side_navigation" data-track-property="projects_side_navigation">
+<div class="nav-sidebar-inner-scroll">
+<div class="context-header">
+<a title="Example26" href="/AndroidAppDevelopment/Example26"><div class="avatar-container rect-avatar s40 project-avatar">
+<div class="avatar s40 avatar-tile identicon bg4">E</div>
+</div>
+<div class="sidebar-context-title">
+Example26
+</div>
+</a></div>
+<ul class="sidebar-top-level-items qa-project-sidebar">
+<li class="home"><a class="shortcuts-project rspec-project-link" data-qa-selector="project_link" href="/AndroidAppDevelopment/Example26"><div class="nav-icon-container">
+<svg class="s16" data-testid="home-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#home"></use></svg>
+</div>
+<span class="nav-item-name">
+Project overview
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/AndroidAppDevelopment/Example26"><strong class="fly-out-top-item-name">
+Project overview
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Project details" class="shortcuts-project" href="/AndroidAppDevelopment/Example26"><span>Details</span>
+</a></li><li class=""><a title="Activity" class="shortcuts-project-activity" data-qa-selector="activity_link" href="/AndroidAppDevelopment/Example26/activity"><span>Activity</span>
+</a></li><li class=""><a title="Releases" class="shortcuts-project-releases" href="/AndroidAppDevelopment/Example26/-/releases"><span>Releases</span>
+</a></li></ul>
+</li><li class="active"><a class="shortcuts-tree" data-qa-selector="repository_link" href="/AndroidAppDevelopment/Example26/-/tree/master"><div class="nav-icon-container">
+<svg class="s16" data-testid="doc-text-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#doc-text"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-repo-link">
+Repository
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item active"><a href="/AndroidAppDevelopment/Example26/-/tree/master"><strong class="fly-out-top-item-name">
+Repository
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class="active"><a href="/AndroidAppDevelopment/Example26/-/tree/master">Files
+</a></li><li class=""><a id="js-onboarding-commits-link" href="/AndroidAppDevelopment/Example26/-/commits/master">Commits
+</a></li><li class=""><a data-qa-selector="branches_link" id="js-onboarding-branches-link" href="/AndroidAppDevelopment/Example26/-/branches">Branches
+</a></li><li class=""><a data-qa-selector="tags_link" href="/AndroidAppDevelopment/Example26/-/tags">Tags
+</a></li><li class=""><a href="/AndroidAppDevelopment/Example26/-/graphs/master">Contributors
+</a></li><li class=""><a href="/AndroidAppDevelopment/Example26/-/network/master">Graph
+</a></li><li class=""><a href="/AndroidAppDevelopment/Example26/-/compare?from=master&amp;to=master">Compare
+</a></li><li class=""><a data-qa-selector="path_locks_link" href="/AndroidAppDevelopment/Example26/path_locks">Locked Files
+</a></li>
+</ul>
+</li><li class=""><a class="shortcuts-issues qa-issues-item" href="/AndroidAppDevelopment/Example26/-/issues"><div class="nav-icon-container">
+<svg class="s16" data-testid="issues-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#issues"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-issues-link">
+Issues
+</span>
+<span class="badge badge-pill count issue_counter">
+0
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/AndroidAppDevelopment/Example26/-/issues"><strong class="fly-out-top-item-name">
+Issues
+</strong>
+<span class="badge badge-pill count issue_counter fly-out-badge">
+0
+</span>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Issues" href="/AndroidAppDevelopment/Example26/-/issues"><span>
+List
+</span>
+</a></li><li class=""><a title="Boards" data-qa-selector="issue_boards_link" href="/AndroidAppDevelopment/Example26/-/boards"><span>
+Boards
+</span>
+</a></li><li class=""><a title="Labels" class="qa-labels-link" href="/AndroidAppDevelopment/Example26/-/labels"><span>
+Labels
+</span>
+</a></li><li class=""><a title="Service Desk" href="/AndroidAppDevelopment/Example26/-/issues/service_desk">Service Desk
+</a></li>
+<li class=""><a title="Milestones" class="qa-milestones-link" href="/AndroidAppDevelopment/Example26/-/milestones"><span>
+Milestones
+</span>
+</a></li><li class=""><a title="Iterations" href="/AndroidAppDevelopment/Example26/-/iterations"><span>
+Iterations
+</span>
+</a></li>
+</ul>
+</li><li class=""><a class="shortcuts-merge_requests" data-qa-selector="merge_requests_link" href="/AndroidAppDevelopment/Example26/-/merge_requests"><div class="nav-icon-container">
+<svg class="s16" data-testid="git-merge-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#git-merge"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-mr-link">
+Merge Requests
+</span>
+<span class="badge badge-pill count merge_counter js-merge-counter">
+0
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/AndroidAppDevelopment/Example26/-/merge_requests"><strong class="fly-out-top-item-name">
+Merge Requests
+</strong>
+<span class="badge badge-pill count merge_counter js-merge-counter fly-out-badge">
+0
+</span>
+</a></li></ul>
+</li><li class=""><a class="qa-project-requirements-link" href="/AndroidAppDevelopment/Example26/-/requirements_management/requirements"><div class="nav-icon-container">
+<svg class="s16" data-testid="requirements-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#requirements"></use></svg>
+</div>
+<span class="nav-item-name">
+Requirements
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/AndroidAppDevelopment/Example26/-/requirements_management/requirements"><strong class="fly-out-top-item-name">Requirements</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class="home"><a title="List" href="/AndroidAppDevelopment/Example26/-/requirements_management/requirements"><span>List</span>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-pipelines qa-link-pipelines rspec-link-pipelines" data-qa-selector="ci_cd_link" href="/AndroidAppDevelopment/Example26/-/pipelines"><div class="nav-icon-container">
+<svg class="s16" data-testid="rocket-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#rocket"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-pipelines-link">
+CI / CD
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/AndroidAppDevelopment/Example26/-/pipelines"><strong class="fly-out-top-item-name">
+CI / CD
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Pipelines" class="shortcuts-pipelines" href="/AndroidAppDevelopment/Example26/-/pipelines"><span>
+Pipelines
+</span>
+</a></li><li class=""><a title="Jobs" class="shortcuts-builds" href="/AndroidAppDevelopment/Example26/-/jobs"><span>
+Jobs
+</span>
+</a></li><li class=""><a title="Schedules" class="shortcuts-builds" href="/AndroidAppDevelopment/Example26/-/pipeline_schedules"><span>
+Schedules
+</span>
+</a></li>
+</ul>
+</li><li class=""><a data-qa-selector="dependency_list_link" href="/AndroidAppDevelopment/Example26/-/dependencies"><div class="nav-icon-container">
+<svg class="s16" data-testid="shield-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#shield"></use></svg>
+</div>
+<span class="nav-item-name">
+Security &amp; Compliance
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/AndroidAppDevelopment/Example26/-/dependencies"><strong class="fly-out-top-item-name">
+Security &amp; Compliance
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Dependency List" data-qa-selector="dependency_list_link" href="/AndroidAppDevelopment/Example26/-/dependencies"><span>Dependency List</span>
+</a></li><li class=""><a title="License Compliance" data-qa-selector="licenses_list_link" href="/AndroidAppDevelopment/Example26/-/licenses"><span>License Compliance</span>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-operations" data-qa-selector="operations_link" href="/AndroidAppDevelopment/Example26/-/environments/metrics"><div class="nav-icon-container">
+<svg class="s16" data-testid="cloud-gear-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#cloud-gear"></use></svg>
+</div>
+<span class="nav-item-name">
+Operations
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/AndroidAppDevelopment/Example26/-/environments/metrics"><strong class="fly-out-top-item-name">
+Operations
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+
+<li class=""><a title="Incidents" data-qa-selector="operations_incidents_link" href="/AndroidAppDevelopment/Example26/-/incidents"><span>
+Incidents
+</span>
+</a></li><li class=""><a title="Environments" class="shortcuts-environments qa-operations-environments-link" href="/AndroidAppDevelopment/Example26/-/environments"><span>
+Environments
+</span>
+</a></li></ul>
+</li><li class=""><a data-qa-selector="packages_link" href="/AndroidAppDevelopment/Example26/container_registry"><div class="nav-icon-container">
+<svg class="s16" data-testid="package-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#package"></use></svg>
+</div>
+<span class="nav-item-name">
+Packages &amp; Registries
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/AndroidAppDevelopment/Example26/container_registry"><strong class="fly-out-top-item-name">
+Packages &amp; Registries
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a class="shortcuts-container-registry" title="Container Registry" href="/AndroidAppDevelopment/Example26/container_registry"><span>Container Registry</span>
+</a></li></ul>
+</li>
+<li class=""><a data-qa-selector="analytics_anchor" href="/AndroidAppDevelopment/Example26/-/value_stream_analytics"><div class="nav-icon-container">
+<svg class="s16" data-testid="chart-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#chart"></use></svg>
+</div>
+<span class="nav-item-name" data-qa-selector="analytics_link">
+Analytics
+</span>
+</a><ul class="sidebar-sub-level-items" data-qa-selector="analytics_sidebar_submenu">
+<li class="fly-out-top-item"><a href="/AndroidAppDevelopment/Example26/-/value_stream_analytics"><strong class="fly-out-top-item-name">
+Analytics
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="CI / CD" href="/AndroidAppDevelopment/Example26/-/pipelines/charts"><span>CI / CD</span>
+</a></li><li class=""><a title="Code Review" href="/AndroidAppDevelopment/Example26/-/analytics/code_reviews"><span>Code Review</span>
+</a></li><li class=""><a class="shortcuts-project-insights" data-qa-selector="project_insights_link" title="Insights" href="/AndroidAppDevelopment/Example26/insights/"><span>Insights</span>
+</a></li><li class=""><a title="Issue" href="/AndroidAppDevelopment/Example26/-/analytics/issues_analytics"><span>Issue</span>
+</a></li><li class=""><a class="shortcuts-repository-charts" title="Repository" href="/AndroidAppDevelopment/Example26/-/graphs/master/charts"><span>Repository</span>
+</a></li><li class=""><a class="shortcuts-project-cycle-analytics" title="Value Stream" href="/AndroidAppDevelopment/Example26/-/value_stream_analytics"><span>Value Stream</span>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-wiki" data-qa-selector="wiki_link" href="/AndroidAppDevelopment/Example26/-/wikis/home"><div class="nav-icon-container">
+<svg class="s16" data-testid="book-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#book"></use></svg>
+</div>
+<span class="nav-item-name">
+Wiki
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/AndroidAppDevelopment/Example26/-/wikis/home"><strong class="fly-out-top-item-name">
+Wiki
+</strong>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-snippets" data-qa-selector="snippets_link" href="/AndroidAppDevelopment/Example26/-/snippets"><div class="nav-icon-container">
+<svg class="s16" data-testid="snippet-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#snippet"></use></svg>
+</div>
+<span class="nav-item-name">
+Snippets
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/AndroidAppDevelopment/Example26/-/snippets"><strong class="fly-out-top-item-name">
+Snippets
+</strong>
+</a></li></ul>
+</li><li class=""><a title="Members" class="qa-members-link" id="js-onboarding-members-link" href="/AndroidAppDevelopment/Example26/-/project_members"><div class="nav-icon-container">
+<svg class="s16" data-testid="users-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#users"></use></svg>
+</div>
+<span class="nav-item-name">
+Members
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/AndroidAppDevelopment/Example26/-/project_members"><strong class="fly-out-top-item-name">
+Members
+</strong>
+</a></li></ul>
+</li><a class="toggle-sidebar-button js-toggle-sidebar qa-toggle-sidebar rspec-toggle-sidebar" role="button" title="Toggle sidebar" type="button">
+<svg class="s16 icon-chevron-double-lg-left" data-testid="chevron-double-lg-left-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#chevron-double-lg-left"></use></svg>
+<svg class="s16 icon-chevron-double-lg-right" data-testid="chevron-double-lg-right-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#chevron-double-lg-right"></use></svg>
+<span class="collapse-text">Collapse sidebar</span>
+</a>
+<button name="button" type="button" class="close-nav-button"><svg class="s16" data-testid="close-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg>
+<span class="collapse-text">Close sidebar</span>
+</button>
+<li class="hidden">
+<a title="Activity" class="shortcuts-project-activity" href="/AndroidAppDevelopment/Example26/activity"><span>
+Activity
+</span>
+</a></li>
+<li class="hidden">
+<a title="Network" class="shortcuts-network" href="/AndroidAppDevelopment/Example26/-/network/master">Graph
+</a></li>
+<li class="hidden">
+<a class="shortcuts-new-issue" href="/AndroidAppDevelopment/Example26/-/issues/new">Create a new issue
+</a></li>
+<li class="hidden">
+<a title="Jobs" class="shortcuts-builds" href="/AndroidAppDevelopment/Example26/-/jobs">Jobs
+</a></li>
+<li class="hidden">
+<a title="Commits" class="shortcuts-commits" href="/AndroidAppDevelopment/Example26/-/commits/master">Commits
+</a></li>
+<li class="hidden">
+<a title="Issue Boards" class="shortcuts-issue-boards" href="/AndroidAppDevelopment/Example26/-/boards">Issue Boards</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="content-wrapper">
+<div class="mobile-overlay"></div>
+
+<div class="alert-wrapper">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="breadcrumbs container-fluid container-limited" role="navigation">
+<div class="breadcrumbs-container">
+<button name="button" type="button" class="toggle-mobile-nav"><span class="sr-only">Open sidebar</span>
+<svg class="s16" data-testid="hamburger-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#hamburger"></use></svg>
+</button><div class="breadcrumbs-links js-title-container" data-qa-selector="breadcrumb_links_content">
+<ul class="list-unstyled breadcrumbs-list js-breadcrumbs-list">
+<li><a class="group-path breadcrumb-item-text js-breadcrumb-item-text " href="/AndroidAppDevelopment">AndroidAppDevelopment</a><svg class="s8 breadcrumbs-list-angle" data-testid="angle-right-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#angle-right"></use></svg></li> <li><a href="/AndroidAppDevelopment/Example26"><span class="breadcrumb-item-text js-breadcrumb-item-text">Example26</span></a><svg class="s8 breadcrumbs-list-angle" data-testid="angle-right-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#angle-right"></use></svg></li>
+
+<li>
+<h2 class="breadcrumbs-sub-title"><a href="/AndroidAppDevelopment/Example26/-/blob/master/files/Android-OrmLiteContentProvider%20potsetnik.pdf">Repository</a></h2>
+</li>
+</ul>
+</div>
+
+</div>
+</nav>
+
+</div>
+<div class="container-fluid container-limited ">
+<div class="content" id="content-body">
+<div class="flash-container flash-container-page sticky" data-qa-selector="flash_container">
+</div>
+
+<div class="js-signature-container" data-signatures-path="/AndroidAppDevelopment/Example26/-/commits/fb061f30cbd4fa5f76cafef345dc212cca4200a1/signatures?limit=1"></div>
+
+<div class="tree-holder" id="tree-holder">
+<div class="nav-block">
+<div class="tree-ref-container">
+<div class="tree-ref-holder">
+<form class="project-refs-form" action="/AndroidAppDevelopment/Example26/-/refs/switch" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="destination" id="destination" value="blob" />
+<input type="hidden" name="path" id="path" value="files/Android-OrmLiteContentProvider potsetnik.pdf" />
+<div class="dropdown">
+<button class="dropdown-menu-toggle js-project-refs-dropdown qa-branches-select" type="button" data-toggle="dropdown" data-selected="master" data-ref="master" data-refs-url="/AndroidAppDevelopment/Example26/refs?sort=updated_desc" data-field-name="ref" data-submit-form-on-click="true" data-visit="true"><span class="dropdown-toggle-text ">master</span><i aria-hidden="true" data-hidden="true" class="fa fa-chevron-down"></i></button>
+<div class="dropdown-menu dropdown-menu-paging dropdown-menu-selectable git-revision-dropdown qa-branches-dropdown">
+<div class="dropdown-page-one">
+<div class="dropdown-title gl-display-flex"><span class="gl-ml-auto">Switch branch/tag</span><button class="dropdown-title-button dropdown-menu-close gl-ml-auto" aria-label="Close" type="button"><svg class="s16 dropdown-menu-close-icon" data-testid="close-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg></button></div>
+<div class="dropdown-input"><input type="search" id="" class="dropdown-input-field qa-dropdown-input-field" placeholder="Search branches and tags" autocomplete="off" /><svg class="s16 dropdown-input-search" data-testid="search-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#search"></use></svg><svg class="s16 dropdown-input-clear js-dropdown-input-clear" data-testid="close-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg></div>
+<div class="dropdown-content"></div>
+<div class="dropdown-loading"><div class="gl-spinner-container"><span class="gl-spinner gl-spinner-orange gl-spinner-md gl-mt-7" aria-label="Loading"></span></div></div>
+</div>
+</div>
+</div>
+</form>
+</div>
+<ul class="breadcrumb repo-breadcrumb">
+<li class="breadcrumb-item">
+<a href="/AndroidAppDevelopment/Example26/-/tree/master">Example26
+</a></li>
+<li class="breadcrumb-item">
+<a href="/AndroidAppDevelopment/Example26/-/tree/master/files">files</a>
+</li>
+<li class="breadcrumb-item">
+<a href="/AndroidAppDevelopment/Example26/-/blob/master/files/Android-OrmLiteContentProvider%20potsetnik.pdf"><strong>Android-OrmLiteContentProvider potset...</strong>
+</a></li>
+</ul>
+</div>
+<div class="tree-controls gl-children-ml-sm-3"><a class="btn shortcuts-find-file" rel="nofollow" href="/AndroidAppDevelopment/Example26/-/find_file/master">Find file
+</a><a class="btn" href="/AndroidAppDevelopment/Example26/-/commits/master/files/Android-OrmLiteContentProvider%20potsetnik.pdf">History</a><a class="gl-button btn js-data-file-blob-permalink-url" href="/AndroidAppDevelopment/Example26/-/blob/129907682cc3d3435e2c199823a2f456facb1049/files/Android-OrmLiteContentProvider%20potsetnik.pdf">Permalink</a></div>
+</div>
+
+<div class="info-well d-none d-sm-block">
+<div class="well-segment">
+<ul class="blob-commit-info">
+<li class="commit flex-row js-toggle-container" id="commit-fb061f30">
+<div class="avatar-cell d-none d-sm-block">
+<a href="/MilosSimic"><img alt="Milos&#39;s avatar" src="https://secure.gravatar.com/avatar/60407fee1898fffef4871dfc5bf59112?s=80&amp;d=identicon" class="avatar s40 d-none d-sm-inline-block" title="Milos" /></a>
+</div>
+<div class="commit-detail flex-list">
+<div class="commit-content" data-qa-selector="commit_content">
+<a class="commit-row-message item-title js-onboarding-commit-item " href="/AndroidAppDevelopment/Example26/-/commit/fb061f30cbd4fa5f76cafef345dc212cca4200a1">added potsetnik</a>
+<span class="commit-row-message d-inline d-sm-none">
+&middot;
+fb061f30
+</span>
+<div class="committer">
+<a class="commit-author-link js-user-link" data-user-id="186097" href="/MilosSimic">Milos</a> authored <time class="js-timeago" title="Jun 14, 2019 5:32pm" datetime="2019-06-14T17:32:27Z" data-toggle="tooltip" data-placement="bottom" data-container="body">Jun 14, 2019</time>
+</div>
+
+</div>
+<div class="commit-actions flex-row">
+
+<div class="js-commit-pipeline-status" data-endpoint="/AndroidAppDevelopment/Example26/-/commit/fb061f30cbd4fa5f76cafef345dc212cca4200a1/pipelines?ref=master"></div>
+<div class="commit-sha-group d-none d-sm-flex">
+<div class="label label-monospace monospace">
+fb061f30
+</div>
+<button class="btn gl-button btn btn-default" data-toggle="tooltip" data-placement="bottom" data-container="body" data-title="Copy commit SHA" data-class="gl-button btn btn-default" data-clipboard-text="fb061f30cbd4fa5f76cafef345dc212cca4200a1" type="button" title="Copy commit SHA" aria-label="Copy commit SHA"><svg class="s16" data-testid="copy-to-clipboard-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#copy-to-clipboard"></use></svg></button>
+
+</div>
+</div>
+</div>
+</li>
+
+</ul>
+</div>
+
+
+</div>
+<div class="blob-content-holder" id="blob-content-holder">
+<article class="file-holder">
+<div class="js-file-title file-title-flex-parent">
+<div class="file-header-content">
+<svg class="s16" data-testid="document-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#document"></use></svg>
+<strong class="file-title-name" data-qa-selector="file_name_content">
+Android-OrmLiteContentProvider potsetnik.pdf
+</strong>
+<button class="btn btn-clipboard btn-transparent" data-toggle="tooltip" data-placement="bottom" data-container="body" data-class="btn-clipboard btn-transparent" data-title="Copy file path" data-clipboard-text="{&quot;text&quot;:&quot;files/Android-OrmLiteContentProvider potsetnik.pdf&quot;,&quot;gfm&quot;:&quot;`files/Android-OrmLiteContentProvider potsetnik.pdf`&quot;}" type="button" title="Copy file path" aria-label="Copy file path"><svg class="s16" data-testid="copy-to-clipboard-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#copy-to-clipboard"></use></svg></button>
+<small class="mr-1">
+75.8 KB
+</small>
+</div>
+
+<div class="file-actions"><a class="btn btn-primary ide-edit-button ml-2 btn-inverted btn-sm" data-track-event="click_edit_ide" data-track-label="Web IDE" data-track-property="secondary" href="/-/ide/project/AndroidAppDevelopment/Example26/edit/master/-/files/Android-OrmLiteContentProvider%20potsetnik.pdf">Web IDE</a><div class="btn-group ml-2" role="group">
+
+
+</div><div class="btn-group ml-2" role="group">
+
+
+<a download="files/Android-OrmLiteContentProvider potsetnik.pdf" class="btn btn-sm has-tooltip" target="_blank" rel="noopener noreferrer" aria-label="Download" title="Download" data-container="body" href="/AndroidAppDevelopment/Example26/-/raw/master/files/Android-OrmLiteContentProvider%20potsetnik.pdf?inline=false"><svg class="s16" data-testid="download-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#download"></use></svg></a>
+
+</div></div>
+</div>
+
+<script id="js-file-lock" type="application/json">
+{"path":"files/Android-OrmLiteContentProvider potsetnik.pdf","toggle_path":"/AndroidAppDevelopment/Example26/path_locks/toggle"}
+</script>
+
+
+<div data-blob-data="%PDF-1.3
+%Äåòåë§ó ÐÄÆ
+4 0 obj
+&lt;&lt; /Length 5 0 R /Filter /FlateDecode &gt;&gt;
+stream
+xÝ[ën·þÏ§`õkTëËÞZð¥ê4ò%Ù´0ª W²+Ë’âÝ•
+;Èö%ò,=Cžï#g8³É‚4þ±#yx.ß¹ðpòÁ¾´ìXþMóÂÎ…]ŸÙÚ+ûàÉ&amp;·«ÍÝ¿Íª=ç[8Œæ“rœÛYa«ùxT,*;T£¼š™¡z±B„bý(”Ùr\ØÕ¥}¼´ùÜûŸå¥}°\Ö»/ß˜ÙìÑÕéz¿ž“]ŸŸ&lt;—çƒúË¯Ï·gO®¯¶gWÛ˜p{~z&amp;ÏßÛåWöpémmiÚ[ór4Î+á ÞØföÇëíæl{u~a÷íò&#39;&#39;º¦72y³2AÑÁt&gt;QiÜ¾Pb‡ìõä™hØ‹®ì¹ã9(œèVDºoE³6»ÒßÈî¶&#39;xz¯¯8°òoLv®oÞµgˆ&lt;ŽÈkýÅDü’¿Þ7~Ó3lzŽ€&amp;9LÞxj&amp;ût‹Å×ºÿi‹ÐÂx{žŠj2R¢ðPd&amp;—ØÄ1“Ä&gt;AÜ”*ÖÜ(£òwÂ¼a0¶˜•£ùt:k#LìûúæüýéèíúDD=Èmö^ø(`·2e9Õ,PÈË¿(ËïÕ†T&amp;gK4k[ã-uš«©V¬¨½Ó…&amp;ÁT jÞ2!’™!¢–y2ëruÔ ,(Á¦a­é”ÏhÄx@.%–jhoóVÕþo5ÃÚ Ml°“l}*)Phë·Y -M±¯’‰ãý?ÅFˆ£\´k‹TU;Ê“_O.;£œš¯d”«Áï0sÆ~#úJÔäçD“Û¯V¢*r&amp;Û@[?Åò5·$“ŽXÜâ2@Û¿+Q´ßý’ì“!1
+8SÝcù^´n”è/)Šÿùå+LÑW&amp;[_’6wÛêzZ«hðTk‰ò~’¡ªÎ&gt;ägÀ¦&amp;;’q»„³äÍ•&#39;©oS–(Úú •_\Á‹²¦Àë^“åx	¥ŒÛº‰Ë$Ã‡õÞ¾é‹ZcT9s@í&gt;¹+ì³ŸCQñ¡ç¹uŽ¦+N¤bó¸ÅÄºj3ÝÇd¶ r›ý¢Ÿ À)uJ[à6ÁtÔÓ­ØdÖ]pdH  ©Q±ì58ã&quot;²–.â KÜ\H2¯Aû’“lÂ¶§SÒ/‘m(?öå+Ð¡®8uWWDâ¡Éš„ÂîVsF²;ÝŽR\ð	”É¡²!ÑÒ1&amp;YÝã]Ð+ùhQWýZñV&gt;dpN!ÕHýl!&gt;øeQ%~´|c³½”
+ Yø
+ñ@äÿÞ¤çIh“étý=²‰ÕÂMÎLü©DZs¨gµ…+ê½ýA.OTEÇ áO¾¨o[ÙfD8WAU¸à“çÔÔ&#39;ÏWÂDp¡]nu©ë&quot;J”‹›.“¹uÄÝ¥Zòü
+%O¨\BÝ]¾D¾8‰F!iîŠ9œBí’e±[/gX)8Éa&amp;ãˆ,îóÀI9 ¶&amp;f)Š”úŸz±¤F9/7¼˜âïð?H‡¯ºî0·¤B+)&gt;]Ž#€”;&gt;{00«%çÚë¯&#39;Õ˜I×¼d«¤&#39;é»Ž/!Ä=tˆ2#Ê¾êM	ŸDU±¡ÀKé’ä¹	Õ
+&#39;§Ê‘cŸÆ!êš­P}ïæä \˜í/ò ýŸ…4lV¡ò£×1©aß&#39; IgaÁ”0V;9H,÷­«ëÍB‡?à‰ü&gt;::&lt;ÞMÛ(ý&#39;y•œÖ“JMŽéÝØ@ÔùjQUE©s°&gt;@`%A,þ¢:†æ¦˜Î2U}X‡9[Ž`ô)c€ ½–ƒ©(&amp;[ªîþÙžëÀ7xª˜ùJ^Ìk³ÿQßxºBÄ¤*bqƒ¯71Î¢áÔ“?.=A¤¿ÂmF-{­˜Œ †6“: á’¨ò0õÂyÐL‚Ð¥=v¸N5¯OÍ¦nÞör†ºŽÓ›Éˆâ/p:Ø«&#39; GL&gt;!h‰¨«¤‹ü‘¹….ý+ÀEÄq¨oî;|š¾#&gt;¼Á9Ža¸W/ºC`ÓY,C¿¯º¢ðœ¤šužoµ”im¨“¨×DJhpG0ùŒ–zþÅìÂò&#39;é]XŽbš¦LbmM®ˆfBg#m)³3W¶&quot;	hõw±ªi¡‘«uí!Ç–ªJÿå4éHü—‰æÍF%s?Û kô3â®¬Žë/­ªUjÜÏ.ëË£Z¤ñbG aqew0Hð-hs/Ä‚®ž mØýç’O ‚5°×ˆ…11¾#†	lëJ—u¤.ž´»aîªk]ßÄQ9ž¹¿Áþ&amp;7ÚXNš&gt;ž™|r*å‚hlÒ“Eã	
+òÅb4ŸUžãs¬¾–[ŸÔE.Îi6Ð’²|&lt;–{Àå*Ê#EUªÙ&quot;UõdöâúÝ‰½:Ù¼¿=ù3t¹‡L¾yw&amp;*ãþq-ì¾,ËQžÏÃ]
+dy|²q×Œµ&lt;Ž éð0*§S j&lt;¹œÐç^¢	d4vžR”Ðïz5´£ÂÇd×–—€@gŠŸ~lú®Šärï€+ PR¨ÞsdÓ[äL•â¸s¿ Ò[^‡Ð1 ™äùÆ®mR\ Ôs€nÉÐ¢RÂÅdHÜ/ÀDBÏ-ÎîŽQ„‘pãî­ýÉ3üxr¦îÆ¸Õä• ÷X–&lt;q“â“P$.çÈ‡=‘8ö¥ršÆ…®3ë¬vòtaÉ+AøõLžè­F-x¦SÈ&#39;X­ê»û0ÚJ°±±&lt;IÙQ…€òn~È¥ÚMº+´  Áï
+•·TiÂpªo³é‹ª¼$I’j”
+;l=i§g÷íGwÖ-+¤è7¶6Ò~•@½ôýáPzKÉ½Rš­»ÔJ©¾¨è»Ã”ÇÙñ&gt;Øm¨®‘¸Êr¼£ì¥/(íþWíyÔéñ‹÷ßµ‘£È‹0A,BXóCS†
+aCM(IÒöqU‚†G©Ä—žš ÌÑà’™ih4™•ÿ¢‹¯°ßáž¹X»g†¡Ãß&gt;Ä–T†Äv¯º3Õ«!*ºi!ØåK¿z`8ózÿ†ÎA{½?Âz&gt;Éá}ÙÝÓ8øó¥ië&gt;Ë({Ãh{Žo:ûMVÌpÞ“5âÂ¦˜N~GR“E½ƒÏ›Ì†{¬“©æšÌk²ßd&amp;‹M¦aŒ^,Æs–`Ãå¹|»=ÕdÝ§!ÄÖÖìñÎb‚4ÞŽÖ¦Ñ›ÿ=|0R=„ ôùÏLÖñà\ýÉ˜Q€÷™\¿*,¤²ò.ÍõÅ¬â‰`1\_ìªÄ«&quot;»íðªåUWÅµXQ8©÷æçŽ¨‚;Â†W©¶ ìvÐ´ÙºN½J&gt;qáúÎ@è\ˆY.ÄÐ&#39;“n©²…‘AÝRµ÷4Iù‡Žî5âj°/Ý&quot;J	w39Ê°¦Ý))Æ¸±jGæ¸¿&gt;áï/ÂDt&#39;õÅ˜ðlÁÄðæ „¼»é| ¯M×÷9PÝSè?ÃwÕŒMÅƒ·ûà·«NœSö@ý.ÚªNzòY&gt;CMØ@r³Ä”èvï|¦lø¸-D{º8C“¦	[LVŒ_L£»å3åì×ÉgòÝtÊÐ½òYtHƒ@Di~çnˆy¾©ÖŸó)jü4æ%Ýá¼šÿU—4!æchÈ×ƒ’Ÿf›¾äg²¤èd~l&#39;?wìpj‡\Ì,ËÕGž¡jªïog£Vùêñ«Ì¸.jÞCäå®fhW õÁÙÐ -Bô7­nÔª×‚øw·ªÉ¨tž1h˜§r8e—U}
+Š­ªðáê¤ÎJ˜…7»Éb›ÖßÌÈ¹Äÿ/4Í/Zëÿ)(ý¢5ºŠkÝœ-÷F6h~eû»©uÕ\q­{XfŒ~€&lt;KF¦‚ÿÀ~2·&#39;&#39;/†8:ÄCÂx|ƒàÀ8ÇfÓ%YZ×}:¿Tj›•ôü[Ç±Ðe=_P0SFT¡J¸Ãé7Ü{C2dð–/×áè}ç[º/O÷‡Gázžo?bHe$Å$šáT¢FÈ,*e®ýùNˆääQ`ãUÍ‡’Õc*¨êœÖ|!Ë&quot;&lt;Å^=ÇÉf·S&#39;ÒÒØ&amp;ÿÏ€ð}ÇÏe¼„ŒwýÑ’šöaJí}·KìP5¤òåÿ ¼&#39;c
+endstream
+endobj
+5 0 obj
+3167
+endobj
+2 0 obj
+&lt;&lt; /Type /Page /Parent 3 0 R /Resources 6 0 R /Contents 4 0 R /MediaBox [0 0 612 792]
+/Thumb 14 0 R &gt;&gt;
+endobj
+6 0 obj
+&lt;&lt; /ProcSet [ /PDF /Text ] /ColorSpace &lt;&lt; /Cs1 7 0 R /Cs2 9 0 R &gt;&gt; /Font &lt;&lt;
+/TT1 8 0 R /TT3 11 0 R /TT4 12 0 R /TT2 10 0 R /TT5 13 0 R &gt;&gt; &gt;&gt;
+endobj
+14 0 obj
+&lt;&lt; /Length 15 0 R /Type /XObject /Subtype /Image /Width 198 /Height 256 /ColorSpace
+7 0 R /BitsPerComponent 8 /Filter /DCTDecode &gt;&gt;
+stream
+ÿØÿà JFIF   H H  ÿá LExif  MM *    ‡i                            Æ            ÿí 8Photoshop 3.0 8BIM      8BIM%     ÔŒÙ ²é€	˜ìøB~ÿÀ   Æ&quot; ÿÄ           	
+ÿÄ µ   } !1AQa&quot;q2‘¡#B±ÁRÑð$3br‚	
+%&amp;&#39;()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùúÿÄ        	
+ÿÄ µ  w !1AQaq&quot;2B‘¡±Á	#3RðbrÑ
+$4á%ñ&amp;&#39;()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùúÿÛ C 
+
+
+
+
+
+
+
+
+ÿÛ C	ÿÝ  ÿÚ   ? ýü¢Š( ¢Š( ¢Š( ¢Š( ¯,¸ðwÄ=â=7ÇRZÚÆG–¯aòl…y$$¹Û€ÍÁ&#39;œŒ×©Ñ@_…þ$Ç¬=Ïü&amp;(ö×.°µ„yA)ÌqçvJÇÔ198¡5BûÀÿ /-£‰&gt;!Ë€ìºu¸œ¨R¬0X©ÇÝæ½~Š ò‰&lt;)ñQÖÝG#ÊŽA!]&amp;ÒÈÒ3#È@TB©µ@&#39;nârMEeà¯‰–ÆÈ]xù®ãµx@ÚlJfHÜ3£2Hó 
+O$òI9õÊ(ÇçðGÄû…uˆr(uÆÔÓ-Ð)ã
+ýGMØ&lt;ŠšÛÁÿ £DKŸˆfæ+¥[«Üx³s´’#8ê+Ö¨ ŸÁ|„[oˆ¿½ŽH¶–ÒíÂùavI»–,Ç;Ç gŽù[×¾øsnðCãó:°ßý™å%B‚6ºÿ ´yÏ%q¼úÝä²øKâ¹Óµ¿£[ÒÎMÃé²ím›BÆ$P6ílNwœçˆÁš÷7?i,ÑãÂÿ gÀ²¼\yªÌ›³…`§oŽ}†Š «e¶öËÒ™™ ÍËÉÛ“Ü…À&#39;¹æ­QE QE QE ÿÐýü¢Š( ¢Š( ¢Š( ¢Š( ¢Šã&lt;S¯ø£G»²·ðï†ä×’â9žWK˜­Ä&amp;6‰QO›€ÅÃ±ûÃ4ÙÑ^M£ø¯âœöwSë^ÓÅrEz…»%&quot;?2 r@ ™còß5âï‹WWï€–Ê5…ñ#jVîuBÃ	;ð£&lt;ãæ8é@ÁEy=§Š&gt;)Ï$v·^[cäNïqöø$‹ÍŽ,Å@ÁÁ–N;…QËs‘”þ7ø»§éBöÿ Àæh¢s&quot;[êngP
+ì@$8rqŒ’¸$œc ÛEyfµ­üS‚âxôÁtN&quot;3J‘ÆB°Xw8˜¸¤»+ ›yó+Ÿ»ñ&#39;ÇX¢76~³¸ÌL iãŽ@ío$þÐÈ]È¸F ªÔîtWšjzÏÄ[M*EÓ4ˆ5-YZäÿ QÕ›ìYä ‡„`®X1PTsŠZïÅ¤ ±ÐlßXŠvY£yX@ð,\I™//
+¬rï y Z¢¼¯N×&gt;+afÔü5lQÐÉåÇr‰,l|ÜDNùˆÛdŸ„à‘wVñÄ;Qšw„†¯lñ‰EÂ^Ãn±±Ýû–Y	fq´e€Û†ä@Ey4¾.ø¤WþùÃ.Lš¥¸R…ÕNÝ ÛK1  à±8®ÿ BºÕï,RmnÐY]8bVå‡É–‚È0¬T•,	^1@TQE QE ÿÑýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÒýü¢Š( ¢Š( ¢Š( ¢Š( ®CÅ=ð‚æ´·ñ&gt;¢¶|’¼;ÑØ2ÂÑ«œª0eAÎ3ž3Î:úŒÅJ³²)‘ª¶à¬A ¸%F~ƒÒ€&lt;«FøÝðÛ\³º¿³Õ
+ÛÙÁÌ¯$2¨XeáÏËÀU=9=5ŸñßáŽ«pöºvªÓÌ¼Ì«¹\fGC•ûê£$v&lt;uâ½ƒ`P”Z|løw}$v¶zƒIw$ÜýŸÉ‘eÛEæÊH`Ê02	¸à‘F¿ÞÆ;ûNKXÞ9$&gt;e´Ç`ˆpÅ—*	#æ½–«ÜÚZÞÛ½¥ä)&lt;4r(daèTä ñ]kö†øs jz–“¨It&#39;Ò|Å¸Ùp¯H¢0AùÌcjŒ“½3Üh/ÆÏ6•&amp;¶–:ƒÙEJdHQÉY¡~U°Ï’ç ã&#39;‘^ÅE yÆ›ñ3HÕ´»íNÒÂø&gt;xm¥‚HÒ)Ä³º ]&quot;à«6q3Y±|cðÜºž–,u{ÛõÓG¶ÙÝå£ff)±²:žªWª5¼*Nñ«KB¹ ²ç®Qžõ- yÞ§ñWÀú&lt;6zž míuC&quot;ÚÌb¬¯íè )}Ë°žT˜9 V|¿&gt;BÛ$ÖÔ9À
+ œ±ÈÏ G“Ç&lt;tô¯TÆzÑ@„¼sáï[ßJóÛüÀHÑ´`²@`P@êÈæ»
+nÕÈlŒ€~½iÔ QE QEÿÓýü¢Š( ¢Š( ¢Š( ¢Š( ®3Å2ü@K»$ðTtæ7-~Ò¦4B † Ç•2ÊžBò+³¨ ž¨c¹¶‘eŠUŽ„2²‘AGC@W£Çñ¾;£­É Ü]y˜fåcû@‡v±! •ã ŠƒN‹ã»\8Õ¥ðúAäº)„Ü³™B’È Ì˜%r@^O5ë‹,LB«‚NîþéÃ~GƒéMžæÞÕ&lt;Û™VÈ‚Œžƒ&#39;Ö€&lt;¶ÒfHíïçÑû¦‡Ï4þVØ&gt;FB›|ÏšB1Æ ^¹ÊqûAXiAãmR¼Š&#39;ZWÀòÎïÝ äÜ€1ÉãÛjµ[lŽO96ÊC¸aƒ¾I }G­ x¦µ¦~ÐRêz“è¾‰‹y‹d³¤¦EÒl’\E‚Q]0ŠpLc-ó¶4CøÌt©3â+4ÔÌh÷JöâLÊ\ãÉG ¹&#39;£drzìÓÁmšâEŠ5ÆYÈP2p9&gt;õ&quot;²²†Syt&quot;€&lt;´ÿ ‹öÚ¥g©e{¬¼‘©&quot;Û,q²—YÑWz™P0ùD›IÈà
+À¿Òÿ h‰îlµ}ÞÝš6	ª¾s³®ZSû§XÁÀ9Œ7ØtÄÁ8&quot;O¸r&gt;n3Ç¯Ñ,ÐÀždî±¨ÉË “Éô Ÿ¥ RÓÿ µ³uý«äcÏ³ù¿Ôq³ÌÝü}sŽ:b´h¦#VXÙ€gÎÐO&#39;p(ôSY•»ª£$ž ¹¨ZîÕB™ ‘Ìk–3‚AQêÙŽ¼ ±EPEPÿÔýü¢Š( ¢Š( ¢Š( ¢Š( ¯1¿ø7ð×T¹{»íe‘ßÌÿ ]0PÅ‹eT8UÁ&lt;`téÔP™/Áÿ  ¦®úÒXH·2´ò&gt;.gÃIsþ±þÿ Þ##‚&#39;Š§?Àß…wÇÚ
+€|éÃ‘’v³	72äŸ”’=¸ë4P”IðGáœ«n²éR:ÚG$p«^]E–F•ð¸Ü]ØîëÎ3Ž)Ö_¾i²ZËc£˜ÊH¥‡mÍÈØð6øÛýg$7&lt;õ=kÕh $?¾i‚¦GRŒþ|ûÊžÅ¼Ì‘øÓ­þü.¶UXô\ª¾ü=ÍÃ‚wä4„’x&lt;`ã¥zÍãW³ÿ Â{ˆ|“¢•ýäRn7‡”»‚Ò)O”Œp¿qðGá…Ì-o6û·YVæáC ÁÛ Ï
+1žœã9õj(ÉeøðÆm0hí¥H¶Š¥åÒ12lß¹ÖPÇw–™É9Ú)¶ÿ &gt;Zßh[é)H¥Œ%Äè‘¼$2mTp Ü2GLýk×( &amp;‹à‡ÃHì–Åô¦‘AÜÎngìvî,Ë&quot;ýí£rŒ)Œaˆ::Â?‡¾º¹¾Ðô¡oqv’£ÈÓK1fÞû|×p¤·9 W¤Q@Q@Q@ÿÕýü¢Š( ¢Š( ¢Š( ¢Š( ¢Šã&lt;S¤xÏS»²kñèEÂu{Dº2ÈÍŒ€ÅJ…UpÜ–ÙÑ^M£ø3âN›guçýÄ°F‘K&amp;Ì‚0d+æÁ‚6Tûäç ƒNðGÄø.õˆw	…áT]6(ˆÊG-æ¸oœœž8ìW”Øø;â-¼ð­ßŽÕ¤0ÎžY°$id‹Ë‰ÚU“$DrûH%Và`oxæX-ÒïÆr\M²3¹µò|ÈÝbP›mæˆyo“Éýá+µ•X zµâ-ð¿ÆÒÛÉþ?½yv…ŠAÇ³ý%&#39;bDs(|¢¼C&lt;ª¿å·4¯ø·KƒQ)ŸT¹½·°Ë.øÅ¨Ù´Ê±‡d’@Ø`HV=ç$€z•ä¶^ñ¥ˆ¾2øÂâùµ9mŽõòÅ´òž.`œƒà,dòrwŒÓ øoâ4¸w¹ñ•ýÌJÉåiQÕà!\Ç*«æ8YX”´®ç²€]¢¼CNøeãÍ.[¤ñýíä–’ÛÉ4SÆL7) @ñœÈÌ‚Qæ`N”à„*òÍðïâ%Î­-ññýÅµœ·*ÚÇl­åDÒ&lt;žRÊ\nÛæ²+”ÆÕ(vríTW xgÄÚDVÑßx–]D£ïœÉ0U
+®YŠ/šQË!$(&#39;¥Ñlï´ý.ÚÇR¼:…Ä¢5Ã(V”ª€]€èXŒž½hVŠ( Š( ÿÖýü¢Š( ¢Š( ¢Š( ¢Š( ¬­G]Ñ4‰aƒVÔ-ì¤¸Ñ¬ò¤lëPåCHRËœtÈÏQZµƒ¬x[Ã^!šK¶ÔžÙ$H¾ÓÌedg 8#“ã&lt;
+ ÏÓ¼}àZ)&#39;ÓµÛ)ã‰Fa:`$
+¶Iè|Äé–¯?&lt;pÅ-üAc+~Ñ…¸F&gt;VÝû°÷AluÇ8ÅO€üko5­¯‡´èa¸ŒC*%¤*¯Æ€\FãéL´øà;	Z{é¶ò¾ýÏœ(ÇÌ_$.~aÁõ [x.ñbkMnÒc2»ª¤ÊÏ¶$ód%AÜ6&#39;-1‘žH¦ÂàÖH¤¶Õa»I˜¢5®nU˜ÎÐa2|ØÂâgUf§‹ÀÞ
+‚è^Ááý&gt;;Â$[HƒˆåtÜ;XpÃ¡iíà¯´ih68™ì±a]Â«0x,A=À‚€9Öø»ðébó—YIcÆâÑG,Š£ÎãqD;I••@8&#39; Œ‚kiß|«­Üšn¤·ØÛýªy$òã‹Ë&gt;Ý¡€ê¹Ü0r85sþ¯ˆäˆh6% :ý–,0WYFÞpè¬3üJP*hü)á¨&quot;šm.ÞÞ;œ	–Ö%™Uv” ×o[+Ž1Š Ç´ø“à{æÔÓWŠS¥A%ÍÈ¿w?}Ï…öÏ&lt;u«CñSÀw;~Ë©€Ûè žEO&#39;h,‘úDY‚7€q[ËáD‹M´
+±1K0XÂÛ Ý$“Ê“É¬ømn%»]*ÐO1Ý$žD{Üù‚\³c$ù€??Äu ONø»ðßU»¶°±×a{‹Ç†8cetiáwÄªFK/#Ûê*Î©ñCÀ:-áÓõMf+k‘æ‘Üâòä(6üá_å;sóU±­ÿ GƒD0Û¦…cvì¯KxÓÊt(ÊÑ•PQ”ÇV\QH9Q†ÏàoÝ²Éy ØÜÈ®d5´r¿˜ÃåKlœ±999&lt;ÐÉ¼Qáûtæ¿‰\žUç]Ñ‡Sxé»½X“øgÃ—.²O¥Ú»£¬ŠÆÜ®‘´JÊqË29
+H[t QE QEÿ×ýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÐýü¢Š( ¢Š( ¢Š( ¢Š( ®3Å&gt;¸ñ5Ý•ÄZö££%¤s!K	„^kJÑ0gÜ®Áòð°EvuäRüoðvÍr³Í*Ç$Q0H‰!¥‰fÇ8b·Î%[å#&lt;Pš?Âh4K;«K_ëÒ˜#ƒÌ’ñZD1ÂÈ§Ë~&quot; –Xc Ó¾ÛØ\&lt;ïâÏ]†…íöMz¬‚&amp;CP`ü¹Ü	9Ýóš®ß´Âd¡mkå †VFÜ*„õ`:uÏašØÔ&gt;1ü?Òay5-A­Ý^tXš&lt;Ç6û7mP§¨‘HÎ3“ýÖÚ^×á5­¬‘†ñ.¹qmÀ¶ÒÝ«ÂÄ^Nðy‹þ¯
+I8äÔóü+Ó®c•gÖµ9bìÌóFûZBìÍ¼Ecl¹ÁŒ)QÂàÍY&gt;:|,‰®]h©³Ï›[œE€‡&gt;VóŒsÆ3ÅJß~C+Åy~Öÿ pÆZ6v‘]UÃã&quot;©VRŠ¹#  eKð&#39;Â×Ú?hÔu£’TËÈY ’Ü´åb,£•@PQ0 Ö…ð«FðÞ¤um:òæ{ÐÆ.ÙfŽ$¸I ˆ(B„œã¸ðsXÒ~ÐZÚ)të»Ji#K{kIÚV‘ú(Š»‡B7pxëV‡Ç¯….¹‹\¨!a›?3´yû˜ 26H&#39;§¸ÈÚWÁýHºöÚ¾ª×gÏÝ3\®çóâ1€G—–hö†$œŒ&gt;µð½µ›–¹Oø‡NÝ&amp;Ë[àˆ
+,k¼+FÃqå»Îq“‘^ããÃ¨­šêÞþK´K”´.	Y\È bEMØh˜¹ àcæÎÔ&gt;&gt;xMšêÚd¼’[8žiD0‰Wlpùí²Dc¤/˜îâ€=©F‹ä… ’ÇRy?SN¯)Ð¾1ø;ÄzN¯­é-4¶z4ñ[É#E‘¦`¨ÈYÀØw¹Ê€N 8¢~9x1®&#39;´¶ŽêæxYÔ,h„9D’B—dNÛ•ð§å d¢¼RËãÏƒ5Œ––÷¯·,TÄŠD`ÄÁ2 ÁLÑî
+KÃ+È­mCãgÃM;P“J}\OyÂ[IK+¬Ž¡º*À2W8$¼@ U¢¼þ—Ã6šH!Õ_-î[y¶6†(NF;sÖ£—ã‚D¿h»¡žA(eˆ\a.×äfeeÇ,„0 `¢¼CVøýà­(?ú.¥vÑÏ%»$¤Ê‡-2º(8ÁeÎ%[nü4Çƒè®ÿ àÿ g@ÿÑýü¢Š( ¢Š( ¢Š( ¢Š( ¢Šñ›K?ŽeZ•î’dH_[ï‰W-·&quot;H¥8EÀãín@d ÍPÃoon[Ä±fvÚ¡rÌrÌqÜžIï^2ú7ÇYmqý½§Ep¦2¥å*ZA&quot;¾ëvÉUòÊ²…‹€ [cJ°ø±lu	5½JÖín#³[tPˆ\!‚YƒÆ˜ÛÌW
+ä2…`¹%TÕ0?:dqGí‰.IÀc’É¯+³³ø½oªj÷zõ…Í…Ò?Ø-¡_žÖB¿»ß#&quot;yˆ	ù\ç?ûã‚¥_i²2ôg{|+2!ûèÕÿ V²°Ù ùÜ•\gÀ¤Àô¯&quot;’?Ž%KwÑrmòÞV˜OÉ`‘´lN@ã&#39;ƒ€nø?þJÝ]§ŽE‹F[15–íIb ß†à`Ã¨â€=Š( ^Þ	%Žy#V’,ìbeÜ0pzŒŽ¸©¨¢€$qÍE*‡GYXdx ƒÔ~P¶·h#º…&amp;PIÔ0‚_bGÐšžŠ( ¢Š(ÿÒýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÓýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÔýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÕýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÖýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÙ
+endstream
+endobj
+15 0 obj
+6594
+endobj
+16 0 obj
+&lt;&lt; /Length 17 0 R /N 3 /Alternate /DeviceRGB /Filter /FlateDecode &gt;&gt;
+stream
+x–wTSÙ‡Ï½7½Ð&quot; %ôz	 Ò;HQ‰I€P†„&amp;vDF)VdTÀG‡&quot;cEƒ‚b×	òPÆÁQDEåÝŒk	ï­5óÞšýÇYßÙç·×Ùgï}×º Pü‚ÂtX€4¡XîëÁ\ËÄ÷XÀáffGøDÔü½=™™¨HÆ³öî.€d»Û,¿P&amp;sÖÿ‘&quot;7C$ 
+EÕ6&lt;~&amp;å”S³Å2ÿÊô•)2†12¡	¢¬&quot;ãÄ¯lö§æ+»É˜—&amp;ä¡YÎ¼4žŒ»PÞš%á£Œ¡\˜%àg£|e½TIš å÷(ÓÓøœL 0™_Ìç&amp;¡l‰2Eî‰ò ”Ä9¼r‹ù9hž x¦gäŠ‰Ib¦×˜iåèÈfúñ³Sùb1+”ÃMáˆxLÏô´Ž0€¯o–E%Ym™h‘í­ííYÖæhù¿Ùß~Sý=ÈzûUñ&amp;ìÏžAŒžYßlì¬/½ ö$Z›³¾•U ´m@åá¬Oï  ò ´Þœó†l^’Äâ&#39;‹ììlsŸk.+è7ûŸ‚oÊ¿†9÷™ËîûV;¦?#I3eEå¦§¦KDÌÌ—Ïdý÷ÿãÀ9iÍÉÃ,œŸÀñ…èUQè”	„‰h»…&lt;X.d
+„Õá6&#39;~khu_ }…9P¸IÈo= C#$n?z}ë[1
+È¾¼h­‘¯s2zþçú\ŠnáLA&quot;Sæödr%¢,£ß„lÁt 
+4.0,`€3pÞ  „€H–.Hi@²A&gt;Ø 
+A1Øvƒjp ÔzÐN‚6p\WÀp€G@
+†ÁK0Þi‚ð¢Aª¤™BÖZyCAP8ÅC‰’@ùÐ&amp;¨*ƒª¡CP=ô#tº]ƒú Ð 4ý}„˜ÓaØ ¶€Ù°;GÂËàDxœÀÛáJ¸&gt;·Âáð ,…_Â“@ÈÑFXñDBX$!k‘&quot;¤©Eš¤¹H‘qä‡¡a˜Æã‡YŒábVaÖbJ0Õ˜c˜VLæ6f3ù‚¥bÕ±¦X&#39;¬?v	6›-ÄV``[°—±Øaì;ÇÀâp~¸\2n5®·×Œ»€ëÃá&amp;ñx¼*Þï‚Ásðb|!¾
+ßÆ¿&#39;	Zk‚!– $l$Tçý„Â4Q¨Ot&quot;†yÄ\b)±ŽØA¼I&amp;N“I†$R$)™´TIj&quot;]&amp;=&amp;½!“É:dGrY@^O®$Ÿ _%’?P”(&amp;OJEBÙN9J¹@y@yC¥R¨nÔXª˜ºZO½D}J}/G“3—ó—ãÉ­“«‘k•ë—{%O”×—w—_.Ÿ&#39;_!Jþ¦ü¸QÁ@ÁS£°V¡Fá´Â=…IEš¢•bˆbšb‰bƒâ5ÅQ%¼’’·O©@é°Ò%¥!BÓ¥yÒ¸´M´:ÚeÚ0G7¤ûÓ“éÅôè½ô	e%e[å(ååå³ÊRÂ0`ø3R¥Œ“Œ»Œó4æ¹ÏãÏÛ6¯i^ÿ¼)•ù*n*|•&quot;•f••ªLUoÕÕªmªOÔ0j&amp;jajÙjûÕ.«Ï§ÏwžÏ_4ÿäü‡ê°º‰z¸újõÃê=ê“š¾U—4Æ5šnšÉšåšç4Ç´hZµZåZçµ^0•™îÌTf%³‹9¡­®í§-Ñ&gt;¤Ý«=­c¨³Xg£N³Î]’.[7A·\·SwBOK/X/_¯Qï¡&gt;QŸ­Ÿ¤¿G¿[ÊÀÐ Ú`‹A›Á¨¡Š¡¿aža£ác#ª‘«Ñ*£Z£;Æ8c¶qŠñ&gt;ã[&amp;°‰I’IÉMSØÔÞT`ºÏ´Ïkæh&amp;4«5»Ç¢°ÜYY¬FÖ 9Ã&lt;È|£y›ù+=‹X‹Ý_,í,S-ë,Y)YXm´ê°úÃÚÄšk]c}Ç†jãc³Î¦Ýæµ­©-ßv¿í};š]°Ý»N»Ïöö&quot;û&amp;û1=‡x‡½÷Øtv(»„}Õëèá¸ÎñŒã&#39;{&#39;±ÓI§ßYÎ)ÎÎ£ðÔ-rÑqá¸r‘.d.Œ_xp¡ÔUÛ•ãZëúÌM×çvÄmÄÝØ=Ùý¸û+K‘G‹Ç”§“çÏ^ˆ—¯W‘W¯·’÷bïjï§&gt;:&gt;‰&gt;&gt;¾v¾«}/øaýývúÝó×ðçú×ûO8¬	è
+¤FV&gt;2	uÃÁÁ»‚/Ò_$\ÔBüCv…&lt;	5]ús.,4¬&amp;ìy¸Ux~xw-bEDCÄ»HÈÒÈG‹KwFÉGÅEÕGME{E—EK—X,Y³äFŒZŒ ¦={$vr©÷ÒÝK‡ãìâ
+ãî.3\–³ìÚrµå©ËÏ®_ÁYq*ßÿ‰Â©åL®ô_¹wå×“»‡û’çÆ+çñ]øeü‘—„²„ÑD—Ä]‰cI®IIãOAµàu²_òä©””£)3©Ñ©Íi„´ø´ÓB%aŠ°+]3=&#39;½/Ã4£0CºÊiÕîU¢@Ñ‘L(sYf»˜ŽþLõHŒ$›%ƒY³j²ÞgGeŸÊQÌæôäšänËÉóÉû~5f5wug¾vþ†üÁ5îk­…Ö®\Û¹Nw]Áºáõ¾ëm mHÙðËFËeßnŠÞÔQ Q°¾`h³ïæÆB¹BQá½-Î[lÅllíÝf³­jÛ—&quot;^ÑõbËâŠâO%Ü’ëßY}WùÝÌö„í½¥ö¥ûwàvwÜÝéºóX™bY^ÙÐ®à]­åÌò¢ò·»Wì¾Va[q`id´2¨²½J¯jGÕ§ê¤êšæ½ê{·íÚÇÛ×¿ßmÓÅ&gt;¼È÷Pk­AmÅaÜá¬ÃÏë¢êº¿g_DíHñ‘ÏG…G¥ÇÂuÕ;Ô×7¨7”6Â’Æ±ãqÇoýàõC{«éP3£¹ø8!9ñâÇøïž&lt;ÙyŠ}ªé&#39;ýŸö¶ÐZŠZ¡ÖÜÖ‰¶¤6i{L{ßé€ÓÎ-?›ÿ|ôŒö™š³ÊgKÏ‘Îœ›9Ÿw~òBÆ…ñ‹‰‡:Wt&gt;º´äÒ®°®ÞË—¯^ñ¹r©Û½ûüU—«g®9];}}½í†ýÖ»ž–_ì~iéµïm½ép³ý–ã­Ž¾}çú]û/Þöº}åŽÿ‹úî.¾{ÿ^Ü=é}ÞýÑ©^?Ìz8ýhýcìã¢&#39;
+O*žª?­ýÕø×f©½ôì ×`Ï³ˆg†¸C/ÿ•ù¯OÃÏ©Ï+F´FêG­GÏŒùŒÝz±ôÅðËŒ—Óã…¿)þ¶÷•Ñ«Ÿ~wû½gbÉÄðkÑë™?JÞ¨¾9úÖömçdèäÓwiï¦§ŠÞ«¾?öý¡ûcôÇ‘éìOøO•Ÿ?w|	üòx&amp;mfæß÷„óû
+endstream
+endobj
+17 0 obj
+2612
+endobj
+7 0 obj
+[ /ICCBased 16 0 R ]
+endobj
+18 0 obj
+&lt;&lt; /Length 19 0 R /N 1 /Alternate /DeviceGray /Filter /FlateDecode &gt;&gt;
+stream
+x¥WX“×&gt;ÿHÂJØSFØÈ2 ì™dATbH!‚€¸(Å
+Ö--ŠR´Z(.Ôâ nPë¸PK¥«¸°zÏ	 Ðö¹÷&gt;ÏÍÿþ÷|g|ë=ß @]È•H²q @Ž8_ËNž™œÂ¤Ý
+@¨G ÊååIØÑÑp
+çŠè=ñ÷²`HrÃí5qì¿ö(|AÎ:[?— æ ­&#39;‘æ håæò%‡B¬• q* 
+*£k¡˜„Ä©ˆÇ‘r‹˜!Üœ.ÓÙÑ™-ÍMeÿƒÕhÑÿóËÉ–!»ÑÏ6•¼¬¸pøv„ö—ñ¹»C|˜ÇŠÅD‰‘û€›Iò§ÇBñ&lt;YVb{ˆëÓ¥Á	ûB|[(Ex „N±0&gt;	bcˆÃÄó&quot;£ ö„XÈËHØâ¡€ƒòcF\åsâ!†úˆ§ÒÜX4ß Ò›/‘“éY¹áÈ3(ÿ.¯ Éå6PÙ•É‹†Ø
+â‚ì4îC1äG£=aŸ(ÎŽDzý!®äÉý…}JW¾0åÌ ªY¾4­…¶QãÓEÁˆƒ!.JC‘úK=!É–óÆ„úN*‹E¾CiÁqŠ!âÅR®4(b+Z+HÄ¸@ rÁ&lt;ø—Ä 0A9Ê \Z`[œ%†M
+gä,(Ï€¸÷ã8ê£hŽä‚t83®“2®Y‡öÈ…õÐ¾}ò}y£ú¡¾ ã¯ŽÁ B4tË%…Ð¾Ø€RË€x¼gÈ#g-·uÄ4Ž´ôjÉ…+ør]#ë—#¶@›Å Ž!Ûäž“º$‹œ
+›Aú,¹6)œQäro¹lLë&#39;Ï‘oýµÎ‡¶Ž÷~|¼Æb|Æ+îœ=Æ&#39;ZóÚ5ºúS4å×Èl$’ªU1œ9µr‹‘ïÌRé\ïÊêÁÿµOÙÓî0!oQãy!g
+ÿo¼€º(×)W)(7¾¡tRú ºK¹Ÿ;í‰Ç{Äü+‚&gt;Ž1`„Y&lt;¹å&quot;&gt;(/·óSÎFöùË!×‹8Ë–ï‚–Ê¬@ž×¨Ÿó‘£-ƒ&lt;EÜp€ŒŸ»-ãN@{I«`v­&lt;u0ëÕšÏËµÈ£ÝI6¥ÞPi/I¯1HæÔ–$ŸFQË#_F‚R{Ö!Ö k«žõœõàÓÖ-Öo¬NÖ.8ò„XO%ŽÍDÑ˜°×Bœ&amp;šå¨žh…Ï·×MdøÈ9šÈpÄ7Þ(£‘ù£œÏýqÊã5-4,S™£&#39;u&lt;÷P|Ç3eì³h|F&#39;V„‘ìÈOÃœáÄ 1l.6c˜ÂÇ™á‘9ÃŒÁÐ…£¡kF cÒÇxŒœqd:ïˆacuáSK†£cL@þ	!¤òšÅõ÷¯&gt;2&#39;x‰*šhü©ÂèðdŽh©	c:Çâ*gÈ„“• 5‰Àh‡Æv1¬%Ì	sP%FU2›%Ïá?œÒ˜t&quot;9°2E&amp;É&amp;]HÿQŒª•7|P­©Þ¤õ%IwTÇÆ{ w‰ªhÿlýø“! zR­©ATkùÞrï¨ÔPj0`Rœ:…±š•/(„w r%ERQ†0ŸÉ†·“#æ9Ú3YNðë†îLh Ïcäw!L§ƒ&#39;“ŒÈHô¢ %xŸÒúð«j¿ÖÐ+7à¿™AðâA2˜ýÂLJadKÀ2P*Á°l;ÁPÀap´‚Óàp	\à.üžô‚&#39;`¼Ã†Ñ0:¦‰éc&amp;˜%f‡9cî˜/„E`±X2–†e`bL†•`Ÿa•Ø:l+¶«Ã¾Åš±ÓØìvëÁú±?°·8«àZ¸n…OÁÝq6ŽÇã³ñ|&gt;^Œ—á«ðÍx^7â§ñKx&#39;Þ?Á‡@(:„)á@¸D‘B¤Rb1QAT5D¬íÄ¢› ÞTR“d’0‹¡dÉ#ç“‹É•äVrÙHž%o=ä ùžB§Rì(že&amp;%ƒ²€RN©¢ÔRŽRÎÁ
+ÝKyI¥Ru`~Ü`Þ’©™Ô…Ô•ÔíÔƒÔSÔkÔ‡Ô!¦O³£ùÐ¢h\Z&gt;­œ¶…VO;I»Në¥½VPV0QpVVHQ+”*T)ìW8¡p]á‘Â°¢š¢¥¢§b”&quot;_±HqµâÅÅ+Š½ŠÃJêJÖJ&gt;JñJ™JË”6+5(Sº§ô\YYÙLÙC9FY¤¼Ty³ò!åóÊ=ÊoT4TlUTRUd*«TöªœR¹£òœN§[Ñýé)ô|ú*zýýý5C“áÈà0øŒ%ŒjF#ã:ã©ª¢ª¥*[uŽj±j•êÕ+ªjŠjVjj\µÅjÕjÍj·Ô†Ô5ÕÔ£ÔsÔWªïW¿ Þ§AÓ°ÒÒàk”iìÖ8£ñP“Ð4×Ðäi~¦¹Góœf¯UËZ‹£•©U©õÖe­AmíiÚ‰Ú…ÚÕÚÇµ»u+ŽN¶ÎjÃ:]:outÙºÝºº×u_éMÒó×èUèÔëÔ{«ÏÔÒÏÒ_«Lÿ¾i`kc°À`‡Á9ƒIZ“¼&amp;ñ&amp;UL:&lt;é&#39;CÜÐÖ0Öp¡ánÃÃ!#c£#‰Ñ£3FÆ:ÆþÆ™ÆŒO÷›hšøšˆL6˜œ4yÌÔf²™ÙÌÍÌ³ÌASCÓPS™é.ÓË¦ÃfÖf	f¥fÍî›+™»›§›o0o3´0±˜aQbqÀâ&#39;KEKwK¡å&amp;ËvËWVÖVIVË­ŽYõYëYs¬‹­Xß³¡ÛøÙÌ·©±¹9™:Ù}rÖäí“¯Úâ¶.¶BÛjÛ+v¸«Èn»Ý5{Š½‡½Ø¾Æþ–ƒŠÛ¡Àá€C£Žc„c©ã1Ç§S,¦¤LY;¥}Ê{–+~Ýî:i8…9•:µ8ýálëÌs®v¾9•&gt;5xê’©MSŸM³›&amp;˜¶cÚmM—.Ë]Ú\þtus•º6¸ö»Y¸¥¹ms»å®åí¾Òý¼ÅcºÇV7ž®žùž‡=÷rðÊòÚïÕçmí-ðÞãýÐÇÌ‡ë³Ë§Û—é›æû•o·Ÿ©×¯Æïgs¾­ÿ#ödv&amp;»žýt:kºtúÑé¯&lt;œ
+$C+/i%mzlœ| x0Ä%daÈ©PJhxèÚÐ[#SÇs[v6\%&lt;.|køÏ¶Òˆ–øŒ°ëgÜ‹´ŒG‹Qœ¨õQ÷£­£çGC‰Ž©Žù5Ö)¶$¶=N3nnÜþ¸—ñÓãWÇßM°I%´%ª&amp;¦&amp;Ö%¾J
+LZ—Ô=sÊÌE3/%$‹’›Rh)‰)µ)C³‚fmœÕ›ê’ZžÚ5ÛzváìsædÏ9&gt;Wu.wî‘4JZRÚþ´wÜ(nwhgÞ¶yƒ¼ Þ&amp;Þ¾?¿_à#X&#39;x”î“¾.½/Ã&#39;c}F¿ÐOX%ˆ¶Šže†fîÌ|••µ7ëCvRöÁ…œ´œf±†8K|6×8·0÷šÄNR.éžï9ãüAi¸´6Ë›×”¯ÿÁìÙÈ&gt;—õøT¼^¸àH¡z¡¸°£È¶hEÑ£âàâ¯’yÛJLK–•ô,b/Úµ[&lt;oqÛó%eKz—†,Ý·LiYÖ²KY¥ëJ_|–ôYK™QÙÒ²‡Ÿ‡|~ œQ.-¿µÜkùÎ/È/D_\^1uÅ–ï+ø+Y•U•ïVòV^üÒéËÍ_~X•¾êòj×Õ;ÖP×ˆ×t­õ[»oúºâu×ÏXß¸¹¡bÃ‹s7^¨šVµs“Ò&amp;Ù¦îÍ››¶XlY³åÝVáÖÎêéÕ·n[±íÕvþöë;üw4ì4ÚY¹óíW¢¯nï
+ÙÕXcUSµ›º»`÷¯{÷´íþu]­AmeíŸ{Å{»÷Åî;[çVW·ßpÿêøÙþúÔú«ß~ÓÔàÐ°ë ÎÁÊCàìÐãoÓ¾í:~¸íˆû‘†ï,¿ÛvTóhE#ÖXÔ8xLx¬»)¹éZsXs[‹WËÑï¿ßÛjÚZ}\ûøêJ&#39;ÊN|8Y|rè”äÔÀéŒÓÛæ¶Ý=3óÌÍ³1g/Ÿ?wþ‡àÎ´³ÛOž÷9ßzÁóBóE÷‹Ç.¹^jìpé8ú£ËG/»^n¼âv¥éªÇÕ–kÞ×N\÷»~úFànrn^êŒì¼Ö•ÐuûVê­îÛüÛ}w²ï&lt;û©à§á»Ká%¾â¾Úýª†jþ5ù_»]»÷ötü÷óÝ‡¼‡O~Éûå]oÙ¯ô_«™&lt;ªësîkíî¿úxÖãÞ&#39;’&#39;Ãå¿©ÿ¶í©ÍÓï~÷ÿ½cpæ`ï3é³¬|®ÿ|ï‹i/Ú†¢‡¼Ìy9üªâµþë}oÜß´¿MzûhxÁ;Ú»ÍNþ³å}øû{r&gt;|ø7-]ð
+endstream
+endobj
+19 0 obj
+3367
+endobj
+9 0 obj
+[ /ICCBased 18 0 R ]
+endobj
+21 0 obj
+&lt;&lt; /Length 22 0 R /Filter /FlateDecode &gt;&gt;
+stream
+xÝZ]“Û¶}Ç¯À(}€Æ®,R¤&gt;’´“­»¦“];¶’L¦Ûé¤Úuº±µkS›mÒLþj~K.œP )Êãx:õ&gt;ˆ&amp;€‹‹{ÏýßèÏõ=•¿y–ëÅ*×Õ•þJßèGw™Þìtfÿv›ý9/ìÂùr’³2Ó‹\‹rRf3=/§“E©&lt;7²¾&amp;o§,²©ÞlõŸÖút-ë±G=&gt;Õ²Gcò|µp“UæI¸ŸõV?Z¯gBqýBÿ]=ÖÓIÞýûz¬o&#39;|?Vîá_xó
+×xØ€ÚîÎ“ýCxáç*Ã¹¿Ü`&#39;“2è=ÇòŠ{qÕ·`“ÏAïäìïþ€‡×q·íŒ&gt;«èõßœ€›ò\^ø=ò4?õú;¿ZEª›s5T—×ðhQÛBptÜd¡\ªhì€þ‹&gt;~s)§ÿõX/f“•6ÇKHãÖéÐ
+D0S3£æ@.&#39;uÄ(HH{»GËTxÁíö¦(&quot;ReÇ™Eû&quot;¥qª‚;åÎ=b&lt;”@«Iu‡µßûðÎ%NÊ|·¿3½ 	iGA™DNûgMeþg#¢Aº= &#39;¯è,æ-úÏËr²š-e’ó5úøöæîêæîi5VÙR›ÛûëË«êC9_°[fóUŒYâRµú¥¬&lt;lGâ—&quot;¿c2CüÎ†žƒ¨Ùí ¦çþ2[Rç|ªäi%êtžîžÎæ¯8­rT#]þ Å9t5\N^žx,UÛÏ@ú~,¡óœ|ô1þ„&lt;ÿÊpÿ„b2rèÔÞ÷WCˆºWˆ/”ýÇäPõGhè§pMß7ðY¿Øp¿êØpö‰e,Ó
+¸÷l(S…ØB}É`°€Cå o0$–¥Þ.¾Ømy©oÂL2ÉQù”sd µÒ&lt;©&gt; õ*Ío¤E¥}›èì#hõáÂ\ŒqÖn””‹¹ûJ9.éq;…èñ[»8ªç3*š&amp;ÿÂë²˜,´™x7Òê÷&gt;êï|æ¬©–ýt*¶µÞè‘-ÿ¢Ü¦;”åtxŽRÎ|ŽÚµ·ÏQ É®ßOºŒZ£V†6ÓcÔy_Ò„¤¹`á…°è^Q&quot;Ì9@| Ux4ïoÊf6\ÄZVÀ-—À$ì,Í‘ê±4AK‹?ö‰$U—Ž$sìïŽ|ÝyJg	ë›Ãø8¹â‘Si¸‹¿ç¥Ë‡@è&quot;DQ¾üös§Qæñ$p½…£&amp;+|àöU­¢GÞòå·#B+”=–= Ä!U]÷ü&amp;$àÃ¨W*.ÌÉfCuÑ¨n ,€¤ZÝáC/1ðõœt¼á)³¶~UàiÁ”:hÿÊÿÔÓ{†§ÝZÒèEíŸŸ„9ò¢Ðæë±Îòe]oí³3Eo&quot;•Æed±–&lt;“Ù¥dé1 ÐŠJaâä WãŒçƒHÑ:¢ÓäÍ?1å&lt;&lt;ƒ
+!MNyjS‘á	@¿§”¼ßH®&gt;;áæ_2iÁ´ø³£óK€+ým‚&gt;w2;ô~be«BµNáC§±øº©·3KT9ÚÚ@«TÙYr’Ñ€B„ÿ®&amp;LQv%ÝÍü.à_Zù6‚ ˆàøwÄÑ¸úíðï³^B’&quot;‚‡ã_™s«¦N/ÆãîŒ°(æ‚%½Åw,ºã~È@ ê&#39;Íœ1¥bï‘Þ¸ç$3ŸÛÖpoÍm›F½ŸÛ6ª¼&quot;GËµU,®ñÕèúÅ=˜°ú@×¯˜.†gÍ³ØÊ;{]øKàÜF©Rö`„A™´x¦(*ÅÇlch6ŸL—³iÝr%úœMÂ“›KéàÙ6ÓõåÙ77×/®vw“¶¯ŽÚ ›-&#39;Y!ô›ÚŒò™&gt;ñüÒ}s5šìäàm·^2’rv2‰)GHËËÑŒl÷×•ÿ¾t¹ÆV¡¹ ½p\ü—{7eg m²Î‹|2-Ëy5õú’¶½Îæv+Õål’-Å-@ƒÀî
+&quot;lPV´ÏÐSOÜ.ŽK8JcÕ{ÃD$@lhrÊŽŽƒzõ»‡úŒ{C²}Û»ñk•!÷|zÜù	Èá®óúTÖ4Ìl±lË;`4TdhÐ:Ë±ú”â*˜dwM&gt;Cµ?äÞhVôU®ë\ßÉÙlü–ÃÚ_öº	^meÊÜAã¢1;ÿ¿ƒZêÞ®ábA”}Ñ\¢Ì^S^*&amp;&quot;#w ¥‡ŒßyÀa$=–×XËE(ÑX–Ï&#39;ÒÌ[ñÞ(;¤¸È—ö(nVòùÀf
+”ÓõëóžÈ.ˆwx6&gt;”Îù¹&lt;5ÿ
+¶Osæj6Ëï£ÙÞs·Îv	¯úÈ)îî:14m¿HP»I’ÃHÛaRö¼kÛÕE{wÖ2›¦¨ª¯Oâþ¶Š‚[—v½‡(•¡ÏnåÄŸ=”!Ua»õTë}i¾Vª6®»ù1&#39;ýÅtr (&gt;íp ÆpÊì¯š˜öï#F1!ìÍZu¹š~è…Œ“Ž¤7 W±RñRÆ[&gt;±ºãqþ®Ç°–dJ2Á°ŠùI¨}F}ØË—ù{éšw_t
+5È LÌð&quot; §ì¨‚\®y¼ä-nFhRÇª-·k§8 ç¶¸ú‰ÇÅ9Î%
+¶±ðp?E
+ãS¿heÝö¢Ãµô®†Ë Ü&quot;Ÿ£&quot;G‰c¿{©]WúqƒÜ?÷ -Â¢{p†tjøÿ4·½¯Ü&quot;/²á¹EžˆNï:· {®‚-ûw¾b¤ïó,Þìéhé0o‚*¡1ù)ÊnbÏâƒ~Ã³¼õò(Ü§úÑÏg$Ð&#39;ts`#÷H8ÐÄ›WïQ”ùüS]…\ó”PI³ûðš´Aî×D½ý}kBeÔ(¸òöïO’.Â{ƒêôýÕÍÄk=mðIƒmÑÚÔ€ðù‹¿DcÜ«ø¥^~šñs‡ÐUëû²ÐvÕê[ãË[ýSôQ\Ü7Ê¤`ú_è¹£QD)ÑÓ\Ôe®k%wMHÛ8/è•¦X+Y²c˜Á/}ðâc&lt;P›}ÍsäÙmËä·D/} G+åø‡€æ=O÷àÁ02¶½ÉÄºpÞã›ì¿Þiâ3§š¨ˆ¥ÀaOÌ¸/ÇèÂ!2Š—e,óó­ø@­›DúqW¤Qnx,‘~è°Õz{¸1$5„wBƒþ”	@båÒÊ a@ò ºááCòè”ÈN ÿäKà(§#»í¿öÈJô÷½[S&gt;„©ÝZý/ú ¦b2ûYËo—ò3Ë¶?„ &gt;¨R¦0Xta(íA¡ƒ$%~ðX°/fýŸÕðf ¬½í¯È!+ô-ˆíP×%®»&#39;Á3N’Z^!%¶…Ïç¿Æ”f
+endstream
+endobj
+22 0 obj
+2531
+endobj
+20 0 obj
+&lt;&lt; /Type /Page /Parent 3 0 R /Resources 23 0 R /Contents 21 0 R /MediaBox
+[0 0 612 792] /Thumb 25 0 R &gt;&gt;
+endobj
+23 0 obj
+&lt;&lt; /ProcSet [ /PDF /Text ] /ColorSpace &lt;&lt; /Cs1 7 0 R /Cs2 9 0 R &gt;&gt; /Font &lt;&lt;
+/TT3 11 0 R /TT4 12 0 R /TT1 8 0 R /TT2 10 0 R /TT5 13 0 R /TT6 24 0 R &gt;&gt;
+&gt;&gt;
+endobj
+25 0 obj
+&lt;&lt; /Length 26 0 R /Type /XObject /Subtype /Image /Width 198 /Height 256 /ColorSpace
+7 0 R /BitsPerComponent 8 /Filter /DCTDecode &gt;&gt;
+stream
+ÿØÿà JFIF   H H  ÿá LExif  MM *    ‡i                            Æ            ÿí 8Photoshop 3.0 8BIM      8BIM%     ÔŒÙ ²é€	˜ìøB~ÿÀ   Æ&quot; ÿÄ           	
+ÿÄ µ   } !1AQa&quot;q2‘¡#B±ÁRÑð$3br‚	
+%&amp;&#39;()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùúÿÄ        	
+ÿÄ µ  w !1AQaq&quot;2B‘¡±Á	#3RðbrÑ
+$4á%ñ&amp;&#39;()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùúÿÛ C 
+
+
+
+
+
+
+
+
+ÿÛ C	ÿÝ  ÿÚ   ? ýü¢Š( ¢Š( ¢Š( ¢Š( ¯=?þ³¬‡Áz)tÎÓým‘»ƒƒåñžõèTP!wðûÀWë2_xkL¸[ˆE´¢K8\&lt;&#39;œ&quot;l¡Ê	@p§ß63Íb§ÁŸƒñÂöéàm	bai–¡Xzåàõ¯I¢€8×øsðúKÛIü1¥µåá˜Ï1²€É)¸”»ìËÃäüÃ®j„?	&gt;[?™oàÍ&amp;Û·+§[·iLqM¤¯Ð‘Ò½Š äá÷€¥½“R—ÃZkÝÌòHó8LŒòœÈÅŠd—$–=Ï&amp;¡´økðêÂXç±ð¶•o$RQ£±df.\™X’O\’z×kE q—?&gt;ÞËq=ç…ô¹ä»ÿ \ÒY@Í/ |ä¦[€:Ö—‡ü#áO	¤Ñx[E²Ñ’à©•l­£·W;wÕsŒœg¦Mt4PEPEPEPEPÿÐýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢¼š|J¶µ[h&lt;rF©µ›NYY›z³—ifv`Ê 
+í-vª Þµðÿ ¡´ò®|Vn&#39;0&lt;~i±…q3He
+0±›zKg  ÝäW~øŸ¨ë—7SxÑmt8´6PÙ.L[FIÕ£”s»;áÁÆuàß‰òÈkãï³ªH Ó!uòÃ6S,åÈvå˜òuÎ@=jŠñ!ðïâzjŸÚ©ñ&amp;à»$q4m§Àa1«b&quot;ÜHØÆð8ŒtÆ‰ðÅBKÿ Â~«#n•ÑµÁ8V€
+–¾Jœü¸ ¹EyÞø¨&quot;H¬&lt;e»¹äy%±K‚ð&lt;{bR¤ ]®»G&#39;æÆV“Á_g‰¬î|y¾9•ÕæŽÆ(dMèÈLj‡‚¹K9Ãs” öZ+Ê¥ð¯Å&amp;£ñÜhä“ì˜JçfìGñg®rLPø+â,R\\?ŽšiåÇ–ï`›bQÕV%‘b;±Éd,?„Œœ€zÕä­àï‰âaäü@&quot;‘ÙÃévìæ3·j«P¤ ÛŽÒFqÌz€&lt;o~·
+¾5žÕ§‡ËC¬ˆûŠ&lt;óxb—œ“—
+êëÔW‹?ÃO3ÛÜ&#39;.ã¸ˆ+HÂ&#39;1É(ùo)§(ªZ)Ì‰Hí“©7ü]ÿ Ü±ñTö÷I+Ë.¢ÁæšPìÇË»üAPŽËÎ@ªÑ^b&lt;ãh4y´­?ÆsÁ1»ó¢»’Ú+‰ÖßaO³¸—r·ð·˜ $ç€eÿ ÂñSþŠTÿ ø*±ÿ â(ÿÑýü¢Š( ¢Š( ¢Š( ¢Š( ®N?x.k«k;}nÎynÃ4^TÉ !1’YIQË 2FIÀæºÊäãð‚a¸û]¾ƒcýäŠÞ8ÜñŽY@&#39; à÷ õ eQ@Q@Q@Q@Q@Q@Q@Q@ÿÒýü¢Š( ¢Š( ¢Š( ¢Š(  ôõ¢Š ó)|Qñ!~Îað@q*!Nh¤#,ØAUé¸“ü8æ±î|Uñ†HþÓaà˜âÜ’ ·žö‘dØ&quot;I·næddPNS!ðE{-ã·Þ,ø±§¨…¼ÑŽM¯uÚ4lƒëúÑ¹ˆÚ2NÜ–Áâ½nÚYf%š3°å	ÎÓéšžŠ (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š ÿÓýü¢Š( ¢Š( ¢Š( ¢Š(  ò1ÒŠ(Ï¼7àðÓÄÉ®êz¢ÇpnÔ&#39;òÑÈ„)
+›rdÜzäÆ½¸ïø÷ÃžÒ\½¯ÛRg‰„RJÈ
+Yv¬wa²9Áï€r_â¿‚cÕ®t7¼q}h×Hü™0&gt;Ê’&lt;‡~6p&quot;oâÏN9 ôz+Š“â…£¼K!tÌîf\ˆß 8uäÔ@*8É—q/ÄOÁ!†}EcußRNqyÌ2&#39;=zð&gt;n(µ¢¼~Ïã·Ã=HÈÚn¨n`†!4³ž8Ò2»ó™Bm¤ˆùû¼6%ÿ …çðÀ§WbÆAÚâB¥0 o.6
+]ÇÈhÖè¯)o P×Ú¨µ,7&quot;²³³)8Sˆƒá›´m‰à¨&lt;V–ñSÁšôWé×nÐÛKLïÆI&#39;”¤o ãq89 D¢¸­+â„õë‘k¢^‹æcƒ%sq™Nú±¼ûq×Šíh ¢Š( ¢Š( ¢Š(ÿÔýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¦$qÄ¥bP€’Ø,rOÔ““ïO¯%Š±ÜÃo5®ˆðµ°Ý(–vÛp±(bß*­.H
+Ÿw‚Aä€zË*°Ã GŸQÈ¦ÉsFÑJ¡ÑÁVV ö5áèhiüû ººF¡VæC1’GùrQP2…ûÀP~ïÊy­HGÇX&amp;Ð&#39;¶P˜y¦¹3·ï	}Æ8c&quot;&lt;(Â·Ì@) õ¨`‚Ú··bŠ%
+ˆ€*ª¨À  €*Zñ‹‰¾;È¶Öºe¾è$3\^4¤¬¾k
+œqÒF1œüßÃQ¤_´ºªÏ _?›‚eÊ&lt;ƒœ @D&#39;¤œu&#39;Š öºmmRw¹HQf—Ü(ÛFOSÀ¯þÑ1\yË7‡&amp;ËT9ºPeæBËK&lt;G6ª¸[¶­ñŠ;ÄþÕ]&quot;{eòŽlüäwmÿ ½&amp;,&lt;¼…*KoÚOË¸ L{kyÌ’$gùy*	ù	+Ïû$’=	©«Éõ™¾64ék ÛèhŽ²–¸®
+§ï@Œ_˜·–I&lt;m,:ÁY&quot;øÑO²É£Lî&gt;I†ö9/—
+ìŒg*§{0Ò7Z õz+Æfƒö€e·‘n|;¾Õ¥D[¨ÖhAPWs	Jå@ÏÎJñÞ??þÏ1öùžGÚƒ&#39;Ëól2e[æÁ€ùsÁ4ìÔW1§&#39;Šæû8ÕtHm™Ú,´¯0Ýç£)Ë´«Ý±EÂxÂ&quot;ÅìîHn™Ë Žãjù¡î‹víäØÆ3@=ä²Ëñ¾ãSšht+[À$¦âI$}«¡NçwÞÁè0z™|óõ ÿ ß«Ÿþ*€?ÿÕýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š(†HÄ‚&quot;Ãy‚ç’8ôú¤öI¨Ã©¶|ëx¥…yãlÌŒÙ¹qWh ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÖýü¢Š( ¢Š( ¢Š( ¢Š( ¤&#39; šZ(Èïþ*ÜÚ£/kz†Ëx&#39;g†×1qº¢&gt;s!RÛ_b§9àjAñ.6•ðî°¥íå¸ÖdJ&lt;§™:ùZCcüÁ”£$zEäÿ ðµ¿sæŸø‰[äŸÈ.Á{9ËN &#39; 5™7ÅÍ^Å¬ÓPð.¸þp&quot;f´¶{…‰ÊîETfd!UX`žWwµÑ@O¥üT]K]‡F“Ãš¦ž&amp;•îáò[wga&#39;ŒäuìkÖ(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€?ÿ×ýü¢Š( ¢Š( ¢Š( ¢Š(  çQE ytþø‘,–ÒGã(Ã
+Ç&amp;4ØH‘÷ò\€ÌQÓ¾lxoÃ¿´Ýp^ø“Å	¬Ù˜™LIj¶ 19E/ÓûÅ²sŽ•é4PEPEPEPEPEPEPEPÿÐýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÑýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÒýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÓýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÔýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÕýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÖýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÙ
+endstream
+endobj
+26 0 obj
+3932
+endobj
+28 0 obj
+&lt;&lt; /Length 29 0 R /Filter /FlateDecode &gt;&gt;
+stream
+x¥VÛnÓ@}Ÿ¯˜„6qmÇ—©BmÈÑPKHTÓm]¨ÝÛ×ò-Œ×;Çñ%m$”‡X³»3gÎÌœÝ^óûòK‚ÓEÈåâkÞ[VçöWåý=çö`²ðÂ˜Ó£tæÅœÄ¾—ÆÔsQ{÷Y\Üˆ¯ú3¨O¤ÏyÁ‡ÎÚüeïeÙL6eçtÂæó„}/ds:á©ý`g¨ÎÔr¥°\æ¿ÔvÑ|¹S‹:(~;ËÎÞÖA#”Í‹	g-
+ð,‡¨‹ãRÝ˜A«[–¡AA;ÖwÅ	¿°€õv­{Oû¨ª{w°ª{8Ò KuäX&quot;SVpPNe¿%i•Ù²?SÆ0M½8ŠRê¬ T³æQã@Ëž[Ú^ª[¢Sp‡R&quot;À3ý÷J¹RÛº•À5ôXa¾Ë	m‡Û4“äŒs(„B~×ÁÝnØÂx²HŸ&gt;!³Q?MñÆòô6k,ãÖã_Ï-uæ6™G.¼mÕ‰ñ!OR‘áÓæ×Eû¡çÐÙŠØ[!”ü¨Äé{dŠZá|ùj3ÑnnñœFàJwÕà§N‹‚Óÿ?º 1D¬Èì9Ðô² Àýx&#39;:pP ÖPþ¤”V*sR(€¥6?–€D“ Sƒ•¯š¨&amp;ó$Õ8pÜ²Ë“³A@,šÒF`yÂÒZˆ£0šû1?4—ÙòØ^&gt;&gt;/qM›«(´W‘Ü3/
+¢yÈÏü¹ÌÃ„`»âã¾ø%Q&lt;ÖÞƒ~QŽ¨½G”Ê}0SjZ††¥uŒ’EØ]å­“Ï~ÝÉ¼¸‚óý@q†úáƒå:Üøtî‰Éi’ƒDÚÔŸ%[Cr­&gt;äÔµ²¥Jf&quot;KVPvQŸ`Ñl¦íOŒZ}†}·}ÉL?¸ñ*‹wJ
+˜S¾Ñ¸OJÙ1Å^àP/˜3~zÎ¤$$o˜í_JÁÆ+«f]Z»¾Ä;ÂfD´äÝ³Êdzº²è&#39;;µ9&amp;RáßNšÑU£‹&lt;ÐÅ[‰„Ó;U®oºW%aDæpÕ¢·/û,“n*uRå±¤ê´KwlŒãÿw‡“z%±›®ìÔò’ÓL@db€%Ý[€8¼Ï´ pøQ+±:x£ŸïWZ–BT¤}Ã¬ÿŠ@)
+endstream
+endobj
+29 0 obj
+862
+endobj
+27 0 obj
+&lt;&lt; /Type /Page /Parent 3 0 R /Resources 30 0 R /Contents 28 0 R /MediaBox
+[0 0 612 792] /Annots 31 0 R /Thumb 34 0 R &gt;&gt;
+endobj
+30 0 obj
+&lt;&lt; /ProcSet [ /PDF /Text ] /ColorSpace &lt;&lt; /Cs1 7 0 R /Cs2 9 0 R &gt;&gt; /Font &lt;&lt;
+/TT3 11 0 R /TT4 12 0 R &gt;&gt; &gt;&gt;
+endobj
+31 0 obj
+[ 32 0 R 33 0 R ]
+endobj
+34 0 obj
+&lt;&lt; /Length 35 0 R /Type /XObject /Subtype /Image /Width 198 /Height 256 /ColorSpace
+7 0 R /BitsPerComponent 8 /Filter /DCTDecode &gt;&gt;
+stream
+ÿØÿà JFIF   H H  ÿá LExif  MM *    ‡i                            Æ            ÿí 8Photoshop 3.0 8BIM      8BIM%     ÔŒÙ ²é€	˜ìøB~ÿÀ   Æ&quot; ÿÄ           	
+ÿÄ µ   } !1AQa&quot;q2‘¡#B±ÁRÑð$3br‚	
+%&amp;&#39;()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùúÿÄ        	
+ÿÄ µ  w !1AQaq&quot;2B‘¡±Á	#3RðbrÑ
+$4á%ñ&amp;&#39;()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùúÿÛ C 
+
+
+
+
+
+
+
+
+ÿÛ C	ÿÝ  ÿÚ   ? ýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÐýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÑýü¢Š( ¢Š( ¢Š( ¢Š( ¢¨jW?e·ó~Õ§ÌùÆSé÷“ŸÆ³ífÔ¯PËg©YÎŠpZ8YÀ&gt;™Ðý“äë¿óùmÿ €Ïÿ Ç¨òußùü¶ÿ Àgÿ ãÔ­Edù:ïüþ[à3ÿ ñê&lt;wþ-¿ðÿ øõ kQY&gt;N»ÿ ?–ßøÿ üz¯[-ÚFEä‰+çƒÆ=0Yù÷Ïá@(¢Š (¢Š (¢Š (¢Š (¢Š ÿÒýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÓýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÔýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÕýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÖýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿ×ýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÐýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÑýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÒýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÓýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÔýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÕýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÖýü¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(ÿÙ
+endstream
+endobj
+35 0 obj
+1791
+endobj
+3 0 obj
+&lt;&lt; /Type /Pages /MediaBox [0 0 612 792] /Count 3 /Kids [ 2 0 R 20 0 R 27 0 R
+] &gt;&gt;
+endobj
+36 0 obj
+&lt;&lt; /Type /Catalog /Pages 3 0 R &gt;&gt;
+endobj
+33 0 obj
+&lt;&lt; /A 37 0 R /Border [ 0 0 0 ] /Type /Annot /Subtype /Link /Rect [72 642 232.2188 653]
+&gt;&gt;
+endobj
+37 0 obj
+&lt;&lt; /Type /Action /S /URI /URI 38 0 R &gt;&gt;
+endobj
+38 0 obj
+(http://androidexample.com/Content_Provider_Basic/index.php?view=article_discription&amp;aid=120)
+endobj
+32 0 obj
+&lt;&lt; /A 39 0 R /Border [ 0 0 0 ] /Type /Annot /Subtype /Link /Rect [72 653 380.1875 668]
+&gt;&gt;
+endobj
+39 0 obj
+&lt;&lt; /Type /Action /S /URI /URI 38 0 R &gt;&gt;
+endobj
+24 0 obj
+&lt;&lt; /Type /Font /Subtype /TrueType /BaseFont /JPHJHW+Avenir-Book /FontDescriptor
+40 0 R /Encoding /MacRomanEncoding /FirstChar 32 /LastChar 120 /Widths [ 278
+0 0 0 0 0 0 0 0 0 0 0 0 0 278 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 686 0 704
+0 0 0 0 0 0 0 0 0 890 0 0 574 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 519 0 0 611
+556 296 0 0 240 0 0 240 852 556 593 611 0 332 426 332 0 482 0 482 ] &gt;&gt;
+endobj
+40 0 obj
+&lt;&lt; /Type /FontDescriptor /FontName /JPHJHW+Avenir-Book /Flags 32 /FontBBox
+[-167 -288 1000 940] /ItalicAngle 0 /Ascent 1000 /Descent -366 /CapHeight
+920 /StemV 0 /XHeight 468 /AvgWidth 527 /MaxWidth 1000 /FontFile2 41 0 R &gt;&gt;
+endobj
+41 0 obj
+&lt;&lt; /Length 42 0 R /Length1 15520 /Filter /FlateDecode &gt;&gt;
+stream
+x[p•å•~¿ïËwon’ÜüÜ$$$÷æ’?Èÿ/X„B¤m¢ü%¶4¸H«Z°ØmGfGÅâÎâîŒTvÛÁéNt§dg+†Øjº£¨ý“&quot;ˆe
+ë*‚uŠ;µV»BöyÎûKªíÎ&amp;sò&gt;ßûÿž÷œóž÷|_¶yÇ&amp;“evÏto¼ý¦­F~üb$?Ùxçö¸}ö!që-·ÏŸ7Æù«[n»ë‹ö9T`LgñæM7ÝlŸÍGH;7#Ã&gt;;íHçn¾}ûNûœ6…tø¶±A¹ÿžo¿ig0¾9ƒçø7Ý¾	)~}ænûÊvy4‹ê‘mýò¦ ¾3Œù¼¾áÞR³=jjÔŠ™›MØ¬1iòdL†1®‰|ÉqLOÞë¯oÍYô{Sâ]`ÿ_¯ú®ô{|Çïþ{zäÊ9ï‚÷/ÈŽ ýA¿Þ…+ÿÀ¿Ó#Ó#hÅ‘fþÄ&amp;Œ™o&amp;‘ïw¾3	özÏ é7KM‡©2Å&amp;}þ3˜×gþäÙ7«g&lt;›gÐÅÌŒgÐáçMŸé:À!ã›ð|_þ-Å½“fƒI7ÎW&amp;ÍÝX,ÓAúlžÒé ­`º}Ò,	ÒÑ Ý¤‡ƒôå ½¤9LwLš¦ Ò± =Áâø—‚´‚)Æi
+ÒÑ Ý¤‚ôÙ }9H§ƒ4‡©ŒgÓ%Áó`Žé%¦GÚa|i‡ôlŸk²e^ÝA:¤‡ƒôR61¾ Å¸ÓAþ˜äc»MYd&gt;k“7]f²œ&amp;Ï}ôžÉÂ–Ô¯œ0‘¡áuœ¿™p¦ï0½sŽB’¼Ñ/4L§&gt;_¾¥wÜÙ€·ó@^}¼oÜ«ê»a89ßß³âæ=ñ¾øæ›nO«’›öŒ4ÅÇÍªá-ø»z81Þ=Rš‚›FF®A?iìMP}Ïz¸5è©d5]F%¿~e|Ü«¾~x|WoéxwïHi&quot;_&gt;&gt;54&lt;&gt;Õ[šA­Pj¦˜1¥ÌÎ9Œ9‡æ¡&lt;Ýö²
+} ‹‘={Øçªádb|jÏžÒ=XGð&lt;á˜gtX8š`áË&#39;œ]Ch‹$™(eF2‘L`Z#½*R¿rÕðrL,1Ò@]†æÇN™fïkfƒ»6ÍîFSëÖ›f§›õ.vè]³Î[m–!o™{½” ÝçÓf¥ó¸I Ív^2î÷Ñ)ºÅ/² a?D7#AŽdâOÎ&#39;rþ\F!2ÕŽÌ,÷ä!mfÖŸÅ¾ä†`ÓÒEäo†ÉÄ&lt;ga­Æäš¨ÉCš‚]–Ÿ[Í­î«iÏù¿ÿ&quot;Ïøuæ?fµgíÌîÉiÏ=–—wg~¼pClAQmÉK³P_fÃõX«¤©%[1aê›&amp;L¨&gt;wÂT5…qMû¹È©:sÔ”áÉ&lt;6Ž™kÒæ?å˜A´¾PsKWG[a“ÓÞµØéZìu´W&#39;+CášÅN[k¬° ÆoaQ4u@¿^ÐáÎ
+Ç¢¹i¡Öðu}%ÕU¡Ð³Wnv~qÅìX¶lGtAÉ¬9Ñœ¢ühdnK}[úÀÒþEñŽd&quot;¿ }ÂÝrù[î·/·b%Žižþ­û˜{ÒÔ¤m™ƒ2Œ£™‡¹¬Æ4-Å	ˆµ;Û Ž¬Ÿ0¹GÍã}„¬!S‹,€Ã¦Î‚Q‚mK}ØÍ:3rY|·ô¸|xÂä4•¥ýY&lt;døÌðMhñÈ$6(ÇøÑ¼…&amp;|ÍÁXÅÆ?} J I°Þ79R£†ó;Ž™ÃÍ-2ß$k9ò7!FhÿmN Þ¤åcÎˆ‚o*xò&quot;E&#39; 6v(x^Áno)8•ø=ßì	ŽHñO¼­à	|sÂùH&lt; ~£`3¬«äŒ(Ø¯à%“
+ÞVð„‚ýMiN!ð¸‚wÄ œ²Ýo˜Ù¶N§‚}
+N*xßl@äRPúµ¸Ó”²ß&lt;
+p$Ë:os=4@±m õØ2ÈyÓTØ– } i¹æF¦}^AŒÀv]„šI,:H•³û€ýšSBÀ:+LjÑ!Smg0	ðÌàW6×3‡TêÞ`ÐÇE•¹*F+`|dä“*O¯XYñÍ ÷ŽR¶]%è¯(xAeå‚
+åDz¤‚ÒSé)´Ôýä®_Ô¢ºS\§ µKìVps¿¥à¼òz“å7º
+]egpD™uRÁaVU¶—¬lt;Ú»°pEáF&lt;f»…åx\ìv¹åuôÖîÞ¸`ÁÆÝƒ=÷4-É¬nYPÖ{ÛÊÚÚ•·õ–uu4l-mN,Øxÿõ×ß¿qAû¢¦håìÜÖÕc×^;¶º5£¸®Â`36À¿#ÛûÎ¤Þ|lÓ ÷|¦aÛ$¬Zº	‹=	ÃîygPtŽöš&quot;³KÁ‚qGqÐÊ;¬½D7~TÁQ§À@ÏY¬û¬Ê†øcb¯æŒ
+8ŠC‹=g³öI:U¬tDÁ*Í
+r`0e=£¬|IÁ¸ŠÝÝ
+(8® [€šælZâì¦9éÖ4”¤ƒQâËr üRÁ|8á‹óœŠ¿`Èð	žS0% ‹{8dSÚñIøt“mGúÐÈ7ðmhÌ_Û\Ï&lt;¡àl³~nd0I¶ˆ n(lþ3€3öÁ3 3yB€8ó8æ8,ì°‡ÈS:Í-ºû- ¦9Ð4\dÈï”â?®õî‘É`Ô o€d
+› vØ‡°ùÀ“ çA{ÙgOªö:lŽN‚ÎƒÒXz€Ìø1›)Ç,:¨`¿Ì.³K7§AAÒÃ!»f%”[ÂæV€¯ö€dOH·¿Qð=•´/*Ø§à˜‚ó
+Ö	 9|D¹÷÷
+N(8¢à¼€ªü¶h2štð‹´ÍùÑ¥;ÜiS=mÜ;îq»//ro¾üm¡çè&#39;nÀŸ&quot;èu–)rÞž„-‚×‚sœm¦®‚uÂ·t‰ØÜ	E6xý²žå!G©X0’}¼[rÿ¢*Ä¨
+1«
+…XfLlF!}³zÂîp”Ë¢cÄL +N¨	I&#39; BÔ*xI‹J4çVÍù•‚Í09²1µl~—æ\T ¿Ò¥„£Û/•)²äØ×@X2Ýåü«f‚í·}ÛO)‘áv«¥¸OŽ&quot;nmµÎò”N;`‡¹S§r‹‚»ìÀ\À`*·jÎN£Ž€^ãk oƒd?Jm®‡ƒ’îX&gt;O‡ŽöFDj¬g&lt;ß‰&amp;no^V›—W»¬yûÀ/nûÆ7n»oÀy  Ñ0»¤¡2¿ç£££Wž‚Ì4O¿ç&lt;ãœCGíÞÐ¤)Ç}›žnvÈ‡½Å¢¦‘)® €•£,ÏøØÇ\˜¦&amp;˜¦&quot;¤EÜïK”4¸Ât”“”±f/¤ñYØ?ÓT˜J(;%&amp;#åòÎcÆ&lt;
+Sà&#39;™‘´ÒÕŽªóDºÚ›À”ã¦&#39;R;˜BÁr1¡y˜Z†  ¸‹p‹é¸ÙF1;Eqñ|L-&gt;†Öôdæ™vÚUßÐ“ùÈ]o¥s‡ÝJßpOß‰ÉzÖæyìÇûjzxÑ’í:ç-ß¯Ê½V|Ø·B´Ä‡}+„{8&#39;ç„M§üS”œUÅçmN&amp;”6&amp;¿ÕøÛ	êù”–S odøWeO»N$NÉ}0éö[
+Néå´i°Eo+¨³0t~{3üöfxyÍÖ*–ØÊÒ¢UZP¥UZl•:[âcË[Í‹ Œ†Ð·š…  o•g§e´g.(8­ Åà×Ôqü‚s¯{Øß¼
+p$ë¥(ë]¾È Ã&#39;Å&#39;-“&lt;“bÇ«ÊŽ‹ø8Ð Á6¸«â)S¤Ë;‚•I1 g[Õ÷íZ¯=Y®élk-wç8±¢d£Ó‘ÌvRŸsCÉÊå-ùñš‚¹s£;o¸¶¶çžÊ%e¾×íyîœÁ…×4”~jdÓ¼‹~~m²(Q)®ëª¨ìÌº««©· nñüÿ(ýT~´6¿©.šl«\¸4Ž+¿kj§ßsK_Ê7n|*‘ýN@=pu‡Ê Š6g@‹¡¸Vq›ìúÎr‡¹ÐQÝêg%G5¸šúY=Cƒ˜Ñ`²S\ÆŒ²*]ÈŒB›Q†áá»`&quot;Õ@9Æ–™jjcË.1Ø¿ì/(ë|Wf‹ŸÄÃó W@o‚ÒDi}óVÎ¨-ö‚ÅíèÓ‡ýÐ×CV‹}m:Òm›ý8D‚¢è@î$tã¢è xx†ð{ Ùónÿ¢ 1”y!À
+¼&lt;ºFp1‚[„—*ó&amp;Iö²8‰â¤v…\/d1Á€ÞÚŽêÝâC-Z¨à\è&quot;Ð.®nX¤˜¿ìé5:åå2Ó\5x˜ðêá$!¡3î$ånQ[´mkIãÒºÚå­ee­Ëkë–6–8Oô¸¹õÍmE]Ÿë©ªêù\WQ[s}®ÛóvMoëœ9­½5AzåÒg‹+cU=7vtÜØS•«,vîÎ p¥›*/c‹˜mý–sºÂ)ˆëc=fn ¾`Ì\Ì&amp;ÌldÁ£ƒ E(¿&lt;#qÍ…@çA°óhûGyR£y”wˆfˆ‘0aHÁ˜ÜÂP´WÁ9STæ+(À„§D|¦DW`&quot;6œ&lt;ÜäB9®&quot;ý]™ ß8Û8]Ê}!êgKý(”¢BêGYÿAÙ%{
+=ªî|?â1˜™þˆ=tx…OEM}LAŒ7&#39;VîSðëÔhN?-)ë\ÔÛÑ”Xúü›A¢÷&lt;l‚Û Ý…é¯‹”à	ÀÊÙF]8úA”AÂËlÉ$ïEhÎBÃó0OÒÝ)†ŒçHƒv€*/út]
+R+Ô®“êš%«—á—[WŸ.ü-]ø:»p^9‚U¥âk™³iÀ- ¯‚èÊ&quot;µø£XøKvñd:&quot;tœúSzÄã:Éý§„uå]ø¸Ý$p»I€1ã¸ÿ‡Ë½¶ÖÎ®¢g…œ!Î†â‹J]¯¬qQ²ã3mó6]Ó&gt;Ò]5·{mkÇê…åNö²U%ó:çt&amp;7Ìn‰ÏëhTÕ«^²¦¹œÎ8$Ï8ýÉ§îi&lt;ÂçCàÛ8„‡ ÙŸwdÞl!Kš’\N¡^†Ú4ÈÞ¸´wÕ¿eduÙUºJ³]MI1n³hèŸ±iúiðœ4»	Læ;– ­ ] 4(2G*¶×– ÖÌ ØzÕÉLêdæŒc§˜Å3”Ôe†kb(õKÃ Åè›“ÈD.Œyp/P}@e­ ¹Ž%;Ú:Úqš3NƒC&lt;‡z›S9Ö³qãÚþì9ÙYY³g•Væ…Æœ‡¯lv^´ký`š·ÈKËKÔ—ìÄ,À¯ƒ.†„Ìý,Û‡7š-Kwa¢B˜N^07
+&gt;ðÁÀ&quot;¹&gt;Ž#1ò|”¾•râ fP7h´´´”Ž^yñB™ný.4À†ù¨Ã‚ˆÛ=Î)è&amp;Ø.G8›aê«Ö/‹ŒÅ‹Å#èî,Xt	$‚³Dø…Ñ+€ÞÀrïLsK~A(YYm9éá’{°&lt;/¯œ”ÓÓãÞ_XZZº¼oÊèž1ûáËxKqh&quot;÷ŠbÔn Š¬³jì»­¥ôQÉÇ[M	pµ&gt;VDKÎ\• ËðfHa†áºš[Ú0·ý˜Ò{dâg.Î«z¯o:0gM=::
+„×&quot;Š_|$¨£jÉö*xWAœ ŽK+J­b¶Uàõï…ÓèU âÌA+:mèÿuÒ·šF[s	íÎËš3ª`¯‚­#•©·qÍ9&#39;uT­&quot;äAd†E™‘‘ÆŒ´ó™1ŸlcÀ*bæÓWóá§ùðÓÎûä&lt;çøŸpê²Ñ§TôàÇ	€7@.Ô?îÄ@V œ.G€ªRÊú&quot;OA®ã$QÀ«ì†9jß/(8­ BÀiXm`óà]Åý´Þl~ÈºP%xb&quot;b|Püª‚…
+ÔÜ§p!§.‚D&#39;.¨í?d×o?¼šC )~_®46Œua¾é‚§ÐOoÓyE—ÕgÁ#&#39;\g‡uEº¢~{tEc²´rŸ‚“
+ÞÔEœTÐ¯ L@¦×•&lt;`d%øgëóÛ«kÚ
+Ûøž£}]‡ –=ÎæÀz¦Ð€çö»ÅkæåÏ¯Mf¬kºqmOkoUkE6’Ð|WÎm³Ûg÷×ÍK/¬.oh¾rÊ‰özNóµ‰	Òçt¿tNC&#39;ç8Lâ`G¼ˆ‘¯Ã²Ò	Ãh@±h™D¾îæÑ¡š…ìl«FÇé³“ã
+¦Å%FÎƒþ¢BVâª9‘ÿ4È±•ÿ“P’ó Ù¦çd¸€e†lS¢¯?/Šf`üåüB‚ü&gt;BÀ9®Õœ4g9= ÖY« F6iµ€uVÛ~—‚=
+Wð&quot;ìL#j¿ ó8¦ƒÑ”SÞßýÚl¿‚cÒ&gt;¿ÜÀ}‰~L jv»Ž›Y9¯©{Þ¹Âol«íQ=‘_•Ÿ/š%;í}v•l°s{þ5ÐyÆªÜö8ßÔ¸ßç]¶Üîrœ/|p$ð*ËK-&amp;ç.&quot;‹±ªÍª³ËçÛWáƒ}ûŠÚòr–ŒåËYYÙ9F*ëæÁ¨«{Ä¯°×xa,˜7˜&amp;Š¯²ôÝi7\¨·\Fih&lt;Ý,¦	®§û À‚ $Ôû0ô&gt;xØð¨5ådá!¸žvBšéÌJ›} êwãHJ@¶(_ìz?À!}èÄ^õÄG&gt;‚ãåÕ&lt;ó¾ž&gt;5g&gt;d°ÅâÞ³˜á&gt;Ô°ø(ìÇK iý¡“-N]&lt;ó¡”ˆ5(¼/ÏÁ}—Ö]µ[’’/‚~ãvØr‚~(¦ÓŒÉ|¨çkDÎW™t&amp;ÃÂ®©J&#39;`×TâàMæûz°¸w†&gt;+éØ*n&quot;úòÍìÎ€îPØÎÛ”ŒÒ	æ
+kúT7êÔË¼‚lÜ°õ]_¹ëœæ¥ºniCIIÓÆ’^¤;í…º“ëß¦kx‡V‡)DB6påœû)Ñ‘F72	4~,ÞÓÙlSÈx¿Æ(¤W=ŽÀ¯Ìw‰†yag%Þ0ªEqP
+~â!&gt;aã¹ªÁøjF&#39;Mù?ƒ&gt;&lt;âWç¼‚&#39;ü»‚·áaÈ|¢Qí’¨€Q=FõØˆO( ÅŠoµƒýûËº÷—Õm††y€ ’²ÂjVJçXHÁ
+þDñhÐåÐ¡VU@ƒØ_ër™DnÒ
+TŸ„&gt;°ˆrÛ•OÈÊi¢)“ÂŒ.ïc•&gt;.~g˜år¼]¶‚XÃM¿!ìed§W„ðÊšÿ_dÇ‰~&quot;²Ã/q.¯™þ£ù±ù&quot;£ïò2Þ3ñ\æÝD&amp;,‡75‰?¹ h{æŸ½çøŒ¡ƒ»A{Ùeó€tt	Šà£Ê,T	¬á8À”&gt;tÉƒšóÀã™Œà2Ò5ã2òãòâârRsa&quot;Qâ³Ö@¿Šœt¾óà‹/uù‹ K³è¼sD™ÔYu´rxôZ‡`—éD‚ËëUmù„S=ó%[ÜäK6ts^×ÿKö
+‹Ó9u…Þ….k¼¯&quot;à”x&amp;Èl*ñ……ÄäûpàHY‡¶ï·ÀÇ{&lt;x&amp;&lt;NÔÝƒ&lt;…mÈ&quot;šôœ¥nxvUKEYá¬Y%Õs£=NOEwÛºüdY4´ÔŸÓÐ^|åáiï  O[¼ßòûË:=Õƒcº[Ïâ!9‹&#39;LLC}˜ü#twáÉÕ÷©·P£rÙ¤â¨G4aZŽƒxYëflžÂ³Ä´YpÖ‚,\¨ÔkCàAw¨‘—šÆ·œfØ[&gt;G6¸›ñeØ„¡©…¡A$03U!³ižhi”êÅ|5ŽŒ)¯9tapzbÊ™˜ò\JÓ{âSÛ0`5ùÅM{š€âÎoŸßÉ¡3Eq&amp;ÂrÞÕ80FŽyÇ2B;\òÛ Òî§ ¿É1öUìnÑô¸.ñ½ )á÷|™-Ý¿¡Æ.õµÎSÈy$Å/Xùá‹—^¼.Äë#øø&quot;¢Øü—,ó8¦šñ”‚7%Ž‹¢#
+R_SânœýAäÃ~Í¹häˆ4Nk»\D	Èà„fo)è°/p&lt;ÜÒøJ‡Áò8ÚL¦rˆÔ×;‘#½ª`§róa€ƒ–›a„5°Àk¤¸ÒÛ àFëzDÀ‰–øˆ)¦¶ÁÃƒ\_}ŒŸ[ð’ºÞ¸	Û®Ú¶à%|±%£ð…I ÄOã9S&quot;¬æœWFŸRpA™H¶I½Ì%&#39;^Óâ&lt;æå¶—Û€áÊç7•½&#39;¼&quot;ìw« Ètw›c#g…±
+79ŠªkºÊqqäíê&amp;§_}Ú¯¡œîœÖ¹QØŽÆÆe-K+Úz*;×&#39;\;¯ ¶&quot;¿½ª;«®¦lNËâDËê&quot;gÓœÊôèìüDyfnæ²Öê®dn]kM¼:’_^¬ˆäxÙe‰¹•ÑêFî¤É†ýYì›ÙÎžÆ£ó‡(C™Áv±’l×ÀðeJŠ&#39;#“¥È¿yñö‘	““I“s€—1Êá»4­üâ6è2]ŸBNI1&gt;ñD—glÊ¨‡(¡›v·úÌÀ:«ö‰Wé³h¡fÑBÙ	¦»Â;/®@ì4— ·®ã ûËwª°mQðM#8&quot;ÂðŽ3àgÈ_JÐ¶]lFŠ3Ú—wlˆˆv2*o˜ÌFÔÞo”QTø&quot;Î5»3òJr¢ss¼ªöüºÊØÆ=»9}gv&quot;/œ‘~m4£¬¹Æ©YtÏ=`,tÁ8&#39;;OÓâ&amp;ý²ëqi1¡Nä-?]  ·WhÎZÂ´Nôø1}ïŸi§=Øive¬!SÂì¬ÜBgahßZ‡á@†Ñ%©/Ákî.#6©¯i^ÖÓ³YÁV=FG	ØÉ æìUÐ¤Eãš“+9zNËU_áj˜’@lÒºïs5\üð#Ä4X ‰@0—†W¦|@ ‹¥$ ÿlƒ^`û¸fÞÖŒn™ƒÂkØÛÆùÿ £ø¸ù0@£Y«FÇìœøRg@ðÐ°NI¯-¿NìºgrZéœ¸r§³]àÇyû›™öGþÃ
+†¦661›ýí8 =Ë\®rHŠ¡‰X‹|}ø¤™‡=PãŸ)XCÀÙCˆðïg–Î‚rá¸è‰ŸR¹»pÓðÂ`ÛÒâáÐ8h
+ttæøçÔ{™€YF›Ú„Ð†^+ÿ½Ž°HY“õÏ`M°:MŒ°á ²RÆOÂ\ìQÚ°œ»´ögÂŸLCð9¡Þ4ÜÓÒà§á ÇnZñõ1­°ˆ¥0ËP&gt;9Â*¯púÝ6&#39;ß›cÂaL{G¿›¥C  Ý§ŸKöBª€ƒžQÜÏ‚.À’Yð¯Ò!ßéðªÒ1ótÌ&lt;]…ðq)ÿ&lt;ÀÐUàù±wƒ[˜IÝ¤Ùä|§Õ~æØœ0ÍÄ ™4“V&amp;,uGñ0f3&lt;üã“4¦¤gBÒ3…‹Üèa®ƒ¦@ÇAç@¡õKùî)ËÌÀîg`Ó;âø[5¨œƒ*3jR°—€TÀ{†lßŒÛ_7³ž*qð.êªgÐXc
+š#Ün\Ë›ß“%ìÝ¾Ï·RTƒÓ(º’íb=Î4¦`9[2ÉÏyá‰šÛk!¤6\m¶PŸx„^}8À^vàA¾Žˆe²`{ø1*„ÙDDŒ3“.öƒßÃˆšò±h&amp;ÝA_ÈØ‰.Ðâ÷UiNd2Á·raÄ½ø2Ûƒ€Uæ¢&gt;¤Bp-uV3&lt;|áÜûºX§XÁÑ r í+˜Ã:€ JÑ0s&gt;°\ò…­Ãx¬¶¢Cãà8ƒ°76.zR×÷U€Ýº¾·lnjùþ›0àñ0û8i&#39;O‡/„–òljc©þÜ°®|OÑ.JÖ„“?~üÆ¿ùúÿüÜßùÖê?¾vøðküùÏ±›óûøÞûê~éiôÝÇI8‰üçìŒÏ½¢*@¡¾„€KÀéäh/{¢s=JŠ¹(Ê}á8,ÛgîU[C«ð¹ùO ë×MyP ïo&lt;oq\è—Ó­&lt;ðG\h~+F¦Jàõ‡^1ì3&quot;|°›8‰¨ÚJmBÝYwˆ€ëŽS—	ÆU©_V°DÁøo[yLs¤›ŸÓœ!»¨Š‡¨Ñ¡ŸŒ_6‘Ù!ƒ!ÎËj;×ü$úwàûà™•Ü*ÀžÚéÇ&#39;`.i9ôÊOi”j#œèZá!vo3ÀNpöÕ)¾‘W&amp;8zÅLÐÚ‡ä‡Ð¢É„–®Êîu%&lt;|“Üæ$k?rÚö_¹¼ÚiïsÚWöÊ¾œí—tŸ»¼ˆ‹’Ÿé&#39;qÝþs?ø?&lt;ìW5c›éÅ˜É§aE‡ÌõæœPQhÎZØ€ó9Ü€ùãð†#ˆÁsÝÐÀuëæ/½sÓ[¾ÜÐ36ö¥ÿˆ£ë
+endstream
+endobj
+42 0 obj
+7997
+endobj
+11 0 obj
+&lt;&lt; /Type /Font /Subtype /TrueType /BaseFont /QRHORS+Helvetica /FontDescriptor
+43 0 R /Encoding /MacRomanEncoding /FirstChar 32 /LastChar 222 /Widths [ 278
+0 355 556 0 0 667 0 333 333 0 584 278 333 278 278 556 556 556 0 556 0 0 0
+0 0 278 278 584 584 584 556 1015 667 667 722 722 667 611 0 722 278 0 667 556
+833 722 778 667 0 722 667 611 722 667 0 0 667 611 0 0 0 0 556 0 556 556 500
+556 556 278 556 556 222 222 500 222 833 556 556 556 556 333 500 278 556 500
+722 500 500 500 334 0 334 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 500
+] &gt;&gt;
+endobj
+43 0 obj
+&lt;&lt; /Type /FontDescriptor /FontName /QRHORS+Helvetica /Flags 32 /FontBBox [-951 -481 1445 1122]
+/ItalicAngle 0 /Ascent 770 /Descent -230 /CapHeight 717 /StemV 98 /XHeight
+523 /StemH 85 /AvgWidth 441 /MaxWidth 1500 /FontFile2 44 0 R &gt;&gt;
+endobj
+44 0 obj
+&lt;&lt; /Length 45 0 R /Length1 21816 /Filter /FlateDecode &gt;&gt;
+stream
+xÍ|y|TÕÙÿ9wŸ5³ï“™Édf²„$d#!«,
+	²oJ„°(¾¨ ‚QdQÜÐTFR,U±¶â‚¶T­V´Ú6ÕöEÛsóûž;!íû~úG?ïç7“çÞóÜ{çÞó&lt;ç9Ïyžï97‹-™ILdáÉ¨	SÌ&quot;ÚçªBÄO¦ÏŸº ÍÛ?!„nÞ¶8œæÅBøf-˜=?Í+÷¢Î¾ayÏï]B*o˜3sêŒôyrûò98æi?ì³çÌ_¼,ÍÛ:pÿ&gt;7Ü8½ç¼“ß&gt;ê²žç“Á‡0uþÌôõWi¿_pãM‹ÓüÈ[°ï\°hfÏõõçß&quot;G‡‘ûˆŽ\OdÂ¾“‘¿Ô‰€³ì&lt;&gt;7&amp;\—Qó-±*Ýˆ{´ý»wŸó÷™†{•à€îâõl/åª¹„)Îwî½tFû6Ã:ÉØüN2T*åçòUtÙzÄ“¹ôn²´ô H¸TzÜ!z÷AAI¾H—š4¡«ÞGo½ÓI¥ŽGB¿ö|v˜zÑzŸRïAÑÒÓÇè£d	Ñ“]AšI}ðÙÜBSpêI² ´
+Äk[JŸ&lt;˜Yz‰ö!1â7q’)ÐçC¿/.}^ÜÉÑƒ¡—v?Ë—Ì&gt;úipvè%Ð¾ô©½¹¸âùÐ“ÁB›3;éƒC÷;)~soz·$ˆŸ&gt;šŸ»54£X;?|k&#39;·ï`¨
+çÇ%¡òÊH¨,x&amp;T”èT(ø‚àðP^ñ/BÙø!.ã¦±¤5nõÇ©Ì`C¢?è0ÝKw&lt;ºã`lhèE!î³Cr+·vÒ›ŸmÎ)ŽuÒÉòæœ­¹Í‰XîðP,·1‘@yÜëòjùZy\&quot;çË9r\ŽÈ~Ù¡Ø‹bVŒŠ^Q¹“&gt;u°6$¦ûH-Ô²ïYERÄNú
+‡éÓÚÁ§_P…Sˆâèìþ„/qtÒ}0{JPx^ÒJR&#39;}úÙô¡§“!•í„…cel°%U82”´ÓvJd«­ÖSkh­j¬ÿŸ6S´3·ùÿóÇCƒí[‡mißlm/a…î`ëÅË=ÿã~ñœšY—Ÿ?lÌògÛÌ›Õ03Ú0%Ú04¥ýî¶9žöUÓÂáó°áv&gt;&gt;eÚô9l?ufû‚èÌúöyÑúð6íw½NÏb§Û¢õÈ¬†«[ÌJÎ¬?Ø–lkˆN­o}vZÝ¢IW&lt;kÝ¥g-ªûÏªc7[Äž5Mû]¯gMb§§±gMbÏšÄž5-9M{¾aîØº›Ã:Ãs‡…ÛsÆ¶=¡¥=&lt;µµ¾“îÂÁú%D&lt;J,â’#®&quot;&gt;¡ˆ„éþ5è4Û«×t!&#39;u~÷_øj4ê!FœZ[CŽ’’d?‘È”sÈd²œ óÐ·&#39;’ò&gt;Í$…ð½é$ÃÉ›´»ûm2‹ü×/&amp;/“-ä 1â7ó‰g7ÒX÷
+ðI”§‘ÕÝ“lRIî$GHîº‘tu?Ùý,ÎŽ!×½d~ÿsåöîgºÏ…ŒÆ=WãÌÛÝÃ»÷éCêÈ(]M^¢1þt÷â!Õ¨ÝCäQ²“üŒü‰ÞN;ºçt·uŸìþ¦ê!2ß•´ƒ~Êïîì~¨ûÝ*4‘CòðÔ)d3y÷ßïQ¸Öz=]L7Ó-\’»ëÖˆn5=ä’&amp;|›Éä.hà9FþJþA¿æ&lt;¼…_Ì¿Ú]ÖýßÄ ¯=\“d&amp;iÃw-¾!Óa*Ñ¾t0EWÒûéú.—Ç]ÃµpK¹eÜüH~&quot;¿œW¸I8(n·KõÛîÃÝÇ»O7	’kÉ&quot;r+¤{™œ$gÉ9Êã^£Õ´ŽNÆwÝÁ¢;é!n=JOr{éoégôkzž9#çäò¹ÅÜfn÷2÷K~.¿…€ÿ-ÿ­0PäÄâçRLþ:M]§þ²»ºûÓî¿ÃÅ*$‚–©##Éud*¤]@ú‘ÿ‚Oã»­vŒ¼JNhßÏh€t‘¿C„Ú¨–ÐøŽ¤WÑYt.}„¾ˆïKZ]¾ãÐœŽ³rn.Àå¦qó¹UÜ)nïçóø¡ü~?¾¯óïóçùó‚(Ø§Ð$!„ùÂƒøîö…·Ä*q 8R&#39;®×‰øéâÛâûÒ­ÒFé ôµôÜâpùFyZçlög°åï?ÍFíKÈÈtZO§‘­ht*YëšAï‚¾œîIü­|×Öð¹Öú YIÖñÉÎî_ñ{É°”pËUd·PG‚â6´Îí¤/¬¨ç›ÌÍËÍIÄcÙÑ¬H.?à÷y=n—Óa·Y-&amp;£A¯SdIxŽ’&gt;ÑÆ)áöø”v!mn.`|t*L½ìÀtåp{ã•×´‡Ùï¦âÔW&amp;qå¬^W&amp;ÓW&amp;/]I-áRSÐ&#39;Ü·ÿ¢&gt;î¤F· üÃúhk¸½K+ÐÊ›´²	åH?7xæÔ‡Ûé”pC{cÛœõSêúÐCI¨C_Ð‡9Ž$1°·“ÁSWÂÁ’ÁìŠ†v_´¾¡ÝEçøXÃÔí£F·4Ôû#‘VÃ¡1-xFAŸ¹í¨&#39;¹Û8#:ãîÎ$™6…•¦Nliç§¶¶sSØ½¬ùíîh}»{ÅçžïÙ‹¥†—lçbSg®olON¹ÊeìÆMÝ nØØ0nË­imi§kz*Áê85eÕM	±)óÂíºh]tÎúyS \2¦å /éÓœo;ÕrÐ›ôjLAŸCž[«#þPÁ ‚Al_ñÜšÞÿþŽôñwŽ²½çÖcŸ`?lÌ%P¦èÔ³=&lt;]{H•­d›™•dýôJè	ŸV
+1ç¢&gt;ƒÛ9ØkcC¦¶¯{±sêÓ•›2¯þ ÎëÓ¡ºV\?e½¥?Z
+×[¢áõßb´žíúÓ•G¦ö‘b–o	;Éú’­´Ó©Ëml°ŒAê9žèÖ¾mZ›‚z.; ž©†Õ¹Ý|TK¤=ÜŠˆ&amp;ûë$ºQ-(ÝØÚI»×t’úà!Ä¨üu“qº3µ¹õx&gt;˜‚&gt;8A©°O¸Ond¶^^?dÆúpcxŒIˆi{œ˜¹¾µÛ=‘«ñÄd«ÿRqfkkÜ§ˆÝ?Áåë[q‡y=wÀ^;T”ÂE}û`0åã£ZF·´¯ª÷·&#39;ë[Ñ
+0ß££ZÚÂr[[qUñ¥š¢Æ+çzzê\‚:çá|iú.ˆ]Vá­ë×³{Žm‰FÚ®_ï_Ïú[šï¤¤÷dÏNÂ.a*ï¤«Fá·ØE#~­&quot;ÑªÕÊtÚ&amp;}Ñ¢³ÿï.¿Toü²µ-×4\ùÒpÕ¿£áþÿ–†«/Õô
+× ÎÕLÃþï4&lt;ð
+×þïN^ª7*9µMj®ûixð¿£áúKÃ—jz…†Qç¦á¦ÿ;7_¡á!ÿ»†‡^ª7*9µªixøHÃ#þü·4|Õ¥š^¡áQ¨óULÃ£ÿï4&lt;æ
+ýß5|õ¥z£’× ¶Wk÷ÒðøGÃ-ÿ–†[/Õô
+O@[™†¯½¤á¤¿\î‡Wõr»ä?î˜&#39;^¦rDJ¢ÔqUHœ? c„›À#­Ü^²T/&lt;E&amp;âÜ^”¯Á~?»×$AÇzöýpì3F¸6À®×ö7‘‡”ù÷ÊmC&gt;7ôc”÷Ÿ‘ý(ïÄoN€÷yHÚ«]óTEF±kp¾û)¸6‚ò^”ûòÀázVV×6€ ÕØW‚šq¿ ö@«éqFÝ§q~ÊëpÿÕì8ˆ]ßªLëpžÉî¿
+ežec{Ô{ªû÷É’Õ&gt; u]Ä¹ŒD¢w“Ÿ2Ø©-ª‘™CÖ¢#zä_F JfÉ ]üXˆy£8ºSyˆ—øˆ_{Fdâ²î!Y$ŠÜ”‰“²Càdøä‘|mÏ6}@È|‹õ#›(EnTFÊI2Ú*Òyh@iI’AÈ¡“zÒ@‘7dŽÿ~†üÛÕÚse9$žL-ôW\™ÜVîuä°ò¸íüKÂPa»p¹åpq±xTª“}ò.%OyQÐMÑÝ§{C÷;ýDýjƒÅ0ËpÆØßxÌ´Éô’Y2Ï0¿–aËˆg|c™`ùÐÚl³Ù&amp;Û%û8ûjûKŽBÇ(Ç›Îçc.›ëN×›î§Ü&lt;ã&lt;ò&gt;è}Ã7Å×îûñ¿(‡UÔÁ$NëàaƒÓ8¦RÔIbé$ä$ˆñ(ó¢Œ½Œ=½îCò&quot;~EÈ¸üq&#39;û¾Å¥Öˆ5ª6v^øxäÜàNaÄyàb¸b¿›Üó¬XÒÁI0Ê\^È•½ŠNnL5òìˆ®÷S¤¶&amp;USÜ—òQíËMÎ\Ú\¤:¸áŒp?|„…¸Ÿ¶ømr¬Èn·&#39;áo\š)™­6›‰÷ûvZ½Ç›½H&quot;M^ILY&#39;˜œz£`r2x³Ã [wì~›ÃàòÛœz·ßæ‘}~›W
+«SäÍN}&amp;oöÈ!bõÈ6«µ–L~ÉëØ&lt;Yïtl‡Áëq:zYRL~¶#f¾Â$&lt;ì·’
+›…‡Õ›Nù#MaKÛ1OÍç°¦ÆrbZRØ0ŽZmîªµ…ù+-¯®-ô°v$£×g­¥L;“ì¥öhE©½”×HŽò¥ ¨]£v™_Mþ2ôåÒ-Ë?ºyór”®û*ôJ¿Å‘/¹¶ë&gt;šÈÓ–Åô¨šd´XÝ³XL0ZL[Ô=°ŠÖîÅñ0&lt;CŒN%×ÆûÄ*úT,7‰î’csIKÉ2Ï&gt;ËµLXbZf]V²¬Ìx•i¦i	å‡šhAß‚B“‰Ä-ñX¬ÜfµÆ¬–D&lt;×/è[$æ™¬1ž×Ç–&gt;}%Oã«EÉ#eg’&quot;½&#39;»Ÿ/7Gh¤Z_îø+
+sËó’…¾Îò
+oÍ€N:óÙÈ‹¥=3ÒòÝˆ³]V[UUQªªhR©íª­ï®*Q›Õ]ÅþlUk•Â|‹rT9*‚&amp;‘IÅ}&#39;ÑI¤¢¼¬_&lt;š%KN‡Ëm+¯ ’V,åâeýÊKK FÈ’LÒŠR‰+£ÑNG³p®¢¼‚Û“]=nÈù®Á#=–¯vü0¿nßÔwkî|à©Ö~+¨Ñï4ì³Î¢â—ëÇÔ/ÝñùÉ™Ÿä_Í«;hòÐxÁ€­ÎÍª¥[&amp;—»aÉ­|ø¾ú‡ŸYþÃyG«GG]ÕôC5åU_ÙÓšÛü·»ÔÏ‚&#39;ß¨Næ¦Š§à—&amp;u«Îîr»}ºÃô!xs}(iNb¨nñ:]‹Ü0ÆÓ)—¬I÷)ßG¾®÷ºF6Ì¬ÿ‚ÔÖÂx8Y²ZÜ.{´&amp;â‰x™¥¢ÜÎM~¸¨itÉæå÷5æVº“ª‹§Ô·6ýFýTýø›ûÕ?œ¹õ†û÷Œ¿Šæü~3¡ûQRú¸Q;)O+±;Qax†U	Ó(¨’Nñ:œ‹ÔÞÜÓXïu}tY=ì¶Šrf|i&amp;ugR§E–ø¦GY-ï›;¹úEu2-ßø…-|s?u}wÓÌ•gª¿úr‹ú±V‡‰ð7
+NŒdÉ ¿BäÂŠa…^oBM¤‚.ÌëW¯±vŒ&#39;¤åìÖåÎöè!Í÷µ—E¬ð\Îˆ5jH;öÑuø&gt;úüú‚:d:”&gt;¯=g¯z’®&quot;§1V$]$jÖÏPô&lt;Dî§ŸAoÆô™é&#39;Ô¤.Ê7*/îë.×,-+u:$yoC ƒróßŸÒö¶ñš‚&lt;Ù Ÿ~ci‡€&gt;¯¡sÃ¸mèyá¤žñÔ&#39;¯€‰:˜»æÏX¾ E#p[;ê{ýNÕsÛMÕ­~&lt;‰&#39;í4×‹¨Á~?#Â*Çœkê¢è¸CE©3ºÿí·OØf¿Ç‡›§ùçü¤[¦nºÀ)Çl&lt;O8^Ïæ0xo‘ç=¸®ÚQsTÇè$ZJ£ôíjávæí™ŸOvÿZˆÛOÈÂ¤{­HgY†(“M¶JþFO¥!³)ÈÜà{])­¯¢.ƒ—&#39;û¿)Nc¾¸.&amp;Æ]fO¬Ü–Cý
+J	%·Ñ™Cí6^} ‡Xl¦OÙFûÜ†)?·Ëj‘¹H8·ö«°ElåÖ~\4‹³:Ü®R&gt;yË”ñ·ª¿SÕ[çÖ¶Ñ²õ»–=ýèæ¢ægÄíŸPßT?ü©úçOÓê³ûiã¹ÏÿNÇœ¥Õê)õ£ß¬ùyZGÇ à)ñ&gt;ô¶è…vÒÒ¤Qd£ o‰¾IÇ„:v*U….vöÌ®˜Ó€Q{åÁøÆ£üwëí­»Îý€ÿNÓwv›)&gt;ŒjWrd¹Ð(Œ¯þ sEæjº–C0Á{½÷ï-ç¼&quot;É¢BÀìÈ/†41”‘‘e×—ÙÅphI$Ëù/¹Òuc–9‘q[¨2+»)šVîÙ.Ë·]g´±”yÃ´3Ä~ÒŠsP{@ðcÖ¸ÁfÎ!:‡å
+&amp;‹&gt;‡*Nl _‹EÓ/T[n«¥i[fÎRŽ¢)±1ï˜Á\¦ƒºægGoë7fëÊCMqá¾n	Íùî³åÏ­›V9ÃÇ›/ä¢¶7+{ýÊÍ†­9ÜvRýî‰§V4Í^^&lt;~Þ^f‚ˆˆ¡d&quot;“Y:N¯˜`‡/Ù$Iæ$*Ê
+ð|YÏ-1ˆ_óFYà;©û9ºÕ¤&lt;¥ï¤-ÏŠMfMþoÑÕ!}-ëñÖª*¦l`#¬€±5&gt;Ðª£ÖH-µ¢#X¹«eô—©Ü¦íï¾‹©€u©¥ªH&#39;·ó/\÷°ú8kŽ|†ŽÒ!D´x©$éód&gt; 2:t5‘Î&quot;™‘e·¤;|ÑãŽè²°&gt;Ëúìm|„ÈéÔf­ïá¾ð-¸o&lt;iU2H¢ð.ö&lt;‹¤è™G•ûÙô3,p2vkæÆjpï‹n¦–ÝüŸ&lt;D{T£ßLéüS¡~·Ÿ:õ¶iT^‰(O¿q}s›[§SèîžrÌK&amp;Çó³ùµèðaôzŽÛPH(¼¶‰¢ÄK¼€(R*‰zžPá£‰xeå®ÈuÏir×X¾s×@Õd@m­6#&lt;k-ù–µùØâO]¨SG4 Ü{¡žÿÉù¹Éôu›ºµƒþzžH&gt;näË5=&#39;’N&amp;¿Ã’@|:™ƒŠ&#39;F˜;‡?Ã£j˜;L¥pS&#39;Ú$Üx¾K°ŸïâË÷ìQÇîÛw¥Œ7$ëZH?‡¿‹˜”Ïäã&amp;Ÿ„±ÃF)é‘’B`Ê¤”ˆO¡‚Ès—KéfÏ†”`b=R®µx®”RGËðG…§ÏßÈ¾Ð ÜKŸW+:è&lt;:·C-gö„ARp‹&#39;™¿&#39;%›rlÍö;¢&#39;“8×¸ÜÈÅ•‹É™aÐyœ6“A[Æ3¿~ÃŸ-Q[F±%Dgð¼.ì©Ôù²BÅao$ëÝÈô‹a4‹Š´nßu–y¤®®ÚÔƒX?`À¦õ~Ÿ7SP‚±€D|²gÍüƒ¨WÁ}ŸõüÛÐóé¤¬–Ø´`H’ÍÔíW~¥3 ]Ç«ûÏžzµküê)Uëo•íÊY²vw2[&lt;xò¤p‚ÊŸîŸ·zÕ¤Ûn½gÿÂ«²bƒ§mº¥ávèàÓîSrµø9Æï¡ädkyy¿æÆÈ5Íst³óÎ®[6àuïko¾·*g@%_i®ˆHJ•SŸ¨k44Y[È5|Kd–ëuÓëæ8?d6è½ú¸~œ^PõT_PüZÏsJ™ÒI7=ë‹å°?X[Ýsv¾ihã`”’Ö¡:½XP,¬,Ëâ%ñŒÊ#ô$¾µØf Š*BÔÂâË®&quot;[ÕG…Á¸kSïÙªj»Þ;Öey¯&amp;uLÞEËQ:i!¢J2iAHÉ!¢,-±•“¶&quot;ÀŠ„189ˆ&lt;–W˜©V Pª»¢”‡RÙÅˆEI$ŒàãU¤$»Â-	QáÓ±Cí7hí¶Ô¶ß=÷áYºƒÎxó§ê×ONŸ,ðe»ù*nµF(Ù¼&amp;Ã\]ôœúõÏêêOýè(¾‹f.­› &gt;øxºúßk¦Í¦Õÿu¡…Šoc²ñŒÚ±WýËõÈuƒÓM×Üpœöm‹ §t § ÷ÏG¿¤º¨¿;·÷ÄÜÖ	£6`©ËþÅˆ8=8ÕL[èŠµMØ®Rß©ëÔK9ˆdI¢œ¢Óa£&#39;²H7Px‡^³á˜CcðèÔ`y^Djà(LÕšÔaÊOÒéyÜž¤ÍÄ¢9ñúˆÞk4íŒl˜ŒÞïyÖ3&quot;•òj.¶±ÞCjÝLF°tÊZUËÌ&lt;=Òi¡Ê0ÌLGýíÂ±ÖtvÅð8ÀkÍï¹–åUrOn…&amp;¤jGtÃGø(å7þ¶kÍ§œóô–ÔáGßä6qØ ÁO?7˜vªÍZÔ´zPÒ3É!·&#39;+&#39;˜&amp;XçqóLó¬+¸¥yˆ©ÙÊ•P†²C‡	%ÓÍ2ŠPìŸ›Qõåéœ±—77¯“^÷l¤mVÚÁA­#ŸE¤”ª…&quot;Åa²i½×æñ‰Š7&amp;ÅeOEŸ’^›î´tÒ$ZÂÏD&lt;±^Vä™j)+½Ï¥Ü±[°¤îvõaúô#‹ï¾R]ò
+·QjòªÜ+§·®Q?NmæGE+îÙTP«Ræ¾î±þ¡ÔyÑþàµKïn-Jä—OyrãMOÁ*&amp;tŸ¢?3œè@²Ú/n£[E&gt;DCÂít­¸Î.ŽUø;ƒV«SêäýºL.3ÓËsÕ–b«/¬+özCá‘yiŒèê’ÃÓvi*`c)B—þ$àŽÙãæ˜?npéJˆÉa)A¶—a‘àDÂ—PÊ	¼Þc,!6lŸTBŠ©¥ÆRƒ GÛ²·ÁÑ)Ô”(šE¬¸;¤x¥m´h’uà¨IûY_Ž¼zð×ê·ùúÃ›d¾ì»o¿úA7yæó§^¤M9âçêéÃw©o©¯ªªúÓ&#39;[ïýòá#;~AŸ¢&#39;§Å?†L‡°œzv2´ÖºÕÆ•(†ÌŽdº¥Øîó™bf¯×÷~¤mfˆÚ™/g€q‚Ç©ËsÆ%Y”™—9Y”ôÒº°ÑÙ%Tv kÓx“+Æ$a±›…ƒ5h&amp;`uÈšþäÌA‹‡Vû2~ýõÑ×¹±´h÷––ê©ý{‰[ïÛD­´ðüvÑþÁËêÛ8¢Ôd@®!tA†ŽLfË™‚`à3‘&quot;è”L½A1rF#G¤¹\µÎgæ•ñšÌÔðldËE4£&gt;{†ÌZ]¶¶F³ít^£åb&#39;é~¡èÂf&gt;ÿÂ)þ–ó/sÀ:Ôº½ªy?–ó{Áè5yX-t=µ®§&gt;ƒöd½¡“ŽÇ“?ìQ¥ödþÓ£ûùóÞäÞN×´?5ƒ=c&#39;Ú«H“µ6Qt™ˆ‹ÊéeEc’è3Q}Ì€Óhz,Ò¶ ± ,I÷Z¶Ó²¥ª&quot;HÈÂ?@c,@¢¹ówáÄ‰”p˜ÖNîºsƒ¹ý©ÑšL&#39;ðÐûð&lt;ž¸ÙJÂµÔ¬0ë†Çõ-Æ}¢&#39;Nà—H¸(‹!°ÂƒµÅ‹É’J³Ü&quot;/ï¼Ø‰%&quot;¿—»ø]ÕÄ%W·G÷N„á(¢Žc1ÖÁé8.‡çc6(PbŽ‡DK/ØÊYÒ)&quot;&#39;èdƒàº^ºYú‘à%ÉM0TæÓr{GZ¾˜g\Ã@-¿ æPÖŽ(Ì{€-Á2lÌ²¯Z”:!‹N¢eYiD‡_¶Fz™{“ÚSs‹ÕTJýãËÐP?îÍTû…ÍÜ§ŸªšŽXÜ42‹¤8iGvÊe
+¢ÂûdÊÅ0KX×7.ôûJ¡N¨šÐkgä¡ãÜ—FC…ÝÂwKnÜÏN~žl­§Ã0øPï¢^þ*Úi€wüÆñ´…þ†Ïð£ú05pwrÂhnÇåêsL•úJS7žkãäØ“žãmP˜Áhã%ECEX¿#iÒ‡xƒ”2R.e
+Ùpäy;ñ:˜á ¬GÏxÏVUáÏs†9þ4^ÃÆ5hKó˜Œto‡–€Yï=ÈqüZqDáŠ”°òØZ1½‡N&#39;-ZHMZhg…¹õ+lÅÂ§5ºé.úõÔI¯ªÄ—Ä#çãÂésƒùé&#39;—žÏ&gt;((ÿ¨ß…‡¡g-&gt;ó 6SÐ–tTÐJ‰cÐ@‚6Ñ˜ò2&amp;”[ËÍXbÆa¥ž×ë©¤ Upî9QðÙ˜¾#©×¯ÁØÓK®è$lüM;ZU%`Ä^»òU&amp;9)ë3ý‘ûâÈoS/qýQé	Â®sƒ…Ÿ¿õcqÉ¨îSâ—w2›§XŸì³&amp;Çé+ÜëÊ	½4XqöÏàýýe]€¶bÞ—é)6xƒ™¿ê5Ô\h4W[B|•èÁ$J&amp;Q‚ŒÇSÂ0‰†I”0L¢˜„¿˜6ÚØÂ6ìÓ’° ’ ¶2‚@ÀÎ¶/ì8|ßîcêõé—Ÿ¾ÿ%,£óÿQýËÏ¨Ÿü:Íâçç^QOª/œî&amp;ŸüŠ¥yïQË¹ÇéòoÌÔ¨ÇÕ·ÎªÄÉh&#39;æÿ=èQ¿©É²¹Æ¹¶åÆ6¡ÙÑâ˜ãXád%Ój±è©9ƒyi½ÂI6£ s8ŠŸ+CítýbQmÚ?[ 81Ê0S{„¢F’(ÑÂ‹ÂÖýÜ–cß¼ÿ±Zrœ_µ¬î&amp;u1ÝpçnñÈG¯?ÕÚ,êRùE›˜Ma	­¸L³©¹?i“MCh³ØJ[Ä¹âÇ2QqÆÂ?/ñÓ@².	Ç§ØÚ–8x[fÈpò‘L—CˆÛ²c™D§óË™.ð+á˜3sñÅsý¾\%Kè½9¹ïG¶\DE–ü†Q¸¦TZ†_Œ&#39;Á
+µÜ”² \“‹”°I’3iˆ&quot;\r;Qà¥Lv¾iÃ‹ÌR}Ç¹={æ¿5Ú¸ñ¢Ìl…g1»`”gT­P«ó÷=\•	˜ngñäÔê=¥ÑE«^½:·Ñ±×ŒûvS±?µ:™Ò}Jø¶ËfÉÔääÜŒD4/7—EšâÓâ+ÌK³u×+³;Æµšç˜÷fñzsÿ¬ì,=/&lt;w:ŠŠòý¼Ð?_×—Ó›kvV(§o_«&#39;æ¢Är|%¡˜u‰y‹K‹Ìë»Î^XÙ€0º,Àb-_˜*eÙŽ9…ÖQ¸8/ˆIÀèø&gt;˜ã+(ÔvbâÎ =”OüNO&gt;õzhOt	C&gt;h!Êr.6™¶ Nº°ÑzˆÅ¢E`¬°(Œ}nÓrMè™^¬	4U—õË.-œQ¦õ,`ôn—ÖN‡ÈWAi¦Üoú¹þøñWFo ¶ó¿§ƒg_{ºýÁ	Õ&#39;¹eôõá?ªÞ±ƒçFÐÓ+GÞøØ²Ò’XAŸ²‰/¼¦þöÛ¶Ú›îŸvCI¸oQVõìcgßÙp÷Ÿû#èWg1ÏÕ/é£R&amp;‘9Aa`9Ïñ1Q8/y–ŒôF–µ±Fƒ$Øh_&amp;œP­o¨VñÈþsÍè¬¬ìíþµW°ÖšdÔ-&amp;ÄJ¯&#39;œØß¢sñ.—C3ú&lt;4æðº=E¶°Ø‚Mi±àE&#39;UƒþH5l“©ŽRÃ&gt;ù¸CéâšÖwS×¿1äNuƒºaÍn°xäÂâÇæ=öôäGùŽ«¹OýŽêï£|dî&amp;–CV‰Ü“¬ßD£\’^M9¥ËÄ/(7[˜#Þ%ðÞ.ÆðÂ²7‘ŠÀOµ‰‚¢@+Ç?&quot;úˆä•7B+XŠVU…¿tšÆâ¤i¶*Ê&quot;–ˆaPKb0è`“r’¸VYi9¦mND&amp;-\¸HÇ1Ó§»èÎß¦¾|7õÜPøìJë2uoÃæ´ïIæÝ%PGŽ€zr&lt;ê‰$@Ä~é&#39;ª*+:^§ˆõå¬$Kê$Ž¥e¯çˆW±î˜¨ò¤jªY0*ky&amp;|„‡E¬šU…ÀÁ¿—ãò+BX´Á^ªH;°ç}		v}•:u|bšÜË6§Ú¹Q&lt;{³†Cß&#39;Bd`cíôd¹[ôHÏ$)fƒ%R‰DŠ0ñ‘26ÊòÐ|F~nÏÀº1ãÖŒ8©9–¶ÄUˆ †æè´¡õ«W”Eœ”…ÙEüšG„ÁÚøõçoæfüX˜»ßù‡µ(›bÕ;V4tÏÄ›ñmD[$L¤)˜¿Ç)2s&amp;Çt¨­@ÎÀLaù(Y™×—ê-ˆ›‰ÒfË\Ý&lt;‹\¥ØŒ:Þ_&quot;gë‚c°:Ÿ+Ì­~¡š«.É‹Ù,²¨Yî@&#39;]îÉ‰`¡–jäšš€CÎÍÛ“íèÏÍHTzü	Ý†zˆn%==#íÒÎ¤z$G®Ô‹¡¾î*æÜ»
+»˜àó5§–S^áÌ&quot;Ô£åâÉôGˆ+ìÀ4S©à&quot;ÄtG€&#39;bÃü’Åï]Ô¤lÍE fªAßÎ+pñ´”VÎ©p2œSl=pOy…š¼®ukdNÉüiÅciÇ@§ñŽ?¬Žè÷ˆ{âHÛwÌ˜iÍëŸ”çÒUüò–-G^Ü¶þ­	}†ìº×Ì¦@ÑlzƒÒÇS0qìð¼±¯íhnÞžÚÈâù5F©.šlž÷Ü][~d§g˜Mµu,ÄÄ—±š#“,Hî’w&gt;ðYJF&amp;š‘¸ƒ¢lÕgGBñ…}…–Bš‹	óPxmäÈ¤‹ýfM,ûd“ªµVÌhÚóØ\’Þ%9âÔ¦ÇÆ)»ãÔ®ËŒCYÈ®™&#39;G ÍTa³:08£ÙðêxiÛþêMyýß^quIÕ.nÖ½÷þðæCñ¦—Å—S1ZíRÏªj{utÄº•_¾ôäÇÏ¿½mò­Ÿ`Õ=R©­GÙ,Úí¥Û={”½~¨bÝáày‡ôÉ¦ &quot;vÙïw[6Ê&#39;8«/¨O¸½¼Š$?Y´ò{_Z3¢«ªŠåž—~š€ý æÇŒN}œ˜íHÉp ‹Wˆh¸‚ÁeŠWÀFç‘âWˆü\AƒO‰+*¤&#39;–K€*0sà–ÊÜûŸ¹÷[ÝúÔÐ¾wÝ·àïþÌo¿sŽÚÞ#Û?˜~ÇžùíüpÝÒS¯ÒÒ/ðÊ@íZÙ}šïB»H,M–T˜›ÌãÍ»…&#39;ýbLqpAÌƒ²]ÏÝ±Ð^hÉµÚ|!CpohmdQÝåâ§Î ¾²m}ž€N§ã1@¶ 6ÄËÅ‰Þ¯Ä! ÖºÊ–F+µöÄ¬››EéeL,RÖÏVúÝ};WîÜµâ®&#39;éú±}&lt;ýxíS7&gt;«žûúczÝ—œøù+&#39;ßà*úeã‚çn™ÞBÎýŽ‡iÆª(Þb`UQŒ“Ë·)øv‡xÑÌeˆ§Ù–át$I‡’ë£ÃÏóÇéküqÿ¯”_ëÞý*ú¥ûË¨á¸õ¸›¨ˆ‘ìŒ]Áì*I–]‘`@Ö]†˜¼-°;ðú€se õöê²ófÁ„èKdÊ	¯7žx/²+müÈÆ4Ó/•FÌ X4é’À§ZÀ®YK#‰b† Ëx¨(H!À½6‹Ýâ°’1–åÏŽ“0	ÆifPç–ãÄà4Ç©ÉõEpHÄFñÀ®0ëE3&#39;£ùÍßäåçÝ†ì˜,žÌâO—3’‰.Å`)3Å¤U¤TI³°Jëx¿²Üf¹ðµ¸iÛ¯îë8 _U&lt;fù 1¯« žßÑ!gèÓ·ìiThºþšÑ7}ü‰W&#39;•7Uß[8*`ÁÀ–Ö©ñ%·?»ž~ÈÆVÌÁ‘¸Åw †HæËA	Kbh†£Êe’lz/Q³Éšë¶É¶sÈÌ™/8¼ï…Èì[Ó&amp;–šTuŒå–‹aZ®ÍVÙ*Êôí,„ÉHN63†oYiÙsÑÚk¶;à5Œ	ì8¸e‹X×o&quot;Çýˆ£×&lt;³ñÂþ¡{P/žP«ù/a+!m}ÙÉåŽ!Ê]‹Òª»Ëø¤OðÉÄ®üC~CRá]Y¹æcú,)‚”ôêmA}F¡\X(øBWaA®èëk4&#39;Lã‰€·¨ïeälW³€Ô™oÑÎ=^Pköt»÷‰æø2Öì˜%ÍŒÇIŽ«ÁŒ¹&lt;³ÑfÅiÂŸ?aDâ×3ôÄ»Z¸ËzNY)À8)’O”ö¿Úh‘m…{`Ó=^ån™\Z¶«fzâé?™_0%ÜñV2Î—o_ùŒzžÊ/Òúý×K±Í·¼|Uõm¡n`tðÚ%o¶ÞñãæDÍ}ã&gt;3êo  L´PÝyôàu&gt;wdÿôÕ\ÖÎ«¡TæS\dl²zâ–ÝJBHØ—ÈKÅnâìX¤`J²Ó¨7åê™:s‰±)ÞP}62-íSXóö5Úhå7P”6 LŒ@$Ò±¼5ºº#Y:þö¯ÆÊ,^»àù8ÿGGªžh}$5š{¢­¢åÁ÷S¯3;äðö¡ÕˆØZµòd@þ\€qJ¼6÷
+»Í•y6ûº÷ûšKÕ»dv˜$Õ mþuõøyçß¼ÉîÝ}ZE+µ{[È6¨3ýqx——²5o&#39;Ókßt&#39;Â™qµèEÔƒ­}ë[La´XÄ‚o´&quot;æt´²£C}|yqG¼¶Ý	]&#39;ÿÑOˆNž?_±¤ÿ4Ä¤ÚÍWAß,g7ÝÉ­í¯P/‡Ní–Æ‹³ÅåÒ2y­xˆ?ÁŸÆJŽ4HÇs«¹ûÑx®
+S(æ+i¾-¥ub§CA^R§D‡Ùó\bÀ¤ÉÁÈ´CÔ•Ž”X#Õ0œ®¦Óæ/)¢$Ì&quot;üþ Oþ$ vG{P:â&#39;-b ‚Ù(éV=Mù…:‹øB=¸íi$ûèqõÆÔ4.°^ý&amp;ß:hÍñ$7	ËéYÂåb‰ ^ÖLßO’§h]¢`¶”€6—bBV—®IVc…ŸYÊp+n³;#¡$à¶›½ã³ÆhLïF½zNpÇ&quot;AwÐ$!Föb¼]ŸeÍÅ»ô /—½§œÄ¸VC‡ô&amp;r:©érÃ=c9‹©Ò‹æ†$®K[EÆ‚Æ‹VŒõgš»/Fy0fmd8Û%«&gt;˜ì×ºpÕÈ&gt;Ù5ÏüÕÈ¼Ã×˜÷À¾Ü³vwEÛ¯ÊP›Ý8nìCWoLUp_^?jã®Ô½Üáù%Ãy‹Y»fë||[u;9Yü‚t\âÉ!%mÒbYt9‡Ç‚èHƒÞ&#39;û|Ä˜«óh¡&#39;×K¼~„ÐWtÉô0Ö“°¥qX‘ˆ¥&#39;ÎËDa`\Ád$ð¶Õû†ïsfTŸ‚}oMæ­,ðwÐÝ¨ÿä1ŽœõÏi53L®º²…sSo¡²héj¬ý‰ 63j+†7%K·+[-¸~,ìQvYžtu*¯+Ÿ›¿rû+RÐ#ƒ6ƒWöz\&quot;Ãç×%œ^Ÿ¿“ê¡õŒÀWf»éiŸ&gt;X7Øu-­\œÊn”DJz‡1ŽþŠâB@Æ›±ÑÆS¶aH\¶MvŠà*µaŠ‡‹ ZÑ‚°OÖôþâ·n}/ê^Pÿö‘zÚ~/-¦»¶N¾ÿÂÁ}gøÓêŸ’¦ÔghþþI‡µ©×1ˆnÆ*žÅÉ&gt;O*»Ý\ŽXÍRÐ)gHæ`Àeæ_¶Ñu$7+ÃÍþ—Ñµ‚±u9Z8pù‰è‹qâ‡`¢ê5Ç	ïÖdÒÄb16‹¨ÓmÆ€‘RZš¶O¼&lt;É\‚nk”{mw¬ñÅÃ1lÕÂýåÉko~^}añƒËÇô­îXþî;«&amp;8&lt;ãÁ[Æïâl’S£~ßz]YæÔGÌkÔk`‹M1LV$K+=ÍžÏº[Ür››7Ã²]âƒ&gt;ƒË,#Øtå:&gt;¬F
+b=Âec)†8löˆÚ#©?d4ŽÆ9?ä3†°!áP¦¡&#39;ÚLãB¶ïa!/ôŒ›Q«q²Éº¿&#39;þ¤)‘?¤sÉnzÏµ%…ûž+xté&gt;õ¯©ôÖÉ»Û§n»{Ò£?88»qË9 YÍ×P#&amp;Á)e«´)¿âîƒœVrU2žàã¦
+¾IÌŠ…3ë¬:cBaÝÍªW|vÊâiâµÙ;iH:Ôa²iÓµ#j±õ é%Gé±Oëb—bktÝ&gt;ç®=A‹ßr×}p	‡ÊwpüK&lt;·Qj;Óy]÷üóÂ0¶nž&amp;ï©Ôm·ÚplwnÏ“r²c‰òHc¤)»)1.{|bVöìørãrÓrs[tqöâØâø®Ì=}ì&lt;ÂL±@(´ŸÓïxœŽÂœÃ\ £å1.–eÒùvÏk ]‚…æŠdÙt¡(Räy\ž„{`N\NäøŠÍ¡„e Izû¼³U%ZlTeA‰‰[U„mŠÈ2o–w§áÃá´€‹;FÌ¡ÑÅår!X?¡AŽùžgdEH$ËlRúÇtz ‰üÿl2­CÓÙxzÒV›¹ÕºÂÅÎæ´êrøPó×ò?ã‡é±úk%V¿gÆö‰›îY7hñoýõúÁÜ^1&gt;ðYsrF.}¹nî¯?þú¸L_ £&amp;ô?þÚ†ldYyCnÛþ“æ(i™lÌóÚƒE}î¿çä¯ãþ[rwÍéÄ	ð‚cž3êš±V°6\Un^2ë­&gt;&gt;Q)—8ÍÎ&gt;œê‚3¾ˆ›{2Ó^qsŒ°âË’:£’,Zfý™¤†/ÄËXè¼çù}ûâÎbS¦#48që„{ï&#39;¨§6§*íÊmÔ)·Íæ^Ý[çÈªîÏøá·Ø›““ý;¯;8]qxí^GŽ´”ÿ AÍz¬t×‹ðÑÙãAº[¨Ï5|&gt;šË*ûÎÅHKƒ$™ù£ùÓ1rm3ˆôüÍèd´BËY°ÞØ£•¾¾wü¤&gt;Ö±—‹ö›½ùó±lº7U5¦ß”=æÌçß~d@ÞÕŒYÇýÊÇú&#39; YþBÞlá’…uôUÊ‘Ùd7‡Ÿ-­îw“=œ‚ÿ6À5CÅ;…uâqáuQ’sS›}Â¢¥$€;»t Iû»ãžŸoÃl¦æîHfJˆ¦ð$QÂTg²‰KÏM~?÷&quot;eèêgé~¬ý×Öž|òIÏê“ïaMˆm«’FYFž!§wùÃF/OÆ¸\6Í½6½xs¬QØØôÒ}ÿ`*Ê–|ü¸C:ˆ©=†)Fé‡4“æ¿ªÞpT]‚™òíüœóoCCïîq&#39;JFNÞÚ$ìÕ¡ùi£&lt;Ä°–_¯¬Ñ¿Áã_“O(¯éO³äyÊLý\C›¼\iÓ/7¬‘×ôìZ®‰_J–‰üøW²~¡šV÷Ð{I&#39;PÞÀñ¢dÄ»DŠÞÀËz3t„U;^8¦çtÇ„î0zMLç4/¡À½°`Y ƒÎ1EèoNäÚŒFƒ˜^*ˆæêÐá `eçÝI;CreIÙ…’¬Stz´ìÝI3¦­yƒbk?MCË–•Ç&lt;X¤ìañì«Z²—Ž0 táÂ…ˆjý\©ŸéÒ u~ðË·ßxç7ê‰Ã§ß=¬þ*íà‡_8Ä7›pá(´Ç?EÑ€wŸè•Úv©ô ‘jÛùRÚn,j7½ÿå¡·ÚpJU›«÷S7bf6g~õÝ?~£n£Ë¿P¿SÕ3t¹P¤®¥ËÅÔùÔoè}ê¸ë›Nuˆ–×²w®ÞHþ`½ó.ÏnÏò‚J[³­Å6[^Ê/•78¶“mâvç6×6÷²Çei&amp;ÃœMîN¡^|MäÖŠ»È.6F»ÅìÑãt»+9†Œ bf—Ëc6çvzöïq!îz/ÝC`Ú#Îx®h¨t·Ž\‚õßìU6¶1àÞæÄä…k¾/Þ`I(ë&lt;àËLõl§`¯-‡[Èp|Z*»æ4§[Æ@Œò
+¬Ž†æy&gt;r&lt;~Ç´º‡V=ÏÍ,Ê³”YÄfuñ›˜tŠf«÷ªzFÕ!)?2Ir¶0¦~;Óæ,øø1†™ceg…ÔLÆ“:^‚g ³¥¥¢Ž!è¹¬W³9i 4”«Bv„µiU0½,” eÓ/Z¸¬-jþ=t^ÅV’ióÒW€çý¸›SüÀÔ:ný…Uô­&lt;Ù¹9…Þ7„ÐîSx?b•ø,eQràvi»ýIéIÇîˆ(ÛÝö„+B[RÈfLšFG„C!ÞUàädÚ1æt\Ïø¢÷*¶WŒÞìX&#39;åŸ|ÔóÊ‹öÃ÷‹‹SÌgz‹|]]KVÒžWÄë,@WPDˆ‰2ä-(a¼@RöJƒ“èÚ‡&amp;ü*k`ûYOü}gU(6øgGëcâƒw–Øž~í—óko²/rþ`À¢&#39;~ò¡s‘yUã-¶Žº×fÝ6öÖò ß)È—ùö‘[õ[[½»õ»»¼{²äªl€[˜¯ÃÙ®³I´a&gt;Ã˜!Ø”H¦×%ØIûÛˆpvv@)Ð
+üv±½böÜ+„Ÿ	`M[\“·æG=(´&amp;ðH„Ž#.—•EŒ ³»
+i¹1&#39;Ý#³àvAT6o›Z’±&quot;ç€ŸÑ»ÇB•SnbMÖÀíµY_¸~c¬þ§\á¦QÛ¬®_a^ä¼»µã‰ÚÙ–$¯ÿå{ìKÌ÷Ü½mÓ˜mV–ëtá%Jþ[Ã#˜Á‹`ú‡
+ú&lt;¬÷à‰öú‰~†îïüúwiÖØ/{&lt;=MØõ]×wß&#39;™#ºÜ%Å}#x5„­°e{~ÛÛÖœ&lt;)^sòCíƒñšg¿LÃàØÛnS“åþÏ½ä{,.0.dÕG`3þÌ\OèŸ ¹päÈìÔ÷Rhñ&gt;p¹žl—­Õa«c ÌÕvÑâ¾ÿ6Ceà¼ÿ„Ñqö|þ©½ùæñóïk16˜KšI0Yô/&gt;ÃpŒ¶.¡/³Uef¬ã¸ü-Tö}2¯xëôûwNóñ–éåo˜~ÿ~){·´îÒ¥ÍdÖ³ÿ74ÿ«ç*í&quot;Áÿ9ºÿGis¤•LÀšˆ×H&amp;“)d9ŠZ±Ñ”j5–P#2zLóUcÆæ7Ï¼¡mæâ¹Ó§jWh§q)üM‚F¦€€V°ð&gt;j}ú†91õ%A£@S@@«@›@ÚAGA&#39;AŸ€¾aJY@aP_P4
+4´ ´
+´	ô¨ttô	è`Ed…A}AIÐ(ÐÐÐ*Ð&amp;Ðc vÐQÐIÐ&#39; ogõ%A£@S@@«@›@ÚAGA&#39;»{&gt;ŸKeJÂ½ø¬^|´ïÅçôâs{ñù½ø&gt;½x†„^^ŸÂ^&lt;€+Î÷íÅ÷âKzñ°+~ß¿Ïþ£ØåÏ¯éÅèÅìÅ×öâ“½øA½øº^üà^|}/¾¡ßØ‹oîÅºBÖË/—ox/~D/~d/þª^ü¨^ü˜^üØ^üÕ½økzñãzñ­½ø	½øëzñS{ñÓzñÓ{ñ3zñ3{ñ³zñ³{ñszñs{ñózñ×÷âoèÅÏïÅ3$÷òöº±¿ ¿°¿¨ÿŽpÅý÷â—ôâÛzñK{ñËzñË{ñ+zñ7÷âW^É‡{ù“ó”ÿ©V&lt;Ê
+endstream
+endobj
+45 0 obj
+14764
+endobj
+12 0 obj
+&lt;&lt; /Type /Font /Subtype /TrueType /BaseFont /ABFSCL+Helvetica /FontDescriptor
+46 0 R /ToUnicode 47 0 R /FirstChar 33 /LastChar 36 /Widths [ 500 500 556
+500 ] &gt;&gt;
+endobj
+47 0 obj
+&lt;&lt; /Length 48 0 R /Filter /FlateDecode &gt;&gt;
+stream
+x]PËnÃ ¼ó{LàFÍ!E©&quot;ùÐ‡êölX[H5 Œþû.$M¥æ0»;Ã0üÜ&gt;·Þeàï)˜3ŒÎÛ„KX“ApržÉ¬3ùÆêÌÌ}dœÄÝ¶dœ[?PŠð’,9m°;Ù0àC™½%‹Éù	v_ç®Nº5ÆoœÑgLk°8’ÝK_ûWé¾µ´wyÛ“êïâs‹”ˆòÉ‹Kì¦ÞOÈ”Z].š¡·ÿV‡«`o—Ôª@HqÔL5Q‚O²ÐG¢!e¥¢!XÍmÊ;¥{~³¦DÑkiõW%­óxï5†XÒUü yi
+endstream
+endobj
+48 0 obj
+249
+endobj
+46 0 obj
+&lt;&lt; /Type /FontDescriptor /FontName /ABFSCL+Helvetica /Flags 4 /FontBBox [-951 -481 1445 1122]
+/ItalicAngle 0 /Ascent 770 /Descent -230 /CapHeight 717 /StemV 98 /XHeight
+523 /StemH 85 /AvgWidth 441 /MaxWidth 1500 /FontFile2 49 0 R &gt;&gt;
+endobj
+49 0 obj
+&lt;&lt; /Length 50 0 R /Length1 6540 /Filter /FlateDecode &gt;&gt;
+stream
+x½Y{tTEšÿ¾ûèîttw^GÓ}sÓÝy?Èƒ4DÒ$Ý!AèF&quot;Ý			’!b\˜ŒÊ â Â&quot;x33‹&lt;d¸$ìÀÀFV—qQW]‡gÎä0;+®‚äîwo‡H8£‡?8Þ:_Õ÷ªª¯~U·úVuO÷­0	ú€…†¥Á®6Pó0¿kévEdÓ‡TÚZz{l™Ï `W·u­ìŒÈº§ô–•«×ÕàÚ[ƒ+&quot;vø†ÊÒvRDd,¦2½½³ç¡ˆl:NeÆê5-cv“âŸÐ|h¬PûÿQ°³5âo~–Êô®5k{Æd¥Ÿ²®îÖ1ôQ|o ’VOAÜZ`À@©	@û¹ÞY;=kÜ1Ï-ŸR~Œ:U^&gt;ÿIµ|ûÑsí_µ~ãŒÞ¡ûšQ7ü•R“9š	ƒd‰Þ1nQëQ¦CcvæU•egÏ6Cî‡Ÿ=OÄBn…uD[ˆž!âÆ¹ƒ$áÖNç&gt;‰ë ç¹£9ë¢¸$«Ym}+ŒšãÏYß7|
+“hö.bÒÀ$ˆš­Ççñç°¬øÏ`ÇõP¸w0sµ5@¦ƒÐEÔGÄª9âÁ©Ó¬g0ìRLåð„õ³Â\ë&#39;…a¬gaŽŠ—§’äžb¶&lt;gýËJë¢ÃÓ¡Lò8a=hYmÝ95Œ{¬OYÂHuvDŠ,Tõ„µ3s·uE¡j¯ÛfX]d_ìŽ¶––	ÖË%k¾3¬C’s-uÖ¬Âß[Ó©&quot;¹Ù¨Q»ÛhMµì´Î ÓT‹×9ƒèÂ}…ûìó¬&#39;‰¥áÎÍ,ÛÆ‡k2
+ía\ï.­ÉØYã´gÖYí™ÕN&#39;ñ‹«}L{¯v¶vš6[›¡uhmŠ6NgÒt“u1:½N§Ó†ñÅ
+«æ†
+‚åð N£ãÃøkRr§ðˆª&lt;ò’ŽÓ1:ÐÅ…å?ÑâEˆãáã…#æ„Få4a&lt;2Qq[9…ãTƒQxÊ(uÌ	Ÿk`SBo…¹Â4Ëèªö|WP-7òìï~Ìh‘v×6ú¤C¿4Mad‹ÿ†»ùóeÏdj­ÌÎ®]¸n°·kU›·UôDo+Q@ÚÚÛn–úšm¶c«ºƒMbæ–v¥¶J]b«GZ%zlÇzÕz·˜Ûs¯è9mÞE¾cmîVÏ@¯»×+=þÁæÊî¦	}mï«»òïôU©4Ö­ôÕ¬Ö»¥¯&amp;ÅÜ¬ôÕ¤ôÕ¤ôÕìnVûRïíh¬\ÛC«Óæí¨µIÒÜK}’-è÷„q?)= ?þ4dð}Ìåƒ@~Ÿè¥½Gþ”?†ÑNùØ™4©C
+1£å0OÀ&gt;8
+8@|Ü{à5\Eïö28ïâTÈ£½—ƒ0ÔÁïP–ß„6øù÷ÀYØÇ †êtB&lt;Y·£]^O²›øfxLþ¤CüNƒ‹ZÝ#òAy¬á8‡©þë(2Ç¸Xù×ò%ÐÁjó1²¼)×ÉGÁ9P	¤}Î ý@n3Ì¤èž…ŸC?¼ÁGð¸Ü.÷Êçå‹´TÍ
+”6àq¼Èå~*?+ÿY%$2 ‹zÀNø%µ”Ò0m­^¼{p&#39;îbÜÌ#ÌqnŸ8zpÈ„9”j`&lt;NÁ+ð7ø/3fÖÀö°¯Ê%òÿB4ÔÒ(•‘´B/¥Í”¶Ó˜N¡°
+p&gt;»ðm&amp;‹¹‡ñ121Ÿ²õì2vû6·–à·ñ{4Ñ£WäSò9ùHÜÝ°‘FwÎÃpYj+í8+ñ&gt;J}¸Â~bpÏ3‡ð#ü/ã5†gb˜x&amp;›éav2‡™³ÌØvûû{…›Å3|?ÿ‰Æ®ýãhóè–Ñ?È3å‹òW´Åê@ ™©„zXAmÃiG(¥Y{^…×Ôô1¦Â|E( š0§á|Jõx7¶a&gt;‡&#39;)Qcù’¡‰`¢#“È¤2L3ÓÉô1ï0}l
+›ÅÎc—²G)ý–}—½Æ^ãx.–‹çæpsa×Éí¥´Ÿ;Àpoð.~_Ï/æûø-ü6¶…“W³Q³]3 ¹¬ù+m‹uÚ5Úm4;¯Ñš}™Öò·‡éý4ø´ ›a7ÍF?!D«k&gt;NxuA†ÜÄndç0´ÎÀÃ´Z÷ÂØÂ.ƒ~ù?ÙCð­”ÕÔd¼ÀU‚…ÿ&#39;šG €VÑXrgfef8öt1M°Ñ–Ÿš’œdNLˆ‹5“b¢õQ:­†çX!Ç+Vl’# q±¦&amp;W‘Å )‚7)ô*Û¤ê‰&gt;’M©$ÓO7y¶ÝâéŽxºÇ=Ñ`+‡òÜ›W´I¿÷ˆ¶0.]à#þ	è·I#*?_å¦ò“ˆª`óšÛ=6	6¯TÝÛò&lt;¹98ä&amp;8ô¹9ÊÆá†h¥a	ª‚hƒ…*ÅÃ+%‹¯”$O6Öî®ø¼žAð“ŽT}ÔGnN‡DqÂÖ˜âŠ­a74.¸Ì&#39;±A¿Ä”¶ŒÙR¢è‘×bþV¼Áy·Ýd”{u°5T-¹[	\E(RpIµ6j–Ùä÷I¸i,%ÆU©nä7ÁXe“¢ÄJ±=´*@àÂBß@²;YÝ|%hð$¹“T!7gÈ¼q¦@£Ê;[)g
+æ‘ò³G#ú·†•Ò¼ñ•?QY»p TçRœ’­EíD¤`Ë”¬µB-e„=~¤avP&lt;UCk†µK¼}nPêk¼F»&#39;\`•g *)Yýªô“ d˜A3EþÑºB¿Öqä/5Á1Æn¸ŠQ™èñµ&quot;aðß«üXÚiÔíf±]™ß^uNIÍÞ›$+Ð(1KqôÞà$›Ÿô5™S†¨ß1Äíþ0Ê›Âà±Ñ7*»ü&gt;2ç(K­ÃCý“›CŠ,¸¼[5õ\­¬[Èš»&quot;d«¶µÓbâìjI†Ö?ŸlôN°ˆztûSÆÙV¿µ“¯´CUÈ=ä§Vµ@¥ªÊ¿NN9ôcÊ:||RŸ&#39;Er{ü4´|‡|Ò0­\¿Ÿ¼
+Ç#¥ˆ7t˜ÇbžF1f‘½(Ò
+}»ôQþPHi³Ñ&#39;
+Òp(”RÞ·ˆF¸UáS„AqQ c_Õ¥BRÔ9DÂò+˜Ó’¾±¢è›ýû.›jN§hKU„ËîÂ®ÛAxÆm!&lt;s&lt;Ò	—SÌ3„ïúáž5áŠïGØ=79›¢u«WÞ!„«naÏm!ìtÂÕ³WAxÎ‡pÍ„ç~?ÂóÆã¦ k)Úy*Âuwáù·ƒpým!|÷x¤n ˜ïV^ðÃ!¼pÂßð¢ñ¸)È{(ÚE*Â‹ïÂKnaßm!ìtÂK)f¿‚ð½ã»S$¸yî»eÛ…;¾1/»	rúRâMPI‡é™DJYÌ‚QÖYµ­¥Ó‘r¼¦6=1tò0Q)ÐYKG|Ý)O)Ö÷àçôUmcr˜2ÆÃ -CßíÀ§óK~U‘»]~8&quot;!pžH‘‰g?$žJ-•,•QÂIµõÅÙ&#39;©%g£“¨’Ûþæ¿ùÓW«ÂÜükt7@tb`Ïsõ)ð‚;ÿ…$Üc&gt; ;dfçéŒûâX6NcIÖN²ÄE§hSRN²NÆ˜lÑ;“RéE;(to Ó|ýóGê_–Ïq¹FL®|¨¨©PÃHaAÕ:w1$éì1ñzLŽ58ÐdœbÐ&amp;‘Ä+ 20ÉSL”E™5äP# r&gt;FC¹¡&lt;;;’gÿš°	Å&lt;Ó´šø¸„¢i¥Ó‹&amp;“Ä” HË¼ûqâQC÷Æç&lt;þT×£IG§þõÔ[WÑô©\½ô^Ë£:ŸïÿpËƒï¼ŠEŸÒqg¯à-¿Çžàjé4œyî&#39;Ë¢öð»MÏÄí‰ß“¥ÉH·;K…jaNúçâô%Î¶ô•Žu1ë&amp;­›Ü+ö¤÷Ø{û§È‰e!:žÏåòb!9&gt;%1ÕŸ——1%ºCç°—Ú{Ú$=—kþ·TK¬–³äíÍŽÎ×FM60ZÈò“­æ³3qV†CëÌH.œluf3/© p@Øß4†í×]ïüë.qF“ËåÊ§Üèr)@Ò#FS¢ëT¨ë0—qÄÛ“Âd« QtÍ„l-&gt;&gt;‹8‹‰t)qfmSÒÒ&amp;OÒ9õ:ìQzÌåº[¤lª1UÀ¤Êèæp|uÔ)QTÊLÐTÄ&amp;$*3PRìtä£Ãé().-š–˜ ‰Óh~¬H&gt;ñq1ÍáÄË:»çÀŠ=w9×&gt;¹evÏ‡þvsˆwÌz¦­Ã›QÿàÙÊŽ÷/\&gt;§Å—°aiÁ’%÷zÓ,éiYs²ç7Û—¶ß5mN½»:+)Ö’Ÿã}úÉóï?Ï|MóG÷¹ìq:iFÑ}ëjwåtM,.Ñ¬„v\©yB^£É¤WõzÔð,Œ‹c5 Õ¸tQz½–Ÿ¥MŽaçARtÌ€Ð=ù%ïKoùõr—ša÷ÍyÙ›7¼ZX€MÓQ(âQˆ°˜yøúqvÖõ-Lè›&gt;|c;ý;¯óý}r§+Þç)ÊÛL÷-Êë‹ù…Q(Æ2ÖÑ+¡—ø£¡ ì
+H{ÉiæÇä¯Ë˜?Cþ&lt;äŸ¤=„Þ[Š¤ E¶(qzžyý—›7ÿŠ;Âð°,GÖ3I#lzÇè]&#39;½Š“ªgÇô§U½ºð#ä¯ìW,õð0…ê–ÉpÝüYº±Ã&quot;w^ªŽI2&amp;˜Lö8˜¢³Øµ)zÆb6òy©yq†Ìøäd³3Ú™–äpnº+Ç·„rÚ®—_ºô
+Ð†P1âª =¡ü¿Êi …¦ÈÚQW
+$&amp;$	Î’¢ø¢xÑ(–(ï4”›Š¾|ªCÿþõÄPcÁ]£XdÓ¦_T¼¸fpôêå¸üó÷^{ý_Ïÿ;3½xj-&amp;ôîØÑ{Í»«Å‡¹WÿŒK”=N}äVºÏù{ž”Õ°˜îæŸ€‹ð	|£Ù·‘ví§¡»{˜]YÝXU—]Óºº·µ§£%Hõ&quot;V¥Õ¢r¢:¢eDÊÃ?m#Rþ/x‘è7òØC&lt;ÍGä¡6Zn‘×Þ&quot;¯¿E¦+ß›ë3ç&amp;Êt#2ÁŽo‘Õ_ŸoûG£bÿ8 á
+endstream
+endobj
+50 0 obj
+3890
+endobj
+10 0 obj
+&lt;&lt; /Type /Font /Subtype /TrueType /BaseFont /MKEUOK+Helvetica-Bold /FontDescriptor
+51 0 R /Encoding /MacRomanEncoding /FirstChar 32 /LastChar 222 /Widths [ 278
+0 0 0 0 0 0 0 333 333 0 0 0 0 278 0 0 0 0 0 0 0 0 0 0 0 333 0 0 0 0 0 0 0
+0 722 0 0 0 0 0 278 0 0 0 0 0 0 667 0 0 0 611 0 0 0 0 0 0 0 0 0 0 0 0 556
+611 556 611 556 0 611 611 278 278 556 278 889 611 611 611 0 389 556 333 611
+556 0 0 0 500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 611 ] &gt;&gt;
+endobj
+51 0 obj
+&lt;&lt; /Type /FontDescriptor /FontName /MKEUOK+Helvetica-Bold /Flags 32 /FontBBox
+[-1018 -481 1436 1159] /ItalicAngle 0 /Ascent 770 /Descent -230 /CapHeight
+720 /StemV 149 /XHeight 532 /StemH 124 /AvgWidth 621 /MaxWidth 1500 /FontFile2
+52 0 R &gt;&gt;
+endobj
+52 0 obj
+&lt;&lt; /Length 53 0 R /Length1 12088 /Filter /FlateDecode &gt;&gt;
+stream
+xÕz	tTU¶è9w¬!CU%5&amp;•ª›ª¤2Ï©P$›	’‚$1‘hÀ€‘±¡# €íÐÊ$Ý8 Øjh,äÁãÑt‹&quot;~lZDè~¢âQ;Š
+uëís+D’çr±Öwõ_ÿÞÚµÏtÏÙgï}öÙgßÛµø®vŽºj›Ú:ç ùJÛµnÖ‚¶ÎP&gt;ú5„ðæYKºì¡&lt;›†½~Nç/„ò
+h¯Þò‹ùËŸ7ìFHßÝÑÞ6;T®vw@A(ó ;;t-å£k wÏ¿cÖ`½&lt;Wº mÙàøè&lt;äíÛ´‡Ú§mœÔyÇ]ƒù$À³;·¶Ç@ßi„¡ÔŽV %šˆB¸Bþ²zb –ÔüW¹zûŒÈ¢¯‘V!w÷„+£›$N¯}yÞÕó×]êÕÊ
+h§”Û“
+x†K–’
+ÃPÿ®zõP©%—ÝšSý¨ 
+`,@@Jê^…ø~ E·ˆJlcÚöwóçGpÈàCùß‡3Ä°p¤œµ¶È6kíÚªä%®FF6\Žœ2.ës&gt;kóã±}N 1!DõX!‡DeÓ(˜i»^àW`1Æö­ó·¶« ß8‹m_;³moB»7
+*m§J ¾Ïv2ÅOzÕég°i;á¼Ûö§‚dÛþ‚B[ŸÊúl{K °í*¸Ûöä:¹ä‰=îôãí}¶Ç:`Û	ýo^+W&lt;zpMu®“ºcŸŒîóSÏ°-p&amp;ÚfÂƒXTÛZœómÍN­¾Äúl^òØ[ë”­šÝgC¹C½ç;eŠsBÃ¦9Ù’B#Ä“Öb”Íî¬±Y¡ÿ´Ç6ÛÒœ·ÛJRüx÷‹UI)Î*×f·Èc„´0„f¹ã? J”Œ›PÞ¶¯*hÆôÙÖÚ¾¯*© ÁO_u¶}®*×: 7@ÀT?®Óø-ül~*ŸË§òÉ|&quot;/ðq|­Ð)4ŠE˜B¥P(8£ HíþCL%šÍiâòÏÈiEÒðÿˆÂ
+
+M@~ÝcXRl*ÖÕz*Ê~ä¯U.l-Kýá2ýL5a«osõ”ßk£/‡$‚ÖÆ›êÿo’í¥ðtuÝò}uË?VÞî(ou”·´ú6.é0ùºgÚí{?]N*ì&gt;:±uæ¬‚ÛÚ}Ëíe¾Oeö½uòs#ª§‘ê:GÙ^4­¼¾aï4±½¬¯N¬+w´•5î«-¯š8l¬CcU•ÿÈXå¤³*2V­üÜˆ±&amp;’êZ2ÖD2ÖD2V­X+•šZ&gt;wJ)b&quot;-{¥³[•)EV„‚ç Þ%Xš¼Â¾TÁ@°Ÿë†ã	\¼†£ÑˆG/¢Õ`qÞB{°9P?ÎAï`+NAGzý7² è1ø/G—ñ7`i&gt;ÆIÐÆÖ ß£ÁNÔ‰Šá¾ŒY¤G£ÐÇÁ•ÁÁïP)êEÇ1£°5xe¢¸·£8ŒšÜ‹L¨-Ë¾½‚Îû‚Ÿ@ÿnôÖâL¦0ø(%´íA/b;p
+¾-ø”›€Æf´&#39;è.ç®@«L4­„Ñþ‰m8§âíøÝìþæuSÑ,¸ »ÑV´=&#39;·šÉÄ²zè¿UCÝoÐkè2ú
+Œn2.ÅË¨·éOè/˜Bf{ð8Ð1ÆkE;1\qâ©x6îÄÏáýøÏøª€j£=ôÛL&#39;ó8Ð6­G£Ãèet½‡&gt;Eýè{ÀÐ4OÂ+ñïà¹ÿ¦r©jµ‰:G]¡³éÏldïa™àÛÁïæ8”‚
+a¥OF¨î9h!ºý­Ã&lt;Ú‚ö¢?µÑE¬Âœ‰³q%®Ç·á_âåèA¼¿„ÏãKøCü1PEÙ(•I-ñÖP¨ç¨&gt;ê ÕOké.z}”¾@Ãè™æ(ÜÙt¶‹‹åªùÉÒÃÒÅ`zðàv‹n&#39;JFéh,f€‹Ð:äàÙ´=‹žG}¨/x{Ðqô&amp;ÐõOt]‰ÅÂ-à&lt;
+×âÉ@á|¼ ÿo
+÷à@å!|Ågñ5¸%d¦”T:uÕF-‡{;ÚJ–ùFtNWÓS‚_ÒÏÑ{é¯˜¦‰YÄ¬dz™­ÌN6–ÃNg›ØNöö {’ý{…à¬\·‹ÛÏæ|¿•—p&lt;ÐbÇ	h?:Z·™î„¼Ãë@ªÓÐk ½ýè/èúEÀV$ÑDš‰ÁÇ‘?¸¤yý‰þ*BR¿¥&amp;‹éÝ´ç¯B_Y ¯¡[LINr%&amp;8ñ‚Ýg±˜MFƒ&gt;:J§ÕDF„‡©UJÏ±Ma”Vî¨hµû[}L¢£ª*ämPÐvSA«ÏEÃÛøìä¹6¨ÖR„–sF´C-Å¡–Xc/BEéiör‡ÝwªÌa÷ã¦É¾¯ÌÑh÷õËi¯œ~@N‡CZà{¹©£ÌîÃ­ör_Å’ŽÞòÖ²ô4|P„Í@•ž†&quot;$&quot;5éØ‡Æµ­ãŠÆ‘å&gt;‹£¬Ügv@êè„ò¶Ù¾ÚÉåe1‚Ð˜žæÃãf9fú£Ô™:ø8yŒ`B]Œž6×ô£a³³7úE4³•¤Úš|t[£j%chS}FG™Ï¸âÓÙ©òM7Uú¨„Š¶öÞ
+ŸØº˜N²­$×¶	rÕSìÐ-uOcƒßÄ&quot;dÚC³m	­óì&gt;¥£ÔÑÑ;¯xŽjú,¢¥ÜÑZÖèCu}fÑ,gÒÓšV
+À”ƒé%é%
+¦Õ!üÑÚPù[G	6­&gt;þÀÕuC|ÁdlÇx ÓgŸƒ /€ÖQä¯}ê5
+ØW#†YÎzÆù(P%:ÁÇ&amp;ŒoóuO$£­£l¸ye}J³EÞ—J¡}k¯f4ÚköÞ¯HÖÑÿÙð’¶Á.Aó5&quot;•DþC*äÃm7ÒKÈþ™ [R‡ÉÑAÄ·D5ä¦ò›
+ Oö­tp8ÓªýHYÛ°ãß4úqð?*³„†žq;T§…›[ÃA&amp;-
+RH0PÑ{¯½wüì^{…½TŠI1T´÷6fÃ¦4 [P}ƒàc†’í£¡ŸÒ&lt;Í{¡‡yƒ= –‹2Ð(3­f•XÛ0¹Á×]ãËé ÄGk|GA¡UÖ¥@ñª¹¦Aš³æ¬¨Ï	õnM7tÑØÛKúœÒà|G{{czÉªåÁCY øiB8ìÇÝµð, ‡#³\p@V#ái.(ð·þ§9œ?D7&lt;éjóeüLu+öÜ‡GQ:ŒÃ…@óhÂá¢‡ÇãðØŸæpñÝ@¤ÔË.ù™8\z+wK.¢t‡Ëæ2ÂáŠ‡+‡q¸ê§9&lt;~ˆn rP;^æpõÏÄáš[á°÷–8&lt;qˆÒaž4O$®ý÷qxò0×ý4‡§ÑDÖµSdOý™8&lt;íV8&lt;ý–8Ü0Dé07Í„ÃMCc|èf;Ü=Âì¢ŸÝ0ß6ŒåÍ?Íò–¡‰ Õ·ù-2ËgüL,o½–·ÝËgQ:Œå³€æ™„å³ÿ²¼ý&amp;–#öe´ò@ÈbjÐCºðe(o†ô:vz’y	Ì¨ðJÀ•€‹g.èv ”P¶ðFÞŠºIù`ý*ÚŠÖ@])éÊVAÚ¡Ò±à#‡bz˜C^y;úODvQë¼qÁ£?z±ÿ«”»©„¿) ²º”ÃJoÎ¨(
+GP	1H-Ò¡(gy2Âi!3œ±c`S¯¸Aüÿ;²N åÁIïú›p/îÃßRIÔk´“~ˆþŒéf¾gËØeìpuÜbÞÂÏã*âŠÏ•£”›”_¨êUG¡
+&quot;Î¡Ç@z&lt;+
+,g…óÃ[i¤b+MS%Ç[12+”{„ùEüš8PäMÔ|SäÕŠPqQ ˆ@vV®VÐº ¶3Oú¯Ÿb}?ÖÏÔ]{ž‹Q£4‹z=j!QÜ—@À:4#µ$q4 $¸* ¦ÌXp/Àf€§ ü ¼¥„EoCâ ªù•éGa™YÙQî‚\žã9½&amp;Ê`t¸]”Vóú¤­gÇ¬Î¶7æ­;]Y&gt;q#3Ñ¦ó£ÀÓÇ¥×¥àÖÏÛžÇ8ëz Ó+Ó™&#39;štZe”Þh´èÂQJzaø÷Js´þm¡ô þ#N´Î‘¯²½¨¸8;á¸Ls‘Øá.Ðió\‰™8o˜t×Æ‰å•§×å5Ú³W9Ër~é+ésé´ôÊómŸoÅç:ðQ&#39;ŒßD¼ 1,%ŠQ8‰V±0&gt;îDf†í~â¿7 ˆŠ½ýÙYQ‚VèÆ™Ò›8Eúá5!D£,ÓÜ&gt;èÄõ¢žMâUJèŒÅg§p÷Mâ$S ~3Ø%ÈQ¸,w]3FéoÒèžBÍÁ³ìJö
+Äzl¨KLž®z˜XAßF5Æ4Xç0Kñö™è&gt;æEÕ_™—Õç¨w£ß3]ŒùÖ¤1ú±ZtX
+KX‰¦u%¥ÍP`TØâx‹Yg¶Û„ç¦Éúåííòj=ýgú3QqqQ¿Î“©ÂpjÑ¸»Ñ`]‰ŽxJmÈÍ)pì®D-nþ?û±wýq/½—YÿÔîc§~ÿÄÔLÎN’^”‚Ò±¨˜éoØÐ;ÏÝ*}ùí·Wçy)½õÚ)ÜN[`Žë@Ø‹À?e‰Z†‚p1Ãë`›Yî%xw àü½ËCÔB
+ ¤Ã*HÆZÁ…H¯ãœmì10=zÖ˜Ö˜´¬»oá¨°†‰ S&quot;©…¢ Ê¢§Ã&quot;@¹üØºO¨dƒ¼Ê¼ýÐ/a@hþ‰LŽ;1$IFOŸ[¾@‚â‚å8[úökéeéujÍ ¹u¦4qÞRàïÏÙc—®ÈëP@ˆ9	´ðh”†¹žbD+7ôQ	, QÉzîZšß@ ¤oDÃÉ:‡	Ê7sRª”^•ÊÙcÒµkã˜Ã‰¢Qað3Š™VÙƒF£ûÅI…T¾{9Þ€™¿ÇáÄ}˜ò‘#&quot;œ…(i”%bMLbFbF
+)`bÔñ1†´Ñ6&gt;E¥NËQŽò&quot;oÆèü”±‰–&quot;‹7&amp;]áÍ7ý6#UáçÉœ8àí•å’ÖsêƒdmctÊ£Õaaz0ÁRCÊƒ#p$&amp;Öh»Àå.pççÅ -ä@ÄKmŒÃF½]ÐÒŸ˜ŸúE]ˆ)È›\¥“G7?J?7)~LKS{JœJêWV.ÂQû6n¤èØXéÕp]èmîzø¿úT&#39;¥Óê•a£«n|Éüû¯¨&quot;-ãrsŠïo~ ²ò/RXÞ„QIá)Âè1=ÿ™G_iÊÖã3¡5¼2ø&gt;³ƒ=
+FÒŽJÅ¥]¡Cf§ŽW«ìNV­_GYâ­6•-Ü¥6ñ[…Ú‰ƒÚ8p‰¬Ðš~Ð›b-LßvI§¦ñ`õDx0×\L,¡7ègþõÅÙžºlô1Žu—x—&amp;¬ˆól{ttÜ¯~Í4I¯~-I}n{íöh` &amp;)çzWßƒ]5ÜW½t“?Doeð“r·‚eX(–o3ì6P=±x¼¾A×¡[¦Z®óë_Ž:¡W˜(Ž±¾Å8ã,¼!B¦y1Ì­ŽÓ¸#mÈg´Zì
+·Ñl³÷Uƒó´ÙôƒÁõ€A1‘é&quot;Ô‚eK@¦a”¥*€Ø;•¯A¹9ŒÓ…Õþ@~llî}³ë•Ø¡ª¿WúNúî[¬ûòfMRuhLvéý5«—_?Úš®CxÔwØŒGù?Æ»d{Z:Ý²ÐÀì&amp;‰i—Ã0f¥442:5&lt;§²:Uj=m‰²q6ÚÅXlw¸9Î¶U¨*ÔQ&quot;ÀÀ%ÄRõ±´ ƒ‘,¦üìˆG„äb‘u”Z±=Ò§cvtý§tã³/®n[·ê®¥Ë™æé^Jñ½¸¥­ç…X¼¾xÿý&#39;¦åÞ´åO°3ƒç™Ñ 0‹(=+Ž¯PôDoÁÛT‡•,§a-Õl…f¼ý^|OdMEhc”!ÊX¥¨1ÔÇ[šÍÆ&amp;Ëyü.ó±õ#ûU»f®Ð¬g×jÊs&#39;EÌˆ¸#‚ŽˆˆáœñoÔ¥Å¨4O»+ããZÃºÃ¨0‹“²E&lt;gv87´“(gØöKý™!vœ
+™÷– pcQ^Ô‚`-fÀþi #oàø4ðd1&quot;­büÆ‚|ˆ_yÛús•b”š
+¸¶Â)qFìP7mºþ†tÛ&gt;ˆ¦»~5oÑ]ŸÎYØÖ]}ß®Òäœ˜¬¶Ù;qÎÀ1ðZ.•J¥ÌíÀ§px“…šDMoÖ™•Éë¸„pg²‹öX{š)2‹²él	®¬´(KNìº˜t¥;Íœs“˜C¦HëQƒ%
+œ*î÷À– ªJÕyÃÒÈjªƒÉåÚhÐÔx§ëÆ$ÇÛ›Z~ž.·€:Ü»váfOœ}ôfõ˜ë+WHO¿)}Ýa1¶çÅ&#39;gN]ÿÖµ¯.ÜöÉ–§}â¾ê…3&amp;ôÒ‹Í©wþîÚ7§éßõdŽÁõ‹ÒŽìºþ/\-»èÞ‚ ævö0xÉÅbK¹¨†ˆŽ&amp;Ú¨CaN#¯áU
+7k1Gi\Z³É|D¨Tã¡í¨H¶+²E5€­ÔƒË–„#)A;çÒãžÊO–Þ‹s-Xt—t	ÇŽ}²‰¹½¢jÌÝº©-îš-›}ìáÀÕÕ!û±öÜ=ìI
+ÅøTƒ›Q3¼‚Ú[ò\çÂ&lt;lM}7H’ÑçR,;C`€öHaåÈÀÀë&lt;iéµ#d/VJUøyœ(TH¾%x	DÏ ©ðA¸lÙ!ŒÏû‘j0­?þ¥üË¨Ì—€&gt;³²å1â0ì&quot;ù0åh²O¸ðÒûØ*5™¢)©ØºæHxn&quot;û»ÙN.dž»6ñ©ßƒw†·/ˆY 2P£/Ä&gt;‘ª`ÏPPL¤B¥œÊn`ïWüFùöUÅ;üEÅy¥ZÁ™¸L:“IbÓ¹zWCWq-t#7žË-cÖ3[èGøgè˜=Ünþ ígþJ¿ÂXª¹	ü4v=³Vqœ=¡x‡~‡y?§P³J%Ã²œZïÌyHÂ;e§é“:†*šb8J©bhNÅ«à‹K8V¹Ú®ÎR‹jFmïjß&#39;víz‹|øœ¸=ÅEòfkôôx3R™UšêÉ+#lÀOdFQÄkˆç «{Qx¬XPÂ;6^+¬£Ë,Ü&amp;­Å›¤ÝÒµ%ÒeöðõñviF`6~k¥ôáÕFøÛ-ŸQÄ(
+aÙ&#39;F.&gt;ñ*ùÄà„ï&amp;²€‡B&gt;5·ƒi‚7ÇJ¼¨ ´ &gt;€@À\8?Îƒ³ârÀ+ o Üxàm€Ÿ8ðH+ÚðV‘ÿ7Þ/¦ÃI“ü&#39;€ÞÚ W+ìØ
+¤kb„Û%n¤Ä‘ð„yQ4¤â`G·&quot;`3Ê@™ØýÕÂ;êÁíû¸f ß3pÃÃ/*îzû5ýZ£lEäL¢ž\s°ÝX~¡¤ &#39;›;82F‚Ùû7y24*J:8gIºQúg´sîŠ#,}~æ”u«¼cí£¦4ÌgšFUx¦ÌL¦ŒMª™™7&gt;°”ÚÐ–6iRzc “wNuŠ¹µ­éé0b?ÚÀf’svµ˜Îb=N€TƒºCÍa†S:ÁpG0*#ë6FR³6Â9Ü’tðÁL‚îô{B“çkØ´BsqÑ½g¥óÆ”%ºcÁ–Dd7ôÌeš÷ž
+ÄS[¦eÔ¯,iô‰õ	¥du‚M_dÓÒ&quot;q ¯˜d¤±&quot;l}Øzm7EÎ	§Y§)šW;#Ô&amp;“‚r-…[k6[üxÉ¾¡­Jv&lt;ÀxËNeñ¾£Å‹Í¸¼;;‘`Gùyä_©Oï½wÕªžžUT†ô™ôÜŸáhp#Ì8:pú•¾]»öîÝµ«oŽô,žúÅg¸Izú3J^®’¦0ÛA7ÃA+&amp;ˆÉÆ(…*ÖB9í¼…S9£ÔæE¸)Ü­±Äs¶›ÉeþQ_OÞIeÜ½c1èØÉQ¾Žl›²÷ü1•îºónðîÚ‹ê–®²b¥xmÍ´ÌtéC¬ÍÈ›±–Úyì·—ñ¦û·QéCéŠôé­gyà{åñÊäñÀæ£®1Ípª™pÑ¸rÎùq¥hŽâÃ¹0•Ê¢DŠ&amp;&#39;h*Bí
+“Ï7³÷	µsnèú™ÐÑ¹lH1°úp™8D°ý·tˆXê=uTLJø8çhJ³k»™fŒ¥ó4ÕY¼6p•)=² i¡‰Ù¿ïÙÛP*JC«ÅIJ—h§•Œ VW«Æ«+…2{UòYZa·‡©C*c°¤¥éx&amp;-I–©WÙ­o&lt;¯Oç½	–Œ0dõF¦#oª9=ã&amp;t Žc²= gT0pÀþ’NiNÉõö–Ûq–]ÙËN 5?–%3xn•Uâàèaë°&#39;æc&lt;K—ý¬¤$)x°¦¦ÿìkGIïsæÌE-“RR‚{¦Öy]
+~4×Ø=99Yfó˜Œò²î-ï&lt;y¢À&gt;z´+Û`•4¹nå§ÞÙMÃB€XFðjÛëtÂMZ¤-,Mû^„Ü,xÔÌaÎ¢‰ä¥=r2ùqÄ&gt;¡•ˆçLÑ¥@Ñ@‘Ïçpðƒ O1ø5oÈ&#39;qž\½C:Céyæ¦ÕoÅ–½{ã§‡[#z^E/8‰³¤7NŽŽ0~›å½Ùs¨Dßƒ—™©`;Hl®FÌP,†Ã(Ã4¾ç,°ãp†ˆpgK¸Êe1©-±Øm2ÇÄþà†u©óxgdž“Ó ˜|à6œÛdO‘ìÇÄŸæ‰KMHKÀ\‹rÃgÒ§ŒÝ0nUýWõ™ø3¦4pGKæ”%â\jòµ#ÛÙœ¨¢´ç[QZw°qÓá{$ý^œäâê¹ÙÜSÜŸàûk¨J¨ZAuÑK®&quot;¢=ìöì‹ì	ú#|+i;Ã¸t°ÇRvŒ]:è‚£XøÄ£)•‚‚ÍÇÃúhá°Œ™o&#39;ü6/™¨0yüÌš¿šdÃXÛ*Û“‘zcCíÉ0¥ÉœÜ,DÑ	8GZ
+!¥åX|Ÿ)½v„)½~ø-€A|ø­„=é!±UAWÑ¯Ðt3J¹ŽÙ¨|›yÂ{L&quot;“¬t3e9ˆf­òaæQå.æYå~æòÏÌß”—”ÚÍÌ6%¥¤É¼
+%­Daøèî1^N‚ŠQbšµ„a…YæÇ‹Îæ²•?NNl ªâÀqˆÇ0žUÇ‰5%g·¨|A½éJº+p–*º&gt;…ÊœD7]î&lt;òÉêWT€‹&amp;qhf:û&amp;¤x°”óÄ’ª†öF4SÍtK§¶E8U6;¦÷B3.ÚÜ£ã¼*Ô›µa¢{U­Ëh‹}ˆXÐg„ÖAŸv ´üÌ¥EK7‚xr0“œœ/@ÛC%93ƒ]Ò»ÄõDù­#?—DréBl$‡fé’p[£cÆÅQ‡I—vîð–ŸaOJ×{¯ý™}“¡.c&lt;aRô+×¤ïx¥âù©µ!{EþQ|-õc—
+i9Î­Ÿ!lZ.ø/eà-TÀwVUð	c5|æ…oÅ&amp;1Õ¡)ð-×44¾Àj_á¨Ü)ŸË)¢ãÈ[]&gt;uRujUûü%í]sgµ¥—Þ16±7.ã€œ~÷ a‰K Ðˆpä”ÔÌèXð0À.€ý ÇÎ \ #Í D8ò Ê êft/¥1È|x&gt;iD&gt;yD^&gt;ÞÝôüèõòvqS½¼¥Ý”—ÅsSèFOÛˆüÌùY#ò0·aÏËò¾©ÿ_Œ¨ï‘Ÿ;&quot;?oDþ—#òóGäåoÊooáˆú;Fä;GäÈß9&quot;ß5&quot;×ˆü’ùÃó×díûž“—‰
+endstream
+endobj
+53 0 obj
+7586
+endobj
+13 0 obj
+&lt;&lt; /Type /Font /Subtype /TrueType /BaseFont /PHCPNH+Helvetica-Bold /FontDescriptor
+54 0 R /ToUnicode 55 0 R /FirstChar 33 /LastChar 36 /Widths [ 500 611 556
+556 ] &gt;&gt;
+endobj
+55 0 obj
+&lt;&lt; /Length 56 0 R /Filter /FlateDecode &gt;&gt;
+stream
+x]PËnÃ ¼ó{LàFÍ!E©&quot;ùÐ‡êölX[H5 Œþû.$M¥æ0»;Ã0üÜ&gt;·Þeàï)˜3ŒÎÛ„KX“ApržÉ¬3ùÆêÌÌ}dœÄÝ¶dœ[?PŠð’,9m°;Ù0àC™½%‹Éù	v_ç®Nº5ÆoœÑgLk°8’ÝK_ûWé¾µ´wyÛ“êïâs‹”ˆòÉ‹Kì¦ÞOÈ”Z].š¡·ÿV‡«`o—Ôª@È#j¦š†(AH)}$Jò©ÒQ‚âXÍmÊ;¥{~³¦DÑkiõW%­óxï5†XÒUü 	yi
+endstream
+endobj
+56 0 obj
+249
+endobj
+54 0 obj
+&lt;&lt; /Type /FontDescriptor /FontName /PHCPNH+Helvetica-Bold /Flags 4 /FontBBox
+[-1018 -481 1436 1159] /ItalicAngle 0 /Ascent 770 /Descent -230 /CapHeight
+720 /StemV 149 /XHeight 532 /StemH 124 /AvgWidth 621 /MaxWidth 1500 /FontFile2
+57 0 R &gt;&gt;
+endobj
+57 0 obj
+&lt;&lt; /Length 58 0 R /Length1 6960 /Filter /FlateDecode &gt;&gt;
+stream
+xÅYtTEšþë&gt;û&amp;:!ï¤¹ÝéÎ»C^äÑÐ&amp;t&#39;ó $€ÝH ;!L`FˆÁÈcÁ€Êì(`–]A9&gt;â:s	¬³ìÈ.¸#s9£(83ê l–ÕpÒwÿº&quot;Éñp8g8î­Ôýë¯ÿ¯ú¿úªnõ½•ÎU·Â8èêø;–‚v%.Añ^Ë
+GHîDiléê4†tÞ
+Àn]Úñ“!]w |×OÚ×·þ ÞÓÖê§ýÐë&amp;æâ6¬Ð4 SPZÚVt&gt;Ò£kPf´?Ø2l~õØþG†ãÃÇ¨WúW´†üíÔ¿ãÁÕ^‰ÞJ;Vµûâ;kÃàQ tÀ€&quot;/…ï­ÔŽùß]á½‹&#39;Ø¯B¤+ ^LŸÜMå™&#39;—ûñÍôðõRúIš?5`!3˜	AÐ~&gt;|ýˆ…Zé€…ÙhÀìÆ&lt;óÌYÙtŽ·ÈˆntHDæ \þCÂÿüŠLÆ9øB»+d²#bH-írËÆîÌ™©†Ž€L\`Ñ¤³ßòº 3ú-fÓC‚é/1 ©Ä&quot;•4Ë7K:âH’ÿjù¹ü-æk–2ùª%_þú½_R)Ÿž‰ö~ù7YÅYqLOYžß,É”•L“ûÓ±®_&gt;0ÅayÉòK›´š³4±Ï ½ýò^*Ë/`ÿ;7j†çB7„DÇ&amp;-Ðƒ5±ò`€yý°¼Â’&amp;7cCâ—›,íòB‹Mž;3@RûåZÚì°\“~Z®¦¡ûeG(Pq¨÷&quot;‹†¸ Öj9&amp;g„&quot;¤PoÇDÙh©‘Ø¿uïNÙjY$ÏÌ
+W¸3²,îôÅ2¨Å R±2$ZÒß&amp;¯@%d’Jž?èÎDÌdG¿¼EïAwFIj€½äˆ’¦»Ó7a.ÆœŠy^€ÌuXÅ]âqžX(f‹™bšh&#39;‰Ib´.J§××EèÂt: ãtŒtÑõSG6]IÑ‚ž
+W0N+ëZÆÞ!:îƒ€ ›c»ÊâË¢fDÚ*œ?pói•&gt;gö÷Wü÷ÅìxbPvV7z”&gt;ƒW) Õà½Íþ·[Ë±uuÃšƒk.Ïwµš]&gt;³«³OÙÖÕ¯t7.¯¡£Â¦ùš[Ú¨ô·*kÌ­Nå²Ùi&lt;Ð µcžOÍfç˜ïšë90ßÑêìop4¸Ì~§÷`½Ë]7*Ö“#±Ü®ˆå¢¹i¬z­Ý˜XuÔ\OcÕÑXu4V½£^‹•íZÖXüqˆä9ü.0på` P?Â|žÊ`£z…ÂÔ!u€ÅÝ¤Ð|ñ‰†_‚G`=î8@‘À¤ &gt;$’€ œ‡?A&quot;lƒ½xwÁ%rwš/IúÃøgxAí€(Ãt‰ð¥ð¥ºV=¥^‡rèD$‰A=
+¹°S/ì!L³z â¡~
+ÝØÇ»ð‘Ú¯~…ýÃç$’ärÓÔOpñXcƒ&#39;¡Ž1“,ò€ú9ÖÇ#Æ…Ð§Öª]Øî
+zåB¬Åh$2I#Ù¤—\`Ônõi[2ÚæA¦ðì†=ð†æÕÌ%ó1Ø¿ªÑö4¼—àÜt3I9y„9Ë~Åþ/7ëUO ŽyÏ/Y±yd	é oCär)aü¬=ËupûÛ&lt;Ø
+ûàm8	gà¸ð1Í ³ÉZòOØîOL!ÓÄ¬c¶31WØ|ö&#39;rÛøÍü1•SÏªß!æIÓðIŸhÅ´VÂÃð8l&quot;&quot;ì‚ð¢½IÑ“\’O*É\ò ù;²~Fö“·ÈÇä3òùÑMddÆÌä2]oó$óÓÏeØH¶“]Çg/°×¸®‰;Žé&quot;ŸÃw
+ÉBµ8&#39;ølð¢š£îP{q^b1Y r`áÅ°	gòIälì‡×áÐýêbƒð;ÄõG¸ßâŒ%c2‘RJêÉDØNVÇÉnDØG#Êcäœ#çÈLAH`$&amp;‡y€ñ3k0õÂnæŒÆOkb3Ø¶šmT¿fß`°ßp©Üî!n-×Ãíæ^à“ùéüýü¾ƒŽ?Ìÿ†ÿ=…Âa¿pH8#êÄ)ân1HR‹‘¤Â!ø®ºlê˜E6á¬Î‡÷põÀÀ¸Çáb€ Kg3MÝu+ÎæÛð&amp;ûØágÌÏ™ûÔ2öUV&quot;ê·ØWÎ×Hrdef¤§¥ZÌ)&amp;£&lt;Éœ”˜=1*R?aü¸ˆð0I&#39;
+&lt;Ç2¬.s…Ï¨¤ù.ÍìvçPÝìÇ
+ÿm&gt;ÅˆU£}#mçGÓ(Oz.ãéy:F&lt;‰Þh{ŽÕè2•ÓN³1@Ìñ`ù)§ÙkT´r­VÞ¡•ÇaÙdÂFW|›Ó¨ŸÑ¥Ttµõ¸|Î+9ê ï9V8
+à€pÚ±³üëps…YÔÃ¥$š.%ÁŒe´±©.ÿ¥~ŽÇåL2™¼9V…Ìj17+`.W&amp;d7§ípLmð`ìë2ñÃ¶ˆ%æ%ÛhöÑ’¡Gaý^…ñÑ‘ÙJœÙ©Ä=úyü÷ê­’kûmF…I­ð·öT(ß6$ª&gt;ªù·£VÝhÄn™Í^B6#8
+BÃEèg&quot;Õ·Ü¨Hærs[ÏrrõžþDG¢Ëìszhðô&#39;84%Çz4~ý4’r4gfÎL*§™â×‡ä_6†ê?8NeüúŸ¢¬ná…ÐØæ*„©[0rXKé­µzZJ‘&gt;¼¼G¹ñÌR\JlªÂ§Vù•îÆaþ6ç0¸åÎ~)!Qû]*÷¢¿¯G?&#39;ýõfcÏUÀ™5ü÷èÿpª¿
+ÔHçd	)Ä«ÜE?Sñ&#39;©-ÞÜF§¯K›jÔÍñ®Û*P§¿[9øÂi­€Tï9@ÈÓÞ Q7Ài8Š?0ìâEhÎ¦n™Ã¡bµbE–	Kˆ UÐ•aì1öT-é1VÛpIq©šDCk7	kô -0×cRÞ¤‘b«×;û™LûÁ&amp;èÞãÅ–÷€R«ÊB§\k5Ž*­Þ3Ç£t;“‡Ó‹¤ã&quot;&gt;^ïQŽãúõzÑ+o)&quot;^·,~s&gt;bÎËB{A¨|­éÆ.¼==´ÏFÙ¤ïéIê¡O]HÇ7ä±ŽáŠ PÊp€t×c[fS’F¹ÉlBX^Êi!.à[_ëïÌpÑnlYŒh‹4†KîÃ¥wÃ°í®ž:‚tÃÓóTÊ°ýÇcxú(†gÜ™á²ÜÒhË4†gÞ#†Ëï†áYwÅ°sé(†]ˆÙI®øñ®Å°ûÎWàF÷!Ú*áê{ÄpÍÝ0\{W× ÅðlÄ\G®ÿñž3Šá†;3Ü8‚AÎE´ÃóîÃóï†áûïŠaÏÒQ{³‡2¼`„aG’·ïÃÝc¶]¸çó£(_xgÊ›F‚¨!ü&amp;òÅ÷ˆrßÝPî¿+Ê›GŽ¢¼17SÊ—ü?RÞzåÀŸ„^n5Tb.ÇãÓ]LŸzø–®ÙþŒß±€ôìÐ@€(”&amp;ü:ñµDÀs:zMñx;	0&amp;±3nOñë¯Ï§ã78‹Þ3&amp;^0à;&gt;&#39;Xã9Ë2‰’ $è¤&gt;S»@êíµCö:ý5{­~Èeö!;Íùy…‘¦ÈtÌ½ÜK›§ù_7#À5ÜøÎ@¥ú7…[Œßø“`¥Ãõ|ì«±Ì–dRã‰j‹z$lMT æäÄS1ºxFàp–I‰bìø°ý‘Ktø$}ñŠ&#39;Åºâ¸Ù¸Åä®Ó°Ô ’ÚHÛÐà@.”DÚl¶2{Hæç‘¦‡ ‰¤¥§™SD!&amp;:.¶° ¸Ä$ˆ‚ÉÈé¡°€‹#¬^gÊkÝQ”œ\øÔ’¹1‡Íýûàõàõ¿’¨¯O&gt;&gt;˜Ä›ž_þLÍúGª¶¶ÏßÐyŒ”^&#39;	¤4ð%Ù¯­\=ßw~È+¬wÌ–ôBZÂ8VâLááÕaUá•&amp;§ÑyŽÕRŒa\l6›hµF‰œ5#Üjf4ÄÖ¦ˆ19bmjâä0ÔNÈÚì„œÉ·rp ÊFG:0i£ƒŒŒ²Ññ&quot;ó§õ§#ãlùy‹š‘&amp;«±h
+~Îá°‹¦Ó1š44âÐ!&amp;Z0ÓŠi‘&amp;=3·%##¨­©8÷!ƒrjš•¥öÍ›ûõÍ z?vÖmy		Ó&#39;»œÝ»&gt;|éT‰qêÔôüØ¸ÒŒ9k_&lt;ýá«,KçÙ„çÄ¿Åy–ðœø&gt;ëfßeÙ®TÚÄm“Îrçq9qi\¦TÌÙ$7Û(=Ëý£´Ÿ{]:Ä“Þá~/}&amp;Eîäž—‰å¸ô(Nb%ØKð o¯†œDX&gt;1‚èÂ#dÕA“oih)œ  + ©):Q6d?A¶LÎÞ²î.…Ut-L,2ÅSŒ©ˆ°•lçÐ9Æ~³‘ÉÍ.¸40ôÜW˜Çð“Z›Ó.n1Ó)à`ð9šâyqq‰a!@š“Ào™Ú+C±1*ž‚9¿ÀÐjòóp!Md™Îàû¿=&#39;@ð,É.ŸÝÅÌ6ìWÀçí—Žž4&amp;“+fl\T^˜/,ƒ¥ÂËÌkÜaæ(÷ŸÌ»œ&gt;ÉÒ*™*n+lv	¯G˜ w’9Å—@!VÈ„táyØ)ôÁËB &#39;5d1ž`&lt;†O½H@E&lt;úäžYÅ§ð&lt;²(|°_6­]¦B?Ø„ìMÏ²ÙðOÊ&#39;M6;¡ô=Ô4‘-Œ+)dÅ}—/mÜpé«nõÚkÁ³]ª
+Ú3  “‚k€²Æ“d&lt;ÅSCëA«ÇåAëáS­^ÛøóèO÷-d™XðÜ2õ÷OÌR¡Þaç$žGä²%^6!Õž$OyM“&quot;ÓSŠcÒÒw›Ü®ï·{í	œùÁÏ lÈ†ëÀV†ÏŠýÜ¡ 6®ÈDSLaŒ9ÒT4ž˜S€îQÅô‰1§à#[È&lt;Ú›ü¤Óã/OßÓùoÁ„œ;²¾uFÃº‡º†[xíÐîÕ«wß¨Þå÷¢oHqÜ\uè™Só§¼½}×›8Ê^*=	û¡+++`&gt;4ÁSxöô9ü‚$´Ü½C%O&amp;¡Þ=«¾Îínmïjí\ÖâÏ)°}	Ýío]yX ÿ»¡ÿïYˆ¹óc˜·cÞƒ™îòÿª_XÆ9	]ØGË}õýÑ1ú¡Ñ:sr´NücôõctqŒIõÿ ñ€
+endstream
+endobj
+58 0 obj
+3988
+endobj
+8 0 obj
+&lt;&lt; /Type /Font /Subtype /TrueType /BaseFont /JYJRSZ+Avenir-Heavy /FontDescriptor
+59 0 R /Encoding /MacRomanEncoding /FirstChar 32 /LastChar 118 /Widths [ 296
+0 0 0 0 0 0 0 0 0 0 0 0 315 296 0 0 0 0 0 0 0 0 0 0 0 296 0 0 0 0 0 0 722
+648 685 0 0 0 0 0 0 0 0 519 0 0 833 611 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 537
+630 482 630 574 0 630 0 260 0 537 260 870 574 610 630 0 389 444 389 574 519
+] &gt;&gt;
+endobj
+59 0 obj
+&lt;&lt; /Type /FontDescriptor /FontName /JYJRSZ+Avenir-Heavy /Flags 32 /FontBBox
+[-450 -433 1425 1126] /ItalicAngle 0 /Ascent 1000 /Descent -366 /CapHeight
+708 /StemV 0 /XHeight 480 /AvgWidth 548 /MaxWidth 1501 /FontFile2 60 0 R &gt;&gt;
+endobj
+60 0 obj
+&lt;&lt; /Length 61 0 R /Length1 9544 /Filter /FlateDecode &gt;&gt;
+stream
+xÅZl[×y&gt;çò-‘¢ø&amp;Å‡xyùI½ø’,[’eš–íÄV¬Ä‘\;±ãGì%N2×É”\4R¥Ëš¡@»bèŠ,ÛŠë´a+h{³³5K÷À²,V`õV£(¶bèŠsÐÁ‹é}ÿ¹÷’”ä8`”žsÿ{î½ÿÿýÏséóçž=Éìì3°Ùãg=ÃÄÇÄðÖñçÎÇÕc‡N=óøYíø0cÆùÇŸ|þ”zl‹0þæé“ÇN¨ÇìŒÕÓ`¨Ç¼Œ1yúìùõØò:ÆóO&gt;}\;o½Žã­g­hÏg×pêØÙ“ñIÅñ•}æéOž§#ÜêM|~æÜIm=_bŒÿÎúcÃ?2ŽUQv‚YØ£ :b,Æ˜Ù™ÇÄ%&gt;sfÿ£Î­ï³áÇ´ä/~ê×i|çÙ®Ötk¿éUã)¬³áBõƒk?nýc¦Áù¦éUq&#39;í¤¢MæÍóK@5Áüy~•ÅÙ0b2ó0DòW1Ÿce–caæÒ8	VkÂí5Š8u]•dI\Ùá°«Ð¨´á²A6½îÖìKAáp¾É¢ñŸ9¬7Y*ž›ÙI&lt;ÄK·ÅsC&lt;7„g@Cž’n?š8^¦ _]wÂ8!Ý¨sY?„epHO,ºÄ|Æaútaq9ð•T©4¹ôHªó³&gt;fÍ_ÁUUp’íc“H?Ï®àôtq7Ü&quot;.‹àfÜÃ‚&#39;3õÉÈËždGÙ
+;Å^ÄÙàí³óëÌ.½	}éÜ!íÜ7Hø;ž}P\ûµMçSØÛd¶…¥?äü•å&amp;¿ýù&amp;«G/Â“&gt;Rl2^ˆÇwž©¯ñ£8
+`É˜
+ñÆš!Õ8°¤,ÇWã«»O¬ÆñÓÇN¬SbÄ‰“«Ë#ñ5¶¸tß.Ék³ËáöôäòòÜÇH÷Á%X¾ºŒ;ü‚vŒ‚5r‹L…½ñ5Czaé¥µõðÚl}9,Ëñko,,­½QËËËXenK
+‰ÉT™-Ù&lt;„óVõ.‹¸n±¼ºJ÷\\Räµ7VWÃ«ÐC;nr¶‘1«1 8.â;›üÂ®Å Èab(²&quot;C¬å:e+ì]\Ú	Ád¬çî÷¶åÆZ;¤í;&gt;&amp;„ûîaç=!Üß–tÂ.ÈÜO»ÛÏ†×X7Â6 Ê&gt;vÈ=ë ÷Þr_[Hí‡ø&gt;yàc‚&lt;x/‡î	ò¶¤ë Cæ‚&lt;òÿy´r*;&lt;šb	Œu&quot;é]Ô±—Ø~é÷YN²°ý†íã8Ä’ÒsXóCVÀX¦Õ‘Yçê†Slüºô˜8WçŸÿOY£]ð-È¼T©&gt;2tfJe(akÁÞð%‰k60Å¡qÓ„»YÖqèÀ*86Ö³éÌFF/äq ;q¢$ŠŠÈÕ&gt;Ô… 8AT¤”Uô$âóuöuömÖâŸâß–”Þ–þÛðU£Ùø–é‹f«ù-Ë}Ö-Ö×­ÿa3Ûþªg¾çßz¿iwÛÿØ‘p|Ãñj&gt;(JoC7%4Çþˆ*i–ò—Ä#ùË8EËŒ˜`æÀìª]k Z?ì; ‘í½ÈúHæÀ]l´d:‚¬‡E2É#M–Á&lt;àÞ¹Ôdé‘ðEÔ3ûô²ÆÈ#ÃÌÓË—a
+òzn ³~Ìèò‹x²ô.ÅLÁlt¬V)ùFx¹6Íñ¯RN+	³%3ÍKã~Ÿ×lÁŸ/à’]ô¯Éañ»âîâà`Ñ&lt;nÙS­6Bé”Ù|µu‚¿ÝbÏîØñ¬k&quot;äˆºbŠ;9V(Yç·ïÚ¯(²Ç[nJgn}Eú[ã€A¾ÃC&lt;€—Á0eÌ3ŒüÊ˜K)•ýüçßAÉYýöMö#öe òÈe8‰I,nfüùAiPÔ nf`ålce#hlÍEzÂ¸Ü8 Ê€j ] Ó R®ªÚ+‰a©&gt;&quot;ÇGGäþ¨ßÑˆ##Û½ä9’*ÿwÈf¯Ý“Ddî&gt;X’$ójc´-¡‹$t±ž¶5ïYä&amp;sÁœU++&amp;AP4šmÒÊõ!*ÞIY~|½Þ¤ü»è,ˆÆYÝ	\Ð^&quot;†Dxk¾i&amp;lE¾i%[óW2²Eá½œ—Ïò±/ÍµþnöWø{gŸ–Þ¼µõµ×x·®ãÎ¶Ï=„çúÐÀåØŸ_Æ@iˆ&lt;Ü‰:Ø¼ˆ¢¢ˆb1…(J!ŠRPŸ:»sºÜ“@ä&quot;BÑ@`Ã„’A4	Ú¢Å=X&gt; Ç`ªA˜Ê‰±x›´õ’r^U9ØàS˜÷Ämì…}`wÌ1óÈã1‰bÌ3ø¼}èh=¥ñ*&quot;0Ï]¥ñiIÌösovß¶t½&amp;OfÃ{ß~á“33ÛçOŸÖ†c»ï^zÓ“¯nÝç’ŒÑâTbËý#^þúXv¸Øòšý9e¢ ˆ8ËÝþ©ô»Ò?!K½Bè› µ@ËŒ?(ª‚ ÓÝ¨1Ò*ÖeÔŽšMƒ&quot;Z Y1	‚øàr¸’ª«C5üÐXs Öˆ5Jn£c|˜+‰&gt;À“ |-Ð‡Ãa¨&gt;C@ªdv§jË³Š2»\Ë? œ]ÝwàÇ&#39;&amp;ŽáÀü§+Rl(’Ùy¸2y´‘Í÷Ìm­{iñ¡—«”¶Agø¿	1±
+eCÕWtÕ6YÐHºÉ‚ä¶Â&gt;%—ì“÷¿À‹­‡àŒß:&gt;p4¥ï!¹gØ_7Y)9ÊÂ;¼„Ñ1æ=×0&gt;^f&quot;73câ¥AUPDøô`IL]bÃ$Ê&amp;A»AC˜H8S—!œÄpªÒ†t„C@8ÁB@8„Câ!&amp;&lt;DQ—X1	‚² 	Ð&lt;ˆŒà!¸«äŒ}’ð×„5È‡%²NŽð^\=11qbu‘ð‘ìQ;Dv9T#ûðG	v^zlõ¡Å—«qâd•lãèdåðÎ¬?”DÏÁ&amp;}È™¿Œ
+xEA‘.ü¢˜›5ü(LÑ—¿C)³¦è…@9Ð$h7¨Õ&amp;Ã:*‡šNøA/&lt;_µåK&quot;)þ\ŠGÄÝ0æ¾ý?-=:ŸÞ÷øÄ¡þ&amp;¼el0R¨†¼#û§v(ö·¾Ï_5z³I9ã3—tKÞ¾Á¯ñŸ Ï”Ù6YzUAÉkÁ2B=88hhÃÜ†y
+sæ4¦1¦Á³A×‚š Ì˜øAiPÔ utj‘®ŠÑqbhHB’V$Uå]1-”7âc(þ¢ŽÁkÆà5cðš1xÍ@›m#©+‚Å&gt;u±“ (š ÍƒÈRJ;lSëzˆ˜ÑçR2]^áÏFå™±XddzG=›MÏg²OL–Ã¡^éIK(4]K;ƒ1çôÔ\.åNV“™ZÊßkp‹áÀL.HŽŒ]­Ÿ|ÏèŒ¸ý–©’ð­úíÒé$,ðÞ&amp;+ÉaPÈª±y‘² ì` Î:‹3xÇèÏ7r	`#k½‰ 7€•`ÒKFÓ¼/ïÁûÔ0£å
+–+#zŠ±öÖ.ë¸‰á&amp;chÖ	# 2¬xDLÓ”ˆæ`ŽfÊô²ÈÊbB67gõ°§BŸ…³0`ÌŠÅ~&lt;)‹Åäà®Ò´A÷r%‘Î(&gt;%¥…¶šx§¥úŠÁÉ–¥ƒÛñé¥Zii@:Ç_ñ¤Ê²\NyôQºÑú{Èß—©®T×3ÙÂüÏ&quot;ål0˜-G´QÔ›báˆE­7„û=Ô›8áïBÌOôv„X:D½ñcÉÿµÞºëÿ¢o8¨ëu-¸GFýÕ£\®q´:|Dáþ]×€ÿ { ß’œ;29yd.©¤_Ð[W}ýOÇýÈ&gt;á{ª&#39;R|ù™OØ’üSÏ&gt;Ì=p&quot;|Ž²€æsfLü z»V5@T?hùzŸë#ÀúºÜ”º}Žò€æsL ¨ÚÒó€ês}X¬ùœ“ ˆþ&amp;@ó ZìÅ£UŸëÊ(ä1) t)©u…¿!,•&amp;žŽ&#39;¶,%ÊÙˆÍ°r®õ#ÝÛôq¾Õ®Ï²ónÙ7yŠ½&gt;7€.ç·›,P 9©mÚHÄ¿N	«Á‘üŽ´Z‡ÓiÂ{QôƒÔ¶Ê°05œjåÆKÈßE¨ÍOLÏ›w
+hl4bØfmhzbR”g¨)2[^7Ï—ŠÛ‡NOê.8¾8%¯ðÙÉêŒå­êÖTd{¹Ðö¿¹c3ò¡Ê¶é²ðÃ~iX¤ÙŸj²Ià°Ä¡µ[hMÛ/8“Ð&gt;‚9Ub7æIÌ“Èƒ)x¨[Ë5ÊDµà®•I½I7©¶ó LÊ]&gt;©•èÆÚÖÀzÇÄH•ÿ®A%cz:¼s=óR•úÈXœÑm~L™3?ÎÀ3ÂS7#r&#39;w¡%¢”)L5-mãR&#39;:ÔRÅÒn_EË.ÇwœjìX)Í&#39;÷•òSŠS8X¬.Í «&gt;&lt;AYõ•x9åó¥Ë1¹’òÞÇ¯·ön?³;›(&gt;&amp;&#39;ƒCSIEQ2s‡JZr=êKUâÑñ´ßŸ*ÇföÁû$VÁ÷ßK‹dèd_½ß4‰½”è3{&#39;z`õä‰ä	œD\ÂgYPž!Ô&quot;Øc»Ú{ÏM&amp;±Ñ,]g÷~ÎÒ1‰¶	‚² 	Ð&lt;H´”wCg“™n¬¬¸ò²\,Êr:Ç¥ÏEó¹ÁÁ\ÂA¢:‹ oö²Ã^]­Ì¶vlH&amp;C—#u¶”ZAíë% ef(}‰výb&amp;Ja­dñ #ñ)õ•‹_{ûû¿yUZAQK}÷Ÿ[7ß_ÈÒÀ÷Èb`±Ž,z~èÀ î¦@/éÆ-;é0ƒì’AÌq+öŠˆ&#39;½ëÀ¶YGBPHÄðƒ×¶Óvû@QÖ1Öq«l·`[qš&quot;Þ	Ðõƒ ;^Ì\¸CáÃM§¡Ò	¯^Â­·7íMC§Ñ6zFŽ.Éi­
+ÔYSJýAX;k…ƒ‘2A5½¨£&amp;BÈW¢WIúÂþÂ¥¸ô¾ƒ¦x×„­ŸK™9&#39;õïÚú‹©}ÕÑ¹œ{ÅêM„#™PïJºË…í+üúÞDey8ŸØ›oý÷ûsƒnŸR´&gt;à±bÅ›([7ñ\ÕøMQ¾Õda My-¼t[`›Ú¶uTº´´±#;:p^·õ¦ Ø„¬`ÂûÏvâ
+#ÔÁÍ£ãæRàænàæiãæZ¤Hú¾ÐÔÏI®ÆÖÑCî£+9¨Áq²/×S­ø/ïX&gt;Ú@­UèÏûSñäîûSíMÉ=ìO;.÷ñîOkâu€º?¥vmãþ´@Ý™^&quot;i\Ñ;}üuhz¥¤qSÓJïó&quot;Ò`Gû©Ó»Q|„ÔéÞ£ïãü8Ó½—è…ÿ|Ä..Yß±}´“i[§:ö““õwœì®]†êäj×HþÈmC{Û ÆnöŒâR¸¿Z+ÿDW[Z×ÂmÞ7ðëz¸Öø{›l ê ÿ%ØÀË¾ÔÉ½jp·ëÀGC¦½9íø£‡ ó¨u5w®^™™9D&gt;ë¡«ÖE¨?àÓÞY!:W$ïžÑ^_¯3Ú7T
+Û©î6ÎMƒÙlOë6å¤öB¿
+ì/×{•ÚkÑ‹-
+Mp0ª·	ÕÛ„êmB’P·©”š¢ê2›øI=ŠìÅ4ŠhËôœ¥%îŽæÝ¹&gt;ûãç
+êZ­˜ ©Ã$d$	I£ÉZ²·`B¯’©GªvÄ+;ú‰ ûF#½.êêµŒú‹;^W¦‚Ãé-;¶¤SS{R¤•´#t
+ž\m$G‰òOŒÃ~oŸs°:’ŸJöÇ‡öÈæ&gt;__(ètDËÃÙ©´[¦¶˜&gt;!=ðúÕË€­·hÃM&#39;+bSÂlû&#39;có®z§½&gt;ë€Òíã¨
+Ü‰îæÇ®·“v``v``v`p	—G¼&amp;@â®”ðJÉ§ø¼~jæ}ê«mÜ~|åÅÃÙþt¯§æÝ¦8ø§N½üò©w“CëI›Å—Ÿ¢ÿÅB¿kÜ@ÍºŽ}ËïujƒÁ?¬VQ=ë…œ½ÈH}]õJ«F5µjÔalj˜´PŒâZ©{Ô¦&quot;âÚ¨­×+3Së•¬TôNØUÒ_&quot;T\%~³»`)qQ°P®+õi—+n†êÐX2BwË¦_:Bk[Ø££…©L‹OOÉS2(†Ï]&gt;ûé?»€.s/´âxíÚð¹ý&#39;l\møŽâØ€ŒêB(%±õI³¬,¡+Ý‰(Ü…àØÃîcûðör=À°Eö;ˆ_;—Ø2®ÄF	D€ÃØžå=å·?wò©3çŠó&#39;=÷&lt;Ný/Ùñ
+endstream
+endobj
+61 0 obj
+4759
+endobj
+62 0 obj
+(Android-OrmLiteContentProvider potsetnik)
+endobj
+63 0 obj
+(Mac OS X 10.12.1 Quartz PDFContext)
+endobj
+64 0 obj
+(Pages)
+endobj
+65 0 obj
+(D:20161108144257Z00&#39;00&#39;)
+endobj
+1 0 obj
+&lt;&lt; /Title 62 0 R /Producer 63 0 R /Creator 64 0 R /CreationDate 65 0 R /ModDate
+65 0 R &gt;&gt;
+endobj
+xref
+0 66
+0000000000 65535 f 
+0000075986 00000 n 
+0000003283 00000 n 
+0000026903 00000 n 
+0000000022 00000 n 
+0000003263 00000 n 
+0000003401 00000 n 
+0000013074 00000 n 
+0000070291 00000 n 
+0000016602 00000 n 
+0000056831 00000 n 
+0000036228 00000 n 
+0000052059 00000 n 
+0000065408 00000 n 
+0000003557 00000 n 
+0000010317 00000 n 
+0000010338 00000 n 
+0000013053 00000 n 
+0000013110 00000 n 
+0000016581 00000 n 
+0000019266 00000 n 
+0000016638 00000 n 
+0000019245 00000 n 
+0000019387 00000 n 
+0000027484 00000 n 
+0000019556 00000 n 
+0000023654 00000 n 
+0000024633 00000 n 
+0000023675 00000 n 
+0000024613 00000 n 
+0000024769 00000 n 
+0000024891 00000 n 
+0000027322 00000 n 
+0000027050 00000 n 
+0000024925 00000 n 
+0000026882 00000 n 
+0000027000 00000 n 
+0000027156 00000 n 
+0000027212 00000 n 
+0000027428 00000 n 
+0000027878 00000 n 
+0000028119 00000 n 
+0000036207 00000 n 
+0000036932 00000 n 
+0000037182 00000 n 
+0000052037 00000 n 
+0000052581 00000 n 
+0000052236 00000 n 
+0000052561 00000 n 
+0000052830 00000 n 
+0000056810 00000 n 
+0000057452 00000 n 
+0000057710 00000 n 
+0000065387 00000 n 
+0000065935 00000 n 
+0000065590 00000 n 
+0000065915 00000 n 
+0000066192 00000 n 
+0000070270 00000 n 
+0000070695 00000 n 
+0000070938 00000 n 
+0000075787 00000 n 
+0000075808 00000 n 
+0000075867 00000 n 
+0000075920 00000 n 
+0000075944 00000 n 
+trailer
+&lt;&lt; /Size 66 /Root 36 0 R /Info 1 0 R /ID [ &lt;b9d461719b6bd3e89617b6474f4fe933&gt;
+&lt;b9d461719b6bd3e89617b6474f4fe933&gt; ] &gt;&gt;
+startxref
+76091
+%%EOF
+" data-is-ci-config-file="false" id="js-blob-toggle-graph-preview"></div>
+<div class="blob-viewer hidden" data-path="files/Android-OrmLiteContentProvider potsetnik.pdf" data-type="simple">
+<div class="file-content blob_file blob-no-preview">
+<div class="center render-error">
+<a href="/AndroidAppDevelopment/Example26/-/raw/master/files/Android-OrmLiteContentProvider%20potsetnik.pdf"><h1 class="light">
+<svg class="s16" data-testid="download-icon"><use xlink:href="https://gitlab.com/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#download"></use></svg>
+</h1>
+<h4>
+Download (75.8 KB)
+</h4>
+</a></div>
+</div>
+
+</div>
+
+<div class="blob-viewer" data-path="files/Android-OrmLiteContentProvider potsetnik.pdf" data-rich-type="pdf" data-type="rich">
+<div class="file-content" data-endpoint="/AndroidAppDevelopment/Example26/-/raw/master/files/Android-OrmLiteContentProvider%20potsetnik.pdf" id="js-pdf-viewer"></div>
+
+</div>
+
+
+</article>
+</div>
+
+<div class="modal" id="modal-upload-blob">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h3 class="page-title">Replace Android-OrmLiteContentProvider potsetnik.pdf</h3>
+<button aria-label="Close" class="close" data-dismiss="modal" type="button">
+<span aria-hidden>&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<form class="js-quick-submit js-upload-blob-form" data-method="put" action="/AndroidAppDevelopment/Example26/-/update/master/files/Android-OrmLiteContentProvider%20potsetnik.pdf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="5MvKOsweYYAZDsTh/y1nWnl90ydcMXUfD4HhawxUeMW176cP4bze0oDksV1vS3JRIU4bp4V6fsHusuvYfwFf1g==" /><div class="dropzone">
+<div class="dropzone-previews blob-upload-dropzone-previews">
+<p class="dz-message light">
+Attach a file by drag &amp; drop or <a class="markdown-selector" href="#">click to upload</a>
+</p>
+</div>
+</div>
+<br>
+<div class="dropzone-alerts gl-alert gl-alert-danger gl-mb-5 data" style="display:none"></div>
+<div class="form-group row commit_message-group">
+<label class="col-form-label col-sm-2" for="commit_message-481d0e40947023758d94d89e408c88bc">Commit message
+</label><div class="col-sm-10">
+<div class="commit-message-container">
+<div class="max-width-marker"></div>
+<textarea name="commit_message" id="commit_message-481d0e40947023758d94d89e408c88bc" class="form-control js-commit-message" placeholder="Replace Android-OrmLiteContentProvider potsetnik.pdf" required="required" rows="3">
+Replace Android-OrmLiteContentProvider potsetnik.pdf</textarea>
+</div>
+</div>
+</div>
+
+<input type="hidden" name="branch_name" id="branch_name" />
+<input type="hidden" name="create_merge_request" id="create_merge_request" value="1" />
+<input type="hidden" name="original_branch" id="original_branch" value="master" class="js-original-branch" />
+
+<div class="form-actions">
+<button name="button" type="button" class="btn gl-button btn-success btn-upload-file" id="submit-all"><i aria-hidden="true" data-hidden="true" class="fa fa-spin fa-spinner js-loading-icon hidden"></i>
+Replace file
+</button><a class="btn gl-button btn-cancel" data-dismiss="modal" href="#">Cancel</a>
+<div class="inline gl-ml-3">
+A new branch will be created in your fork and a new merge request will be started.
+</div>
+
+</div>
+</form></div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+<script nonce="qQV7M/MiNbndIfhQOIyapA==">
+//<![CDATA[
+if ('loading' in HTMLImageElement.prototype) {
+  document.querySelectorAll('img.lazy').forEach(img => {
+    img.loading = 'lazy';
+    let imgUrl = img.dataset.src;
+    // Only adding width + height for avatars for now
+    if (imgUrl.indexOf('/avatar/') > -1 && imgUrl.indexOf('?') === -1) {
+      const targetWidth = img.getAttribute('width') || img.width;
+      imgUrl += `?width=${targetWidth}`;
+    }
+    img.src = imgUrl;
+    img.removeAttribute('data-src');
+    img.classList.remove('lazy');
+    img.classList.add('js-lazy-loaded', 'qa-js-lazy-loaded');
+  });
+}
+
+//]]>
+</script>
+
+</body>
+</html>
+

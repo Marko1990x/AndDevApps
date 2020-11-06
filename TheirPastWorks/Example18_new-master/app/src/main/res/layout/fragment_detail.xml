@@ -29,21 +29,29 @@
         android:layout_below="@id/tv_name"/>
 
     <!-- Spinners provide a quick way to select one value from a set. -->
+
+    <!-- TextView displays text to the user. -->
+
     <Spinner
         android:id="@+id/sp_category"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/iv_image"
-        android:layout_alignParentLeft="true"/>
+        android:layout_below="@+id/btn_buy"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="547dp" />
 
-    <!-- TextView displays text to the user. -->
     <RatingBar
         android:id="@+id/rb_rating"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:numStars="5"
         android:layout_below="@id/tv_description"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:numStars="5" />
 
     <!-- Button can be pressed, or clicked, by the user to perform an action. -->
     <Button
@@ -51,6 +59,8 @@
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/rb_rating"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:text="@string/fragment_detail_button_buy" />
 

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvNaslov"
+        android:text="Naslov"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvIme"
+        android:text="Ime:"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tvNaslov"
+        android:layout_alignBottom="@id/etIme"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etIme"
+        android:hint="Unesite Vase ime..."
+        android:layout_below="@id/tvNaslov"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/tvIme"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvPrezime"
+        android:text="Prezime:"
+        android:layout_below="@id/etIme"
+        android:layout_alignBottom="@id/etPrezime"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etPrezime"
+        android:hint="Unesite Vase ime..."
+        android:layout_below="@id/etIme"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/tvPrezime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvOpis"
+        android:text="Opis:"
+        android:layout_below="@id/etPrezime"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etOpis"
+        android:hint="Unesite opis..."
+        android:layout_below="@id/tvOpis"
+        android:layout_above="@id/bUredu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <View
+        android:id="@+id/vVertikala"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/bUredu"
+        android:text="U Redu"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/vVertikala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bOdustani"
+        android:text="Odustani"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/vVertikala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
