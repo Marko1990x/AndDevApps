@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Desktop-Example25.iml" filepath="$PROJECT_DIR$/Desktop-Example25.iml" group="Example25" />
+      <module fileurl="file://$PROJECT_DIR$/Example25.iml" filepath="$PROJECT_DIR$/Example25.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/Example25-app.iml" filepath="$PROJECT_DIR$/app/Example25-app.iml" group="Example25/app" />
+      <module fileurl="file://$PROJECT_DIR$/Termin25.iml" filepath="$PROJECT_DIR$/Termin25.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/termin25-Example25.iml" filepath="$PROJECT_DIR$/.idea/modules/termin25-Example25.iml" group="Example25" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/termin25-Example25-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/termin25-Example25-app.iml" group="Example25/app" />
+    </modules>
+  </component>
+</project>
