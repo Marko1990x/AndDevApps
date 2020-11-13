@@ -10,7 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3986dabc-6263-48e9-9fdb-36e547403a6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Termin_13-20/Termin17 - fragments/DOMACI-17/.idea/codestream.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Termin_13-20/Termin17 - fragments/DOMACI-17/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Termin_13-20/Termin17 - fragments/DOMACI-17/app/src/main/res/layout-land/activity_fragments.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Termin_13-20/Termin17 - fragments/DOMACI-17/app/src/main/res/layout-port/activity_fragments.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Termin_13-20/Termin17 - fragments/DOMACI-17/app/src/main/res/layout/activity_fragments.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Termin_13-20/Termin17 - fragments/DOMACI-17/app/src/main/res/layout/drawer_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Termin_13-20/Termin17 - fragments/DOMACI-17/app/src/main/res/layout/fragment_details.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Termin_13-20/Termin17 - fragments/DOMACI-17/app/src/main/res/layout/fragment_master.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Termin_13-20/Termin17 - fragments/DOMACI-17/.idea/render.experimental.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Termin_13-20/Termin17 - fragments/DOMACI-17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Termin_13-20/Termin17 - fragments/DOMACI-17/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Termin_13-20/Termin17 - fragments/DOMACI-17/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Termin_13-20/Termin17 - fragments/DOMACI-17/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Termin_13-20/Termin17 - fragments/DOMACI-17/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Termin_13-20/Termin17 - fragments/DOMACI-17/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Termin_13-20/Termin17 - fragments/DOMACI-17/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Termin_13-20/Termin17 - fragments/DOMACI-17/app/src/main/res/values/themes.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +72,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/layout" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Termin_13-20/Termin17 - fragments/DOMACI-17" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -154,5 +168,9 @@
       <screen x="1920" y="40" width="1920" height="1040" />
     </state>
     <state x="2487" y="285" key="SettingsEditor/0.40.1536.824/1920.40.1920.1040@1920.40.1920.1040" timestamp="1605251563699" />
+    <state x="2859" y="438" key="chooseDestDirectoryDialog" timestamp="1605252305262">
+      <screen x="1920" y="40" width="1920" height="1040" />
+    </state>
+    <state x="2859" y="438" key="chooseDestDirectoryDialog/0.40.1536.824/1920.40.1920.1040@1920.40.1920.1040" timestamp="1605252305262" />
   </component>
 </project>

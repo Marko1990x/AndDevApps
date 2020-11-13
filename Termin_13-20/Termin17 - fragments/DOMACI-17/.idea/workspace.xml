@@ -14,10 +14,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29a6df3c-2727-4e7a-8738-601f63f2c3f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_second.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/first_activity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_fragments.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout-port/activity_fragments.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fragments.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/drawer_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_details.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_master.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TheirPastWorks/Example18_new-master/.idea/codestream.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/render.experimental.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../TheirPastWorks/Example18_new-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TheirPastWorks/Example18_new-master/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,13 +64,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile_vertical" />
         <option value="Class" />
         <option value="layoutResourceFile" />
+        <option value="layoutResourceFile_vertical" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Marko Dunovic &lt;phoene1990x@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -84,7 +99,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout/first_activity" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -175,6 +190,14 @@
       <option name="presentableId" value="Default" />
       <updated>1603670576430</updated>
     </task>
+    <task id="LOCAL-00001" summary="added layouts orientations before fragments">
+      <created>1605253076180</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605253076180</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -182,6 +205,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
+    <MESSAGE value="added layouts orientations before fragments" />
+    <option name="LAST_COMMIT_MESSAGE" value="added layouts orientations before fragments" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="168" key="#com.intellij.ide.util.MemberChooser" timestamp="1603684085191">
@@ -196,14 +221,22 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="566" y="333" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1604920229347" />
-    <state x="349" y="207" key="AndroidCreateResourceFileDialog" timestamp="1605252568853">
+    <state x="349" y="207" key="AndroidCreateResourceFileDialog" timestamp="1605257799366">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="349" y="207" key="AndroidCreateResourceFileDialog/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1605252568853" />
-    <state x="614" y="190" key="FileChooserDialogImpl" timestamp="1605252124419">
+    <state x="349" y="207" key="AndroidCreateResourceFileDialog/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1605257799366" />
+    <state x="614" y="238" key="AndroidCreateXmlResourceDialog" timestamp="1605256995535">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="614" y="190" key="FileChooserDialogImpl/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1605252124419" />
+    <state x="614" y="238" key="AndroidCreateXmlResourceDialog/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1605256995535" />
+    <state x="337" y="40" key="CommitChangelistDialog2" timestamp="1605253074089">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="337" y="40" key="CommitChangelistDialog2/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1605253074089" />
+    <state x="614" y="190" key="FileChooserDialogImpl" timestamp="1605254726084">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="614" y="190" key="FileChooserDialogImpl/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1605254726084" />
     <state x="2688" y="229" key="FileChooserDialogImpl/0.40.1536.824/1920.40.1920.1040@1920.40.1920.1040" timestamp="1603703146699" />
     <state width="1877" height="168" key="GridCell.Tab.0.bottom" timestamp="1603703033899">
       <screen x="1920" y="40" width="1920" height="1040" />
@@ -225,10 +258,10 @@
     </state>
     <state width="1491" height="168" key="GridCell.Tab.0.right/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1603686122517" />
     <state width="1877" height="168" key="GridCell.Tab.0.right/0.40.1536.824/1920.40.1920.1040@1920.40.1920.1040" timestamp="1603703033899" />
-    <state x="277" y="97" key="SettingsEditor" timestamp="1605251537418">
+    <state x="218" y="118" width="1006" height="710" key="SettingsEditor" timestamp="1605255297872">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="277" y="97" key="SettingsEditor/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1605251537418" />
+    <state x="218" y="118" width="1006" height="710" key="SettingsEditor/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1605255297872" />
     <state x="584" y="230" key="chooseDestDirectoryDialog" timestamp="1603671133221">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
