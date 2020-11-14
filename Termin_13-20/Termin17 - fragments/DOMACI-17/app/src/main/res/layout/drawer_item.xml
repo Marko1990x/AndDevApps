@@ -4,7 +4,7 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/icon"
+        android:id="@+id/iconDrawer"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -14,19 +14,19 @@
         android:layout_marginRight="20dp" />
 
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/titleDrawer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_toEndOf="@id/icon"
-        android:layout_toRightOf="@+id/icon" />
+        android:layout_toEndOf="@id/iconDrawer"
+        android:layout_toRightOf="@+id/iconDrawer" />
 
     <TextView
-        android:id="@+id/subtitle"
+        android:id="@+id/subtitleDrawer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/icon"
-        android:layout_below="@id/title"
+        android:layout_toRightOf="@id/iconDrawer"
+        android:layout_below="@id/titleDrawer"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         />
