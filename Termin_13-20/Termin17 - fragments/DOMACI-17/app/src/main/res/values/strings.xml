@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Domaci15</string>
     <string name="toolbar_title">Toolbar Title</string>
+    <string name="drawer_open">Open Nav Drawer</string>
+    <string name="drawer_close">Close Nav Drawer</string>
+
 </resources>

@@ -1,6 +1,7 @@
 package firebaseapp.com.domaci15.fragments;
 
 import android.app.Activity;
+import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,13 +12,14 @@ import android.widget.ListView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
 
 import java.util.List;
 
 import firebaseapp.com.domaci15.Provider.JeloProvider;
 import firebaseapp.com.domaci15.R;
 
+
+// huge error here make sure this bullshit extends the old fragment class not the new androidx one
 public class MasterFragment extends Fragment {
 
     OnItemSelectedListener Listener;

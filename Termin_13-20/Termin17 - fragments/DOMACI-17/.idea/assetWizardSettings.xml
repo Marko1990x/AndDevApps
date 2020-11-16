@@ -68,7 +68,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="D:\Temp\baseline_whatshot_24.xml" />
+                                                <entry key="imagePath" value="D:\Temp\baseline_shopping_basket_24.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -79,7 +79,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="file:/$PROJECT_DIR$/../../../../../androidSDK/icons/material/materialicons/whatshot/baseline_whatshot_24.xml" />
+                                                <entry key="url" value="file:/$PROJECT_DIR$/../../../../../androidSDK/icons/material/materialicons/shopping_basket/baseline_shopping_basket_24.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -123,7 +123,7 @@
                                   <option name="values">
                                     <map>
                                       <entry key="foregroundAssetType" value="CLIP_ART" />
-                                      <entry key="outputName" value="ic_action_about" />
+                                      <entry key="outputName" value="ic_stat_buy" />
                                     </map>
                                   </option>
                                 </PersistentState>
