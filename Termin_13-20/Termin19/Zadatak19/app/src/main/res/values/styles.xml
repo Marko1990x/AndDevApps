@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Ova zajebancija ima tagove to jest colorPrimani npr je tag koji svaka nova tema treba da
+    pregazi sa nekom drugom bojom koju hocu, kao i svi ostali atributi imena atributa ostaju ista
+     ali se vrednosti menjaju i sve se to pakuje u novi stil po drugim imenom koji se moze
+     itmeniti u manifestu da gadja na njega
+
+     primer u manifestu  android:theme="@style/myCustomTheme">
+
+     -->
+
+    <style name="myCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/myColPrimary</item>
+        <item name="colorPrimaryDark">@color/myCDarker</item>
+        <item name="colorAccent">@color/myColAccent</item>
+        <!--yup bio sam u pravu ovu su samo tagovi koje pregazim sa drugim vrednostima-->
+        <item name="actionBarStyle">@color/myColPrimary</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/myColAccent</item>
+        <!-- :) -->
+    </style>
+    <!--Ime nije bitno bitan je parent koji gadja -->
+    <style name="myNoActionBarExtension" parent="myCustomTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>
