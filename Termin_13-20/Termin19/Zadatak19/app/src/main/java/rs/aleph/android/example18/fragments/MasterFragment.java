@@ -38,7 +38,6 @@ public class MasterFragment extends Fragment {
         // Creates an ArrayAdaptar from the array of String
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(getActivity(), R.layout.list_item, fruitNames);
         ListView listView = (ListView) getActivity().findViewById(R.id.listofFruits);
-        RecyclerView recyclerView = (RecyclerView)getActivity().findViewById(R.id.listofFruits);
         // Assigns ArrayAdaptar to ListView
         listView.setAdapter(dataAdapter);
 
