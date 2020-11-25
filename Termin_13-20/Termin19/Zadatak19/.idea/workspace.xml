@@ -11,8 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3986dabc-6263-48e9-9fdb-36e547403a6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/rs/aleph/android/example18/fragments/MasterFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/rs/aleph/android/example18/fragments/MasterFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_master.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +158,10 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="0" y="37" key="#app/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1605538182084" />
+    <state x="42" y="133" width="1350" height="638" key="AVDManager" timestamp="1606320492737">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="42" y="133" width="1350" height="638" key="AVDManager/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1606320492737" />
     <state x="349" y="207" key="AndroidCreateResourceFileDialog" timestamp="1606307071258">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
@@ -168,10 +170,10 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="145" y="310" key="AndroidCreateXmlResourceDialog/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1606307090852" />
-    <state x="592" y="257" key="FileChooserDialogImpl" timestamp="1606309767220">
+    <state x="592" y="257" key="FileChooserDialogImpl" timestamp="1606319821893">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="592" y="257" key="FileChooserDialogImpl/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1606309767220" />
+    <state x="592" y="257" key="FileChooserDialogImpl/0.40.1536.824/1920.40.1920.1040@0.40.1536.824" timestamp="1606319821893" />
     <state x="2660" y="314" key="FileChooserDialogImpl/0.40.1536.824/1920.40.1920.1040@1920.40.1920.1040" timestamp="1605476316131" />
     <state x="93" y="154" key="SettingsEditor" timestamp="1606305387388">
       <screen x="0" y="40" width="1536" height="824" />
