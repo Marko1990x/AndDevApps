@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private RecyclerView mRecyclerView;
-    private RecyclerView.Adapter mAdapter;  // this is needed because it doesnt load all files at once for performance
+    private ExampleAdapter mAdapter;  // this is needed because it doesnt load all files at once for performance
     private RecyclerView.LayoutManager mlayoutManager; // this is needed // aligns the single items in our list
 
     //tutroial guide links
@@ -67,6 +67,13 @@ public class MainActivity extends AppCompatActivity {
         mAdapter.notifyItemInserted(position);  // this adds animation
         //mAdapter.notifyDataSetChanged(); read bellow
     }
+
+    public void changeItem(int position, String text){
+
+        mExampleList.get(position).changeText1(text);
+    }
+
+
     public void removeItem(int position){
         mExampleList.remove(position);
         mAdapter.notifyItemRemoved(position);
@@ -92,5 +99,13 @@ public class MainActivity extends AppCompatActivity {
 
         mRecyclerView.setLayoutManager(mlayoutManager); // pass the adapter to the layout manager
         mRecyclerView.setAdapter(mAdapter);
+
+        mAdapter.setOnItemClickListener(new ExampleAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(int position) {
+                changeItem(position,"Clicked");
+                mAdapter.notifyItemChanged(position);
+            }
+        });
     }
 }
