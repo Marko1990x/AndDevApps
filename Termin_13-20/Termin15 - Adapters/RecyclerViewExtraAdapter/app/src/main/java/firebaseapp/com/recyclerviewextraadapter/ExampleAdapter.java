@@ -16,8 +16,8 @@ public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ExampleV
 
     public static class ExampleViewHolder extends RecyclerView.ViewHolder {
         public ImageView mImageView;
-        public TextView mViewName;
-        public TextView mViewName2;
+        public TextView mTextView1;
+        public TextView mTextView2;
 
 
 
@@ -25,8 +25,8 @@ public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ExampleV
             super(itemView);
             // ovde se preko itemview binduje na xml fajl
             mImageView = itemView.findViewById(R.id.imageView);
-            mViewName= itemView.findViewById(R.id.textView);
-            mViewName2 = itemView.findViewById(R.id.textViewt2);
+            mTextView1 = itemView.findViewById(R.id.textView);
+            mTextView2 = itemView.findViewById(R.id.textViewt2);
         }
     }
 
@@ -53,14 +53,18 @@ public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ExampleV
         ExampleItem currentItem = mExampleList.get(position); // gets curent item
         // sets the data based on the current item passed with position in the array list of items
         holder.mImageView.setImageResource(currentItem.getmImageResource());
-        holder.mViewName.setText(currentItem.getmText1());
-        holder.mViewName2.setText(currentItem.getmText2());
+        holder.mTextView1.setText(currentItem.getmText1());
+        holder.mTextView2.setText(currentItem.getmText2());
 
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        // error
+        // this method basicly says how many items there will be in our list
+        // if its fucking 0 the list will be fucking empty
+        // smart i know
+        return mExampleList.size();
     }
 
 }

@@ -6,12 +6,14 @@ public class ExampleItem {
     private String mText1;
     private String mText2;
 
-    public ExampleItem(int imageResource, String text1,String text2){
-        mImageResource=imageResource;
-        mText1 = text1;
-        mText2 = text2;
+    public ExampleItem() {
     }
 
+    public ExampleItem(int mImageResource, String mText1, String mText2) {
+        this.mImageResource = mImageResource;
+        this.mText1 = mText1;
+        this.mText2 = mText2;
+    }
 
     public int getmImageResource() {
         return mImageResource;
@@ -35,5 +37,14 @@ public class ExampleItem {
 
     public void setmText2(String mText2) {
         this.mText2 = mText2;
+    }
+
+    @Override
+    public String toString() {
+        return "ExampleItem{" +
+                "mImageResource=" + mImageResource +
+                ", mText1='" + mText1 + '\'' +
+                ", mText2='" + mText2 + '\'' +
+                '}';
     }
 }

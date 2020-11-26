@@ -12,13 +12,29 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView.Adapter mAdapter;  // this is needed because it doesnt load all files at once for performance
     private RecyclerView.LayoutManager mlayoutManager; // this is needed // aligns the single items in our list
 
+    //tutroial guide links
+    //https://www.youtube.com/watch?v=Nw9JF55LDzE // part1
+    // https://www.youtube.com/watch?v=17NbUcEts9c //part2
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // added more items to test the scroll 
         ArrayList<ExampleItem> exampleItems =  new ArrayList<>();
+        exampleItems.add(new ExampleItem(R.drawable.ic_android,"line1","line2"));
+        exampleItems.add(new ExampleItem(R.drawable.ic_audio,"line3","line4"));
+        exampleItems.add(new ExampleItem(R.drawable.ic_sun,"line5","line6"));
+        exampleItems.add(new ExampleItem(R.drawable.ic_android,"line1","line2"));
+        exampleItems.add(new ExampleItem(R.drawable.ic_audio,"line3","line4"));
+        exampleItems.add(new ExampleItem(R.drawable.ic_sun,"line5","line6"));
+        exampleItems.add(new ExampleItem(R.drawable.ic_android,"line1","line2"));
+        exampleItems.add(new ExampleItem(R.drawable.ic_audio,"line3","line4"));
+        exampleItems.add(new ExampleItem(R.drawable.ic_sun,"line5","line6"));
+        exampleItems.add(new ExampleItem(R.drawable.ic_android,"line1","line2"));
+        exampleItems.add(new ExampleItem(R.drawable.ic_audio,"line3","line4"));
+        exampleItems.add(new ExampleItem(R.drawable.ic_sun,"line5","line6"));
         exampleItems.add(new ExampleItem(R.drawable.ic_android,"line1","line2"));
         exampleItems.add(new ExampleItem(R.drawable.ic_audio,"line3","line4"));
         exampleItems.add(new ExampleItem(R.drawable.ic_sun,"line5","line6"));
