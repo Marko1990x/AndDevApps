@@ -33,27 +33,8 @@ public class MainActivity extends AppCompatActivity {
 
         createExampleList();
         buildRecyclerView();
+        setButtons();
 
-
-        buttonInsert = findViewById(R.id.button_insert);
-        buttonRemove = findViewById(R.id.button_remove);
-        editTextInsert = findViewById(R.id.editText_insert);
-        editTextRemove = findViewById(R.id.editText_remove);
-        buttonInsert.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                int position = Integer.parseInt(editTextInsert.getText().toString());
-                //get the position from the xml field and pass to the method that will make an object to inserts
-                insertItem(position);
-            }
-        });
-        buttonRemove.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                int position = Integer.parseInt(editTextRemove.getText().toString());
-                removeItem(position);
-            }
-        });
 
 
     }
@@ -100,12 +81,41 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.setLayoutManager(mlayoutManager); // pass the adapter to the layout manager
         mRecyclerView.setAdapter(mAdapter);
 
+        //interface methods that need to be implemented here from adapter from my public interface onitemclicklistener
         mAdapter.setOnItemClickListener(new ExampleAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(int position) {
                 changeItem(position,"Clicked");
                 mAdapter.notifyItemChanged(position);
             }
+
+            @Override
+            public void onDeleteClick(int position) {
+                removeItem(position);
+            }
         });
+    }
+
+    public void setButtons(){
+        buttonInsert = findViewById(R.id.button_insert);
+        buttonRemove = findViewById(R.id.button_remove);
+        editTextInsert = findViewById(R.id.editText_insert);
+        editTextRemove = findViewById(R.id.editText_remove);
+        buttonInsert.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int position = Integer.parseInt(editTextInsert.getText().toString());
+                //get the position from the xml field and pass to the method that will make an object to inserts
+                insertItem(position);
+            }
+        });
+        buttonRemove.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int position = Integer.parseInt(editTextRemove.getText().toString());
+                removeItem(position);
+            }
+        });
+
     }
 }

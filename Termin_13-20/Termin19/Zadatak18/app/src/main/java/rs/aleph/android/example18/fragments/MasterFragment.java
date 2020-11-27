@@ -3,8 +3,6 @@ package rs.aleph.android.example18.fragments;
 import android.app.Activity;
 import android.app.Fragment;
 import android.os.Bundle;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.RecyclerView.Adapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -38,6 +36,7 @@ public class MasterFragment extends Fragment {
         // Creates an ArrayAdaptar from the array of String
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(getActivity(), R.layout.list_item, fruitNames);
         ListView listView = (ListView) getActivity().findViewById(R.id.listofFruits);
+
         // Assigns ArrayAdaptar to ListView
         listView.setAdapter(dataAdapter);
 
@@ -88,4 +87,3 @@ public class MasterFragment extends Fragment {
         public void onItemSelected(int position);
     }
 }
-

@@ -8,9 +8,5 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-
-    <color name="myColPrimary">#00cccc</color>
-    <color name="myCDarker">#00cc99</color>
-    <color name="myColAccent">#330066</color>
-
+ 
 </resources>
