@@ -9,7 +9,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3986dabc-6263-48e9-9fdb-36e547403a6c" name="Default Changelist" comment="" />
+    <list default="true" id="3986dabc-6263-48e9-9fdb-36e547403a6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../currentlyWorkingOn/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../currentlyWorkingOn/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../currentlyWorkingOn/app/src/main/java/firebaseapp/com/aad10/splash/SplashScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../currentlyWorkingOn/app/src/main/java/firebaseapp/com/aad10/splash/SplashScreen.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +61,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/layout" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="multi-representation-previewC:/Users/Marko/.gradle/caches/modules-2/files-2.1/com.android.support/design/24.1.1/c8be87d36c312ce1abd6da6b858ea95cd6dc1faa/design-24.1.1-sources.jar!/android/support/design/widget/AppBarLayout.java_selected" value="Custom views" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>

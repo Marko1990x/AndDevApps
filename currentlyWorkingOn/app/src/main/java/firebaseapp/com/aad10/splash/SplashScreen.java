@@ -21,7 +21,7 @@ public class SplashScreen extends AppCompatActivity {
             getSupportActionBar().hide();
         }
 
-
+        // this is basicly a delay button
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
@@ -33,7 +33,7 @@ public class SplashScreen extends AppCompatActivity {
 
     }
 
-
+    // start my actual main activity
     private void intent(){
         Intent intent = new Intent(this, MwainActivity.class);
         startActivity(intent);
