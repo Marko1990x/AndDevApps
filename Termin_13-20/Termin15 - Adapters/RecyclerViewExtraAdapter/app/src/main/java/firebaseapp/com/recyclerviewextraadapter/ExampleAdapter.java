@@ -30,6 +30,8 @@ public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ExampleV
         }
     }
 
+
+
     public  ExampleAdapter(ArrayList<ExampleItem> exampleList){
         // needs a global declartion which containts examplelist variable because whenever we create the adapter this thing
         // needs to be declared
