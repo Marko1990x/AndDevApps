@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- Declares a button that starts 2nd activity -->
+    <Button
+        android:id="@+id/btn_start_second_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Activity"
+        android:onClick="btnStartActivityClicked" />
+
+    <!-- Declares a button that opens a browser -->
+    <Button
+        android:id="@+id/btn_select_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Contact"
+        android:onClick="btnSelectContactClicked" />
+    
+</LinearLayout>
